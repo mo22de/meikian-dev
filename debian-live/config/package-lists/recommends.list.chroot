@@ -1,0 +1,7 @@
+# Debian-Live recomended package list
+#
+
+### System
+###
+eject file live-tools sudo user-setup
+

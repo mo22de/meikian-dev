@@ -1,0 +1,115 @@
+# CloneWars Live package list
+#
+
+###
+### Virtualbox
+###
+#virtualbox-ose-guest-utils virtualbox-ose-guest-x11 virtualbox-ose-guest-dkms
+
+
+###
+### Basic system
+###
+acpi-support bash-completion bc bzip2 console-setup curl ethstatus ethtool grc gpm gvfs gvfs-backends iproute less locales lrzsz lshw lsof mc minicom most netcat ntp ntpdate openssh-client openssh-server procps psmisc pv rcconf rsync screen strace sysv-rc-conf telnet tree vim wget
+
+
+###
+### System
+###
+bridge-utils ca-certificates cryptsetup debconf-utils deborphan dialog dmsetup dosfstools e2fsprogs encfs extlinux gpart grub-pc grub-rescue-pc hdparm hfsutils hwb hwdata i2c-tools jfsutils kpartx lvm2 mbr mdadm mii-diag mtools nfs-common nictools-pci ntfs-3g ntfsprogs parted patchutils policykit-1 policykit-1-doc python-smbus reiser4progs reiserfsprogs scsitools sdparm sg3-utils sharutils sysfsutils syslinux udftools usbutils util-linux vlan x86info xfsdump xfsprogs
+
+## Compressors
+arj cabextract p7zip-full p7zip-rar unace unrar unzip
+
+## Drivers
+ndiswrapper-dkms ndiswrapper-utils-1.9
+
+## Firmwares
+prism2-usb-firmware-installer atmel-firmware bluez-firmware dahdi-firmware-nonfree firmware-atheros firmware-bnx2 firmware-bnx2x firmware-intelwimax firmware-ipw2x00 firmware-iwlwifi firmware-linux firmware-qlogic firmware-ralink firmware-realtek libertas-firmware midisport-firmware zd1211-firmware
+
+## Software
+build-essential cdrdao dpkg-repack dvd+rw-tools fakeroot fsarchiver genisoimage ht jhead mpack ncurses-hexedit units wodim
+
+## Status & monitoring
+dstat hddtemp htop iftop iotop iptraf smartmontools
+
+
+###
+### Xorg
+###
+xcompmgr xorg xserver-xorg-video-all xserver-xorg-input-all
+
+## Xorg: xfce
+task-xfce-desktop
+xfce4-artwork xfce4-battery-plugin xfce4-cpufreq-plugin xfce4-cpugraph-plugin xfce4-datetime-plugin xfce4-diskperf-plugin xfce4-fsguard-plugin xfce4-genmon-plugin xfce4-linelight-plugin xfce4-mailwatch-plugin xfce4-mount-plugin xfce4-netload-plugin xfce4-notes xfce4-notes-plugin xfce4-notifyd xfce4-places-plugin xfce4-power-manager xfce4-power-manager-data xfce4-power-manager-plugins xfce4-quicklauncher-plugin xfce4-screenshooter xfce4-smartbookmark-plugin xfce4-systemload-plugin xfce4-taskmanager xfce4-terminal xfce4-timer-plugin xfce4-verve-plugin xfce4-volumed xfce4-wavelan-plugin xfce4-weather-plugin xfce4-xkb-plugin
+gvfs-bin menu-l10n ristretto thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler tumbler-plugins-extra
+
+## Xorg: apps
+arandr blender docky evince-gtk fbreader galculator geda geda-utils geda-examples gerbv geda-gsymcheck geda-gattrib geda-xgsch2pcb gedit gedit-plugins gedit-source-code-browser-plugin gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gparted gucharmap gvidm inkscape kicad kicad-doc-es librecad pcb python-xlib qt4-qtconfig wicd wings3d xarchiver xchm xscreensaver zenity
+oracle-java7-installer
+
+## Xorg: drivers
+#nvidia-xconfig nvidia-settings nvidia-vdpau-driver nvidia-kernel-dkms fglrx-control fglrx-driver linux-headers-2.6.32-5-686 fglrx-modules-dkms fglrx-atieventsd
+
+## Xorg: fonts
+ttf-bitstream-vera ttf-dejavu ttf-freefont ttf-inconsolata ttf-liberation ttf-marvosym ttf-opensymbol
+
+## Xorg: MS fonts
+ttf-mscorefonts-installer
+
+
+### Devel
+git git-doc git-man gitg
+### Python programming
+pep8 pyflakes pylint python python3 python3-setuptools python3-pip
+
+
+### Multimedia
+alsa-base alsa-tools alsa-utils gstreamer0.10-ffmpeg gstreamer0.10-gconf gstreamer0.10-nice gstreamer0.10-plugins-bad gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-pulseaudio paprefs pavucontrol pulseaudio pulseaudio-module-x11 pulseaudio-utils
+lame libavcodec-extra-53 mplayer2 vlc vlc-plugin-notify vlc-plugin-pulse
+#libdvdcss2 w32codecs
+
+
+### Internet
+chromium chromium-l10n firefox-mozilla-build flashplugin-nonfree filezilla transmission xchat
+
+### Networks
+dnsutils ipcalc mtr nmap tcpdump vinagre whois wpasupplicant x11vnc
+
+
+### 3d Printers
+### freecad dependencies: libsoqt4-20 python-matplotlib python-pivy libboost-signals1.49.0 libcoin80 liboce-foundation2 liboce-modeling2 liboce-ocaf-lite2 liboce-ocaf2 python-collada python-ply libspnav0 libxerces-c28 libzipios++0c2a libjs-jquery libjs-underscore python-lxml libjs-sphinxdoc graphviz
+python-matplotlib libboost-signals1.49.0 liboce-foundation2 liboce-modeling2 liboce-ocaf-lite2 liboce-ocaf2 python-collada python-ply libspnav0 libxerces-c28 libzipios++0c2a libjs-jquery libjs-underscore python-lxml libjs-sphinxdoc graphviz
+### openscad dependencies: libboost-program-options1.49.0 libboost-regex1.49.0 libboost-thread1.49.0 libcgal9 libopencsg1 libgmpxx4ldbl
+libboost-program-options1.49.0 libboost-regex1.49.0 libboost-thread1.49.0 libcgal9 libopencsg1 libgmpxx4ldbl
+### cura dependencies: python-opengl python-numpy python-serial python-setuptools
+python-opengl python-numpy python-serial python-setuptools
+### printrun dependencies: python-argparse python-serial python-wxgtk2.8 python-numpy python-pyglet python-cairo python-cairosvg
+python-argparse python-wxgtk2.8 python-pyglet python-cairo python-cairosvg
+### repetier host dependencies: mono-complete
+mono-complete
+### skeinforge dependencies: python python-tk
+python-tk
+
+### Arduino
+### arduino dependencies from wheezy: avr-libc avrdude binutils-avr gcc-avr libjna-java librxtx-java arduino-mk avrdude-doc
+avr-libc avrdude binutils-avr gcc-avr libjna-java librxtx-java arduino-mk avrdude-doc
+### arduino packages from testing: arduino arduino-core
+#arduino arduino-core
+### dfu-programmer
+dfu-programmer
+
+
+### Electrónics
+### fritzing dependencies from wheezy: libqt4-webkit
+libqt4-webkit
+
+### Desktop themes
+xfwm4-themes
+
+### GTK themes
+clearlooks-phenix-theme gtk2-engines-aurora gtk2-engines-murrine gtk2-engines-xfce gtk2-engines-pixbuf murrine-themes
+
+### Icon themes
+gnome-brave-icon-theme gnome-dust-icon-theme gnome-icon-theme gnome-icon-theme-extras hicolor-icon-theme tango-icon-theme
+
