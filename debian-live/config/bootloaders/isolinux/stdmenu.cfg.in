@@ -1,0 +1,32 @@
+menu background		/isolinux/splash.png
+
+menu color title	* #ffcccccc *
+menu color border	* #00000000 #00000000 none
+#menu color sel		* #ffffffff #76007200 *
+menu color sel		* #ffffffff #ff009200 *
+#menu color hotkey	* #ff009200 #00000000 *
+menu color hotkey	* #ff00C200 #00000000 *
+#menu color hotsel	1;7;37;40 #ff009200 #76007200 *
+menu color hotsel	1;7;37;40 #ff00C200 #ff009200 *
+menu color tabmsg	* #ffcccccc #00000000 *
+#menu color help	37;40 #ffdddd00 #00000000 none
+menu color help		37;40 #ffcccccc #00000000 none
+menu color timeout_msg	* #ff999999 #00000000 *
+menu color timeout	* #ff009200 #00000000 *
+menu title CloneWars Live - <DATE>
+
+menu vshift		12
+menu hshift		9
+menu width		60
+menu rows		10
+#menu helpmsgrow		12
+menu helpmsgrow		14
+# The command line must be at least one line from the bottom.
+#menu timeoutrow		13
+#menu cmdlinerow		13
+menu timeoutrow		14
+#menu cmdlinerow		16
+menu cmdlinerow		15
+menu tabmsgrow		17
+menu tabmsg Press ENTER to boot or TAB to edit a menu entry
+
