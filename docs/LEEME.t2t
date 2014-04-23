@@ -94,10 +94,10 @@ Clone-Wars Live
   - **2014.XX.XX**: Séptima versión alpha
 
     - Actualización de Printrun a la versión 2014.01.26
-    - Actualización de Slic3r a la versión 1.0.0
+    - Actualización de Slic3r a la versión 1.0.1
     - Añadido Fitzing 0.8.7b
     - Modificación de debian-installer para que no se use la red durante la instalación
-    - Reestructuración del menú de arranque
+    - Reestructuración del menú de arranque para hacerlo multi-idioma
     - Inclusión de Graphviz para poder ver las dependencias en FreeCAD
 
 
