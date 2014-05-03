@@ -50,7 +50,7 @@ Clone-Wars Live
 
   - **Disco duro**: el mínimo tamaño recomendado para realizar la instalación en disco es de unos 6GB de disco duro.
 
-  - **Procesador**: el mínímo procesador recomendado para trabajar sería un Intel Pentium3/Pentium4 o equivalente.
+  - **Procesador**: el mínimo procesador recomendado para trabajar sería un Intel Pentium3/Pentium4 o equivalente.
 
 
  ++ Licencia ++
@@ -67,7 +67,7 @@ Clone-Wars Live
 
   - **2014.02.13**: Cuarta versión alpha
 
-    - Integración de debian-installer en el menú de arranque
+    - Integración de Debian-installer en el menú de arranque
     - Actualización de RepetierHost a la versión 0.95F
     - Añadidos los paquetes: chromium, chromium-l10n, geda-xgsch2pcb, xchat
     - Desterrados los paquetes: htop, mc
@@ -76,7 +76,7 @@ Clone-Wars Live
 
   - **2014.02.19**: Quinta versión alpha
 
-    - Añadido netfabb Basic 5.1.0
+    - Añadido Netfabb Basic 5.1.0
     - Actualización de Slic3r a la versión 1.0.0RC3
     - Añadidos los paquetes: unetbootin, unetbootin-translations, vinagre, x11vnc
     - Creado directorio para acceder a configuraciones desde el escritorio
@@ -95,8 +95,9 @@ Clone-Wars Live
 
     - Actualización de Printrun a la versión 2014.01.26
     - Actualización de Slic3r a la versión 1.0.1
+    - Actualización de Netfabb Basic a la versión 5.1.1
     - Añadido Fitzing 0.8.7b
-    - Modificación de debian-installer para que no se use la red durante la instalación
+    - Modificación de Debian-installer para que no use la red durante la instalación
     - Reestructuración del menú de arranque para hacerlo multi-idioma
     - Inclusión de Graphviz para poder ver las dependencias en FreeCAD
 
@@ -139,7 +140,7 @@ Clone-Wars Live
 
  ++ Herramientas para trabajar con objetos 3D ++
 
-   - **netfabb Basic** 5.1.0
+   - **Netfabb Basic** 5.1.1
 
 
  ++ Laminado de objetos 3D ++
