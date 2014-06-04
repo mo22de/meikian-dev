@@ -42,18 +42,30 @@ pep8 pyflakes pylint python python3 python3-setuptools python3-pip
 ##
 ## freecad dependencies from wheezy: python-matplotlib libboost-signals1.49.0 liboce-foundation2 liboce-modeling2 liboce-ocaf-lite2 liboce-ocaf2 python-ply libspnav0 libxerces-c28 libzipios++0c2a libjs-jquery libjs-underscore python-lxml libjs-sphinxdoc graphviz
 python-matplotlib libboost-signals1.49.0 liboce-foundation2 liboce-modeling2 liboce-ocaf-lite2 liboce-ocaf2 python-ply libspnav0 libxerces-c28 libzipios++0c2a libjs-jquery libjs-underscore python-lxml libjs-sphinxdoc graphviz
-## freecad packages backported from testing:
+## freecad packages backported from testing
 libsoqt4-20 python-pivy libcoin80 python-collada freecad freecad-doc
+## inkscape extensions packaged for cw-live
+inkscape-gcodetools inkscape-paths2openscad
 ## openscad dependencies: libboost-program-options1.49.0 libboost-regex1.49.0 libboost-thread1.49.0 libcgal9 libopencsg1 libgmpxx4ldbl
 libboost-program-options1.49.0 libboost-regex1.49.0 libboost-thread1.49.0 libcgal9 libopencsg1 libgmpxx4ldbl
+## openscad binaries packaged for cw-live
+openscad openscad-bolts
 ## cura dependencies: python-opengl python-numpy python-serial python-setuptools
 python-opengl python-numpy python-serial python-setuptools cura
 ## printrun dependencies: python-argparse python-serial python-wxgtk2.8 python-numpy python-pyglet python-cairo python-cairosvg
 python-argparse python-wxgtk2.8 python-pyglet python-cairo python-cairosvg
+## printrun binaries packaged for cw-live
+printrun
 ## repetier host dependencies: mono-complete
 mono-complete
+## repetier host binaries packaged for cw-live
+repetier-host
 ## skeinforge dependencies: python python-tk
 python-tk
+## skeinforge binaries packaged for cw-live
+skeinforge
+## slic3r binaries packaged for cw-live
+slic3r
 ## netfabb-basic
 netfabb-basic
 
