@@ -78,6 +78,8 @@ avr-libc avrdude binutils-avr gcc-avr libjna-java librxtx-java arduino-mk avrdud
 arduino arduino-core
 ## dfu-programmer
 dfu-programmer
+## arduino extras packaged for cw-live
+cwlive-arduino-extras
 
 
 ## Electronics
