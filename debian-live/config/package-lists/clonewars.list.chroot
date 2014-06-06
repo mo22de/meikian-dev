@@ -88,3 +88,8 @@ geda geda-utils geda-examples gerbv geda-gsymcheck geda-gattrib geda-xgsch2pcb k
 ## fritzing dependencies from wheezy: libqt4-webkit
 libqt4-webkit fritzing fritzing-data
 
+
+## Misc
+##
+## Documentation, firmwares and calibration 3d objects
+cwlive-misc
