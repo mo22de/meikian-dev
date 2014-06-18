@@ -1,0 +1,4 @@
+card=PlaybackSalidaBobaPulseAudioMixer
+track=Master
+command=pavucontrol
+
