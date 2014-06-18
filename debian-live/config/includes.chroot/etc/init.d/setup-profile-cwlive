@@ -1,0 +1,27 @@
+#!/bin/sh
+
+. /lib/lsb/init-functions
+
+export `cat /proc/cmdline | \
+   sed -e 's/live-config//' | sed -e 's/keyboard-layouts/keyb/'`
+
+do_start () {
+
+   DEFAULT_EXT="en"
+   FILE_EXT=`echo $locales | cut -d '_' -f1`
+
+}
+
+
+case "$1" in
+   start | restart | force-reload | reload)
+         do_start
+         ;;
+   stop)
+         ;;
+
+   *)
+         log_warning_msg "Usage: $0 {start|stop|restart|reload|force-reload}"
+         ;;
+esac
+
