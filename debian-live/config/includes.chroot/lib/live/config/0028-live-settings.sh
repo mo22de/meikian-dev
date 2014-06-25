@@ -15,19 +15,15 @@ DEFAULT_EXT="en"
 FILE_EXT=`echo $locales | cut -d '_' -f1`
 
 ## applying changes
-[ -f /etc/live/config/live-setup.conf ] && rm -f /etc/live/config/live-setup.conf
+for file in live-setup.conf user-setup.conf; do
 
-if [ -f /etc/cwlive.d/etc/live/config/live-setup.conf.${FILE_EXT} ]; then
-    cp /etc/cwlive.d/etc/live/config/live-setup.conf.${FILE_EXT} /etc/live/config/live-setup.conf
-else
-    cp /etc/cwlive.d/etc/live/config/live-setup.conf.${DEFAULT_EXT} /etc/live/config/live-setup.conf
-fi
+    [ -f "/etc/live/config/${file}" ] && rm -f "/etc/live/config/${file}"
 
-[ -f /etc/live/config/user-setup.conf ] && rm -f /etc/live/config/user-setup.conf
+    if [ -f "/etc/cwlive.d/etc/live/config/${file}.${FILE_EXT}" ]; then
+        cp -f "/etc/cwlive.d/etc/live/config/${file}.${FILE_EXT}" "/etc/live/config/${file}"
+    else
+        cp -f "/etc/cwlive.d/etc/live/config/${file}.${DEFAULT_EXT}" "/etc/live/config/${file}"
+    fi
 
-if [ -f /etc/cwlive.d/etc/live/config/user-setup.conf.${FILE_EXT} ]; then
-    cp /etc/cwlive.d/etc/live/config/user-setup.conf.${FILE_EXT} /etc/live/config/user-setup.conf
-else
-    cp /etc/cwlive.d/etc/live/config/user-setup.conf.${DEFAULT_EXT} /etc/live/config/user-setup.conf
-fi
+done
 
