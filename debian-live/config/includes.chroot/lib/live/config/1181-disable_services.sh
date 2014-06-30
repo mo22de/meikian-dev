@@ -3,7 +3,6 @@
 # Disable services at boot
 #
 
-echo ""
 echo "I: disabling services"
 
 for service in nfs-common rpcbind ; do
