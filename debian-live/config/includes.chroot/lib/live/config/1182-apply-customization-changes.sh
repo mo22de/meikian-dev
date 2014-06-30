@@ -19,12 +19,12 @@ su -l ${DEFAULT_USER} -c 'xdg-user-dirs-update; xdg-user-dirs-gtk-update'
 
 if [ "${FILE_EXT}" = "es" ]; then
     for file in "/etc/cwlive.d/desktop/${FILE_EXT}/*"; do
-        cp -f "${file}" "/home/${DEFAULT_USER}/Escritorio/"
+        cp -f ${file} "/home/${DEFAULT_USER}/Escritorio/"
         chown -R ${DEFAULT_USER}:${DEFAULT_USER} "/home/${DEFAULT_USER}/Escritorio/"
     done
 else
     for file in "/etc/cwlive.d/desktop/${DEFAULT_EXT}/*"; do
-        cp -f "${file}" "/home/${DEFAULT_USER}/Desktop/"
+        cp -f ${file} "/home/${DEFAULT_USER}/Desktop/"
         chown -R ${DEFAULT_USER}:${DEFAULT_USER} "/home/${DEFAULT_USER}/Desktop/"
     done
 fi
