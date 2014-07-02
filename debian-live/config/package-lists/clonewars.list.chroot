@@ -15,7 +15,7 @@ oracle-java7-installer
 unetbootin unetbootin-translations
 
 ## Xorg desktop: internet
-chromium chromium-l10n firefox-mozilla-build flashplugin-nonfree filezilla transmission xchat
+chromium chromium-l10n firefox-mozilla-build flashplugin-nonfree filezilla pepperflashplugin-nonfree transmission xchat
 
 ## Xorg desktop: multimedia
 alsa-base alsa-tools alsa-utils gstreamer0.10-ffmpeg gstreamer0.10-gconf gstreamer0.10-nice gstreamer0.10-plugins-bad gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-pulseaudio paprefs pavucontrol pulseaudio pulseaudio-module-x11 pulseaudio-utils
