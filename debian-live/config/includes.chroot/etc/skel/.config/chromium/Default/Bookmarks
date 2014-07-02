@@ -1,5 +1,5 @@
 {
-   "checksum": "c3ccf4178e8e65ee90c378247148bb1b",
+   "checksum": "bd77a23bf6d5fcb6beab87c0507f719f",
    "roots": {
       "bookmark_bar": {
          "children": [  ],
@@ -619,9 +619,15 @@
                   "name": "Slic3r - G-code generator for 3D printers",
                   "type": "url",
                   "url": "http://slic3r.org/"
+               }, {
+                  "date_added": "13048779157777244",
+                  "id": "144",
+                  "name": "Slic3r Manual - Welcome to the Slic3r Manual",
+                  "type": "url",
+                  "url": "http://manual.slic3r.org/"
                } ],
                "date_added": "13036764605893370",
-               "date_modified": "0",
+               "date_modified": "13048779311153330",
                "id": "79",
                "name": "Slic3r",
                "type": "folder"
@@ -788,6 +794,12 @@
                   "type": "url",
                   "url": "http://www.reprap.org/wiki/SAV_MKI/es"
                }, {
+                  "date_added": "13048779311153330",
+                  "id": "145",
+                  "name": "SAV 3D LCD - RepRapWiki",
+                  "type": "url",
+                  "url": "http://www.reprap.org/wiki/SAV_3D_LCD"
+               }, {
                   "date_added": "13038660149495834",
                   "id": "112",
                   "name": "fmalpartida / New LiquidCrystal / wiki / Home — Bitbucket",
@@ -801,7 +813,7 @@
                   "url": "https://github.com/fmalpartida/Marlin/tree/SAV-MkI-config"
                } ],
                "date_added": "13036764605894144",
-               "date_modified": "13040061206452254",
+               "date_modified": "13048779404903469",
                "id": "105",
                "name": "SAV",
                "type": "folder"
@@ -845,6 +857,12 @@
             "type": "folder"
          }, {
             "children": [ {
+               "date_added": "13048779078161334",
+               "id": "143",
+               "name": "gcode viewer - online gcode viewer and analyzer in your browser!",
+               "type": "url",
+               "url": "http://gcode.ws/"
+            }, {
                "date_added": "13042371279776118",
                "id": "141",
                "name": "RepRap Calculator3",
@@ -852,7 +870,7 @@
                "url": "http://calculator.josefprusa.cz/"
             } ],
             "date_added": "13042371364654883",
-            "date_modified": "13042371485058849",
+            "date_modified": "13048779157777244",
             "id": "142",
             "name": "Utilidades",
             "type": "folder"
