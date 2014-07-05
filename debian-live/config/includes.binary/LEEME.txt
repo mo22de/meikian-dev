@@ -1,5 +1,5 @@
 Clone-Wars Live
-2014, May 03 - v0.10
+2014, July 05 - v0.11
 
 
 ------------------------------------------------------------------------
@@ -128,13 +128,23 @@ Clone-Wars Live
 
   - 2014.XX.XX: Séptima versión alpha
 
+    - Migrado todo el sistema de generación de la distro a GitHub
+    - Empaquetado todo el software necesario que no estaba disponible en paquetes .deb
+    - Restructuración del menú de arranque para hacerlo multi-idioma
+    - Cambio en scripts de arranque para permitir hacer personalizaciones en función del
+        idioma elegido
+    - Desactivación del instalador a disco duro
+    - Eliminado directorio de ejemplos, pendiente de restucturación
     - Actualización de Printrun a la versión 2014.01.26
-    - Actualización de Slic3r a la versión 1.0.1
+    - Actualización de Cura a la versión 14.7
     - Actualización de Netfabb Basic a la versión 5.1.1
+    - Actualización de Slic3r a la versión 1.1.6
     - Añadido Fitzing 0.8.7b
-    - Modificación de Debian-installer para que no use la red durante la instalación
-    - Reestructuración del menú de arranque para hacerlo multi-idioma
     - Inclusión de Graphviz para poder ver las dependencias en FreeCAD
+    - Backport de PySerial desde Debian testing e inclusión de parche para permitir
+        conexiones a cualquier velocidad
+    - Añadido soporte de flash para chromium
+    - Corrección en la instalación del firmware para las tarjetas wireless Intel IPW
 
 
   3. Hardware probado con la distribución
@@ -188,13 +198,13 @@ Clone-Wars Live
 	===========================
 
    - Skeinforge 2012.03.15
-   - Slic3r 1.0.0RC2
+   - Slic3r 1.1.6
 
 
 	4.4. Control de impresora 3D
 	============================
 
-   - Cura 14.03
+   - Cura 14.07
    - Printrun 2014.01.26
    - Repetier-Host 0.95F
 
