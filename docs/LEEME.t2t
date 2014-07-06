@@ -1,6 +1,6 @@
 Clone-Wars Live
 
-%%mtime(%Y, %B %d) - v0.11
+%%mtime(%Y, %B %d) - v0.12
 
 %!encoding: UTF-8
 % %!options(html): --toc --css-sugar
@@ -26,29 +26,27 @@ Clone-Wars Live
   - Un consumo de recursos bajo. Es importante que los recursos necesarios para su funcionamiento sean bajos, ya que esto posibilitará su uso en una mayor cantidad de equipos al mismo tiempo que permitirá la reutilización y aprovechamiento de máquinas más antiguas.  
 
 
- ++ Base tecnológica empleada ++
+ ++ Base tecnológica ++
 
   Para desarrollar la distribución se ha recurrido a emplear Debian GNU/Linux[1] como sistema operativo base. Es una de las distribuciones GNU/linux más antiguas que existen actualmente, que goza de una salud excelente tal y como lo demuestra el hecho de que se siga usando como base para muchas distribuciones, algunas de ellas muy populares, como es el caso de Ubuntu[2].
 
   El sistema utilizado para el desarrollo es "Debian Live"[3], un sistema propio de Debian para la creación de sistemas "live" personalizados usando como base la propia Debian GNU/Linux en cualquiera de sus ramas.
 
 
-
-      Enlaces:
+  Enlaces:
       
-      [1] - [[www.debian.org|http://www.debian.org]]
-      [2] - [[www.ubuntu.com|http://www.ubuntu.com]]
-      [3] - [[live.debian.net|http://live.debian.net]]
+    [1] - [[www.debian.org|http://www.debian.org]]
+    [2] - [[www.ubuntu.com|http://www.ubuntu.com]]
+    [3] - [[live.debian.net|http://live.debian.net]]
 
 
  ++ Requisitos de hardware ++
 
-  Teniendo en cuenta los recursos de hardware que tiene cualquier equipo que compremos hoy en día, los requisitos de Clone-Wars Live son bastante modestos, por lo que únicamente enumeramos los requisitos mínimos recomendados para poder trabajar con la distribución. Aunque el sistema funcione con muchos menos recursos de los expuestos, no es recomendable si lo que queremos es poder trabajar con un mínimo de comodidad en la mayoría de los programas incluidos.
+  Teniendo en cuenta los recursos de hardware que tiene cualquier equipo que compremos hoy en día, los requisitos de Clone-Wars Live son bastante modestos, por lo que únicamente enumeramos los requisitos mínimos recomendados para poder trabajar con la distribución. Aunque el sistema funcione con muchos menos recursos de los expuestos, no es recomendable si lo que queremos es poder trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
 
   - **Memoria**: la mínima cantidad recomendada serían 512MB de memoria RAM
-    En caso de que queramos mejorar el rendimiento, si tenemos espacio disponible en el disco duro podemos recurrir a crear una partición de "memoria de intercambio" o "swap" en él y otra partición para "persistencia de datos". De esta manera liberamos parte de la memoria RAM y la dejamos disponible para uso del sistema operativo y los programas.
 
-  - **Disco duro**: el mínimo tamaño recomendado para realizar la instalación en disco es de unos 6GB de disco duro.
+    En caso de que queramos mejorar el rendimiento, si tenemos espacio disponible en el disco duro podemos recurrir a crear una partición de "memoria de intercambio" o "swap" en él y otra partición para "persistencia de datos". De esta manera liberamos parte de la memoria RAM y la dejamos disponible para uso del sistema operativo y los programas.
 
   - **Procesador**: el mínimo procesador recomendado para trabajar sería un Intel Pentium3/Pentium4 o equivalente.
 
@@ -117,14 +115,21 @@ Clone-Wars Live
 
  ++ Equipos ++
 
-   - **Apple Macbook Air 11" 2011**: OK
+   - **Apple MacBook Air 11" 2011**: OK
+   - **Apple MacBook Air ??? 2013**: ---
+   - **Apple MacBook Pro 15" 2014**: ---
+   - **Apple MacBook Pro 15" ????**: ---
+   - **Apple MacMini**: ---
    - **Asus A55VD**: OK
    - **Asus EeePC T101MT**: OK
    - **Clevo D400E**: OK
    - **Dell Inspiron n5050**: Problema con el instalador a disco duro. Modo "Live" OK
+   - **Dell Latitude D610**: ---
+   - **Dell Latitude E6400**: ---
    - **HP Compaq NX9030**: Interfaz Wi-Fi es "eth*" no "wlan*". OK
    - **Lenovo x200s**: OK
-   - **PackardBell EasyNote A7738**: OK
+   - **Lenovo n500**: OK
+   - **PackardBell EasyNote A7738**: Interfaz Wi-Fi es "eth*" no "wlan*". OK
 
 
  ++ Tarjetas controladoras ++
@@ -132,6 +137,7 @@ Clone-Wars Live
    - **Arduino Mega 2560 + RAMPS 1.4**
    - **Gen7 1.4.1**
    - **Gen7 1.5**
+   - **Megatronics v3**
    - **Sanguinololu 1.3a**
    - **SAV MKI** + **SAV LCD**
 
@@ -173,6 +179,7 @@ Clone-Wars Live
 
  ++ Diseño de circuitos ++
 
+   - **Fitzing** 0.8.7b
    - **gEDA** 1.6.2-4.3
    - **KiCAD** 2012-04.16.27
    - **PCB Designer** 20110918
@@ -190,6 +197,7 @@ Clone-Wars Live
 
   No nos va a representar ningún problema en cuanto a S.O. o plataforma, puesto que cualquier programa de grabación de DVD que permita grabar imágenes .iso nos va a servir para realizar la grabación.
 
+
  ++ Copia a un dispositivo de almacenamiento USB ++
 
   +++ Utilizando GNU/Linux +++
@@ -199,6 +207,7 @@ Clone-Wars Live
       Lo primero que debemos hacer es enchufar la unidad de almacenamiento que queremos usar para copiar en élla la distribución y que debe ser de tamaño suficiente para albergarla. Una vez enchufada, desde una consola con el comando "dmesg" podemos ver las últimas líneas de mensajes del kernel para obtener el dispositivo de sistema que se le ha asignado. 
 
       Una vez que conocemos el dispositivo de sistema y tenemos descargado el fichero .iso con la distribución, podemos hacer la copia de dos maneras diferentes:
+
 
       - La más correcta, sería utilizando los comandos "isoinfo" y "dd":
       
@@ -299,18 +308,21 @@ Clone-Wars Live
       A partir de este momento la distribución ya estaría instalada. A la hora de querer arrancarla tendremos que asegurarnos de que nuestro equipo permita el arranque desde dispositivos "USB" y que, en la "BIOS" del mismo, esté seleccionado correctamente el orden de la secuencia de arranque.
 
 
-
       Enlaces:
 
-      [1] - [[unetbootin.sourceforge.net|http://unetbootin.sourceforge.net]]
+        [1] - [[unetbootin.sourceforge.net|http://unetbootin.sourceforge.net]]
 
 
   +++ Utilizando MAC OSX +++
 
+    En equipos con MAC OSX podemos usar los mismos métodos que en GNU/Linux, variando únicamente el nombre del dispositivo en el que se va a escribir la imagen.
+    
+    Un detalle a tener en cuenta es que, después de realizar múltiples pruebas con diferentes modelos de equipos Apple, los pendrives generados con "UNetbootin" no siempre arrancaban en dichos equipos, por lo que para estar seguros es recomendable grabar la imagen utilizando el comando "dd".
+
+
   +++ Utilizando MS Windows +++
 
-
- ++ Instalación en disco duro ++
+    Para los equipos con MS Windows también podemos recurrir a emplear "UNetbootin", al igual que en el caso de MAC OSX, la única diferencia en el proceso respecto a lo mencionado para GNU/Linux será el nombre de la unidad en la que vamos a escribir la imagen.
 
 
 
@@ -345,6 +357,8 @@ Clone-Wars Live
 
 
 + Problemas notificados pendientes de solución +
+
+  - **Arduino IDE**: la lista de tarjetas controladoras no se desplaza cuando llega al borde de la pantalla, lo cual puede representar un problema con resoluciones pequeñas de pantalla . Está reconocido por los desarrolladores y se solucionará en versiones posteriores que por el momento únicamente están en fase beta.
 
   - **Debian Live**: [**Solucionado**] no detecta redes inalámbricas en un portátil HP Compaq NX9030, con tarjeta Intel 2200BG el interfaz Wi-Fi no es "wlan*" sino "eth*" y hay que cambiarlo en la configuración de "wicd" (Jordi). 
 
