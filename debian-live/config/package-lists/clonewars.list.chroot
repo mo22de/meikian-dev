@@ -52,8 +52,8 @@ libboost-program-options1.49.0 libboost-regex1.49.0 libboost-thread1.49.0 libcga
 openscad openscad-bolts
 ## cura dependencies: python-opengl python-numpy python-serial python-setuptools
 python-opengl python-numpy python-serial python-setuptools cura
-## printrun dependencies: python-argparse python-serial python-wxgtk2.8 python-numpy python-pyglet python-cairo python-cairosvg
-python-argparse python-wxgtk2.8 python-pyglet python-cairo python-cairosvg
+## printrun dependencies: python-argparse python-serial python-wxgtk2.8 python-numpy python-pyglet python-cairo python-cairosvg python-psutil
+python-argparse python-wxgtk2.8 python-pyglet python-cairo python-cairosvg python-psutil
 ## printrun binaries packaged for cw-live
 printrun
 ## repetier host dependencies: mono-complete
