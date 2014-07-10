@@ -89,7 +89,7 @@ Clone-Wars Live
     - Añadida extensión Gcodetools v1.7 para InkScape
     - Actualización de Cura a la versión 14.03
 
-  - **2014.XX.XX**: Séptima versión alpha
+  - **2014.07.12**: Séptima versión alpha
 
     - Migrado todo el sistema de generación de la distro a GitHub
     - Empaquetado todo el software necesario que no estaba disponible en paquetes .deb
@@ -102,6 +102,7 @@ Clone-Wars Live
     - Actualización de Cura a la versión 14.7
     - Actualización de Netfabb Basic a la versión 5.1.1
     - Actualización de Slic3r a la versión 1.1.6
+    - Actualización de FreeCAD a la versión 0.14.3692
     - Añadido Fitzing 0.8.7b
     - Inclusión de Graphviz para poder ver las dependencias en FreeCAD
     - Backport de PySerial desde Debian testing e inclusión de parche para permitir
