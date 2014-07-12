@@ -1,5 +1,5 @@
 Clone-Wars Live
-2014, July 10 - v0.12
+2014, July 12 - v0.12
 
 
 ------------------------------------------------------------------------
@@ -154,20 +154,19 @@ Clone-Wars Live
 	============
 
    - Apple MacBook Air 11" 2011: OK
-   - Apple MacBook Air ??? 2013: ---
-   - Apple MacBook Pro 15" 2014: ---
-   - Apple MacBook Pro 15" ????: ---
-   - Apple MacMini: ---
+   - Apple MacBook Pro 5.1 15" late 2008: No detecta el arranque. KO
+   - Apple MacBook Pro Retina 11.2 15" late 2013: Arranca con algunos problemas, pero no detecta la tarjeta WiFi
+   - Apple MacMini 2012: Arranca con algunos problemas, pero no detecta la tarjeta WiFi
    - Asus A55VD: OK
    - Asus EeePC T101MT: OK
    - Clevo D400E: OK
    - Dell Inspiron n5050: Problema con el instalador a disco duro. Modo "Live" OK
-   - Dell Latitude D610: ---
-   - Dell Latitude E6400: ---
-   - HP Compaq NX9030: Interfaz Wi-Fi es "eth*" no "wlan*". OK
-   - Lenovo x200s: OK
+   - Dell Latitude D610: Interfaz WiFi es "eth*" no "wlan*". OK
+   - Dell Latitude E6400: OK
+   - HP Compaq NX9030: Interfaz WiFi es "eth*" no "wlan*". OK
    - Lenovo n500: OK
-   - PackardBell EasyNote A7738: Interfaz Wi-Fi es "eth*" no "wlan*". OK
+   - Lenovo x200s: OK
+   - PackardBell EasyNote A7738: Interfaz WiFi es "eth*" no "wlan*". OK
 
 
 	3.2. Tarjetas controladoras
