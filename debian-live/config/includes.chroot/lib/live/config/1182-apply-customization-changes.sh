@@ -27,11 +27,13 @@ fi
 cp -f "/etc/cwlive.d/etc/skel/.gtk-bookmarks.${FILE_EXT}" "/home/${DEFAULT_USER}/.gtk-bookmarks"
 
 # copy Chromium bookmarks to the user's home
-cp -f "/etc/cwlive.d/etc/skel/.config/chromium/Defaults/Bookmarks.${FILE_EXT}" \
-    "/home/${DEFAULT_USER}/.config/chromium/Defaults/Bookmarks"
+mkdir -p "/home/${DEFAULT_USER}/.config/chromium/Default"
+cp -f "/etc/cwlive.d/etc/skel/.config/chromium/Default/Bookmarks.${FILE_EXT}" \
+    "/home/${DEFAULT_USER}/.config/chromium/Default/Bookmarks"
 
 # copy icons and folders to the user's desktop
 for file in "/etc/cwlive.d/desktop/${FILE_EXT}/*"; do
     cp -f ${file} "/home/${DEFAULT_USER}/Escritorio/"
-    chown -R ${DEFAULT_USER}:${DEFAULT_USER} "/home/${DEFAULT_USER}/Escritorio/"
 done
+
+chown -R ${DEFAULT_USER}:${DEFAULT_USER} "/home/${DEFAULT_USER}"
