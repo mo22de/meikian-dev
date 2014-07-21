@@ -71,8 +71,9 @@ lb config                                                             \
     --iso-publisher "CloneWars"                                       \
     --bootappend-live "boot=live config hostname=cw-live username=cw noeject" \
     --memtest none                                                    \
-    --win32-loader true                                               \
-    --debian-installer live
+    --win32-loader true                                               
+#    --win32-loader true                                              \
+#    --debian-installer live
 
 ## start the building process
 lb build | tee "${BUILD_DIR}/${file_name}.log" 2>&1
