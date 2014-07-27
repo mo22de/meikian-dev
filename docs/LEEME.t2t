@@ -1,6 +1,6 @@
 Clone-Wars Live
 
-%%mtime(%Y, %B %d) - v0.13
+%%mtime(%Y, %B %d) - v0.14
 
 %!encoding: UTF-8
 % %!options(html): --toc --css-sugar
@@ -113,6 +113,9 @@ Clone-Wars Live
 
   - **2014.xx.xx**: Primera versión beta
 
+    - Actualización de Fritzing a la versión 0.9.0b
+    - Agregado directorio para acceso fácil a configuraciones de utilidades de
+        impresión 3D
 
 
 + Hardware probado con la distribución +
@@ -131,6 +134,7 @@ Clone-Wars Live
    - **Dell Latitude D610**: Interfaz WiFi es "eth*" no "wlan*". OK
    - **Dell Latitude E6400**: OK
    - **Dell XPS L521X**: OK
+   - **HP 500B MT**: OK
    - **HP Compaq NX9030**: Interfaz WiFi es "eth*" no "wlan*". OK
    - **Lenovo n500**: OK
    - **Lenovo x200s**: OK
@@ -142,6 +146,7 @@ Clone-Wars Live
    - **Arduino Mega 2560 + RAMPS 1.4**
    - **Gen7 1.4.1**
    - **Gen7 1.5**
+   - **Megatronics v2**
    - **Megatronics v3**
    - **Sanguinololu 1.3a**
    - **SAV MKI** + **SAV LCD**
