@@ -85,8 +85,8 @@ cwlive-arduino-extras
 ## Electronics
 ##
 geda geda-utils geda-examples gerbv geda-gsymcheck geda-gattrib geda-xgsch2pcb kicad kicad-doc-es pcb
-## fritzing dependencies from wheezy: libqt4-webkit
-libqt4-webkit fritzing fritzing-data
+## fritzing binaries packaged for cw-live
+fritzing
 
 
 ## Misc
