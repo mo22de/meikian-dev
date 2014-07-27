@@ -18,9 +18,11 @@ DEFAULT_USER="cw"
 su -l ${DEFAULT_USER} -c 'xdg-user-dirs-update; xdg-user-dirs-gtk-update'
 
 if [ "${FILE_LANG}" = "es" ]; then
-    FILE_EXT="${FILE_LANG}" 
+    FILE_EXT="${FILE_LANG}"
+    DESKTOP_DIR="Escritorio"
 else
     FILE_EXT="${DEFAULT_EXT}"
+    DESKTOP_DIR="Desktop"
 fi
 
 # copy customized .gtk-bookmarks to the user's home
@@ -41,7 +43,7 @@ fi
 
 # copy icons and folders to the user's desktop
 for file in "/etc/cwlive.d/desktop/${FILE_EXT}/*"; do
-    cp -f ${file} "/home/${DEFAULT_USER}/Escritorio/"
+    cp -f ${file} "/home/${DEFAULT_USER}/${DESKTOP_DIR}"
 done
 
 chown -R ${DEFAULT_USER}:${DEFAULT_USER} "/home/${DEFAULT_USER}"
