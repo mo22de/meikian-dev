@@ -23,7 +23,7 @@ History
 * Restructuración del menú de arranque para hacerlo multi-idioma
 * Cambio en scripts de arranque para permitir personalizaciones en función del
 
-  * impresión 3D
+  * idioma elegido
 
 * Desactivación del instalador a disco duro
 * Eliminado directorio de ejemplos, pendiente de restucturación
