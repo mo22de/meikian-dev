@@ -62,7 +62,7 @@ Ready to contribute? Here's how to set up `cwlive` for local development.
 
     $ git clone git@github.com:your_name_here/cwlive.git
 
-3. toDo
+3. ToDo
 
 4. Create a branch for local development::
 
