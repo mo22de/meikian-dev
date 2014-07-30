@@ -1,12 +1,12 @@
 .. :changelog:
 
-History
--------
+Versiones
+---------
 
 2014.xx.xx
 ++++++++++
 
-**1st beta version**
+**Primera versión beta**
 
 * Actualización de Fritzing a la versión 0.9.0b
 * Agregado directorio para acceso fácil a configuraciones de utilidades de impresión 3D
@@ -14,7 +14,7 @@ History
 2014.07.12
 ++++++++++
 
-**7th alpha version**
+**Séptima versión alpha**
 
 * Migrado todo el sistema de generación de la distro a GitHub
 * Empaquetado todo el software necesario que no estaba disponible en paquetes .deb
@@ -36,7 +36,7 @@ History
 2014.03.23
 ++++++++++
 
-**6th alpha version.**
+**Sexta versión alpha.**
 
 * Añadido directorio con el código de los firmwares base "/usr/local/share/firmwares-base"
 * Añadido directorio con ejemplos y objetos de calibración "/usr/local/share/ejemplos"
@@ -49,7 +49,7 @@ History
 2014.02.19
 ++++++++++
 
-**5th alpha version**
+**Quinta versión alpha**
 
 * Añadido Netfabb Basic 5.1.0
 * Actualización de Slic3r a la versión 1.0.0RC3
@@ -59,7 +59,7 @@ History
 2014.02.13
 ++++++++++
 
-**4th alpha version.**
+**Cuarta versión alpha.**
 
 * Integración de Debian-installer en el menú de arranque
 * Actualización de RepetierHost a la versión 0.95F
@@ -71,14 +71,14 @@ History
 2014.02.01
 ++++++++++
 
-**3rd alpha version alpha.**
+**Tercera versión alpha.**
 
 2014.01.14
 ++++++++++
 
-**2nd alpha version.**
+**Segunda versión alpha.**
 
 2014.01.09
 ++++++++++
 
-**1st alpha version.**
+**Primera versión alpha.**

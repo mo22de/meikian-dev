@@ -8,4 +8,5 @@ venv
 pip-log.txt
 
 # Sphinx
-docs/build
+docs/en/build
+docs/es/build
