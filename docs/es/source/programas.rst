@@ -42,7 +42,7 @@ Programación de Arduino
 Diseño de circuitos
 -------------------
 
-* Fitzing 0.8.7b
+* Fritzing 0.9.0b
 * gEDA 1.6.2-4.3
 * KiCAD 2012-04.16.27
 * PCB Designer 20110918
