@@ -1,43 +1,52 @@
-===============
-Clone-Wars Live
-===============
+==============
+CloneWars Live
+==============
 
-La idea detrás del origen de Clone-Wars Live es la de proporcionar un entorno de trabajo con las herramientas más habituales para el trabajo con impresoras 3d (diseño de piezas e impresión), Arduino, circuitos electrónicos, etc, así como documentación relacionada. 
+La idea detrás del origen de *CloneWars Live* es la de proporcionar un entorno de trabajo con las herramientas más habituales para el trabajo con impresoras 3D (diseño de piezas e impresión), `Arduino`_, circuitos electrónicos, CNC, RC, robótica, etc, así como documentación relacionada. 
 
-Los puntos principales que se han tenido en cuenta a la hora de desarrollarla son:
+.. _`Arduino`: http://www.arduino.cc
 
-* Que sea un sistema libre. Ha de permitir su libre uso, modificación y redistribución a cualquier persona que lo quiera utilizar.
+Los puntos principales que se han tenido en cuenta en su desarrollo son:
 
-* Un consumo de recursos bajo. Es importante que los recursos necesarios para su funcionamiento sean bajos, ya que esto posibilitará su uso en una mayor cantidad de equipos y al mismo tiempo permitirá la reutilización y aprovechamiento de máquinas más antiguas.
+* Que sea un **sistema libre**. Ha de permitir su libre uso, modificación y redistribución a cualquier persona interesada en su utilización.
+
+* Un **bajo consumo de recursos**. Es importante que los recursos necesarios para su funcionamiento sean bajos, ya que esto posibilitará su uso en una mayor cantidad de equipos y al mismo tiempo permite la reutilización y aprovechamiento de máquinas más antiguas.
 
 ¿Qué es una distribución "Live"?
 ================================
 
-Una distribución "Live" es un un conjunto formado por un sistema operativo, programas adicionales y configuraciones, que está preparado para arrancar y ejecutarse desde un dispositivo extraible (CD/DVD-ROM, memoria o disco duro USB, etc), permitiendo trabajar con él sin afectar al sistema operativo y a los programas o configuraciones del equipo en el que se ejecuta.
+Una distribución *Live* es un un conjunto formado por un sistema operativo, programas adicionales y configuraciones, que está preparado para arrancar y ejecutarse desde un dispositivo extraible (``CD``/``DVD-ROM``, memoria o disco duro ``USB``, etc), permitiendo trabajar con él sin afectar al sistema operativo y a los programas o configuraciones del equipo en el que se ejecuta.
 
 Base tecnológica
 ================
 
-Para el desarrollo de la distribución se ha empleado `Debian`_ GNU/Linux como sistema operativo base. Es una de las distribuciones GNU/linux más antiguas que existen en la actualidad y que goza de una salud excelente, tal y como lo demuestra el hecho de que se siga usando como base para muchas distribuciones, algunas de ellas muy populares, como es el caso de `Ubuntu`_ o `LinuxMint`_.
+Para el desarrollo de la distribución se ha empleado `Debian`_ GNU/Linux como sistema operativo base. Es una de las distribuciones GNU/Linux más antiguas que existen en la actualidad y que goza de una salud excelente, tal y como lo demuestra el hecho de que se siga usando como base para muchas distribuciones, algunas de ellas muy populares, como es el caso de `Ubuntu`_ o `LinuxMint`_.
 
-El sistema utilizado para su desarrollo es "`LiveDebian`_", un sistema propio de Debian para la creación de sistemas "Live" personalizados.
+El sistema utilizado para su desarrollo es `LiveDebian`_, un sistema propio de `Debian`_ para la creación de sistemas *Live* personalizados.
 
 .. _`Debian`: http://www.debian.org
 .. _`Ubuntu`: http://www.ubuntu.com
 .. _`LinuxMint`: http://www.linuxmint.com
 .. _`LiveDebian`: http://live.debian.net
 
+Documentación
+=============
+
+La documentación completa del proyecto se encuentra disponible *on line* a través de la dirección `clonewars-live.readthedocs.org`_.
+
+.. _`clonewars-live.readthedocs.org`: http://clonewars-live.readthedocs.org/es/latest
 
 Requisitos de hardware
 ======================
 
-Los requerimientos necesarios para hacer funcionar Clone-Wars Live son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual, por lo que únicamente se enumeran los mínimos recomendados. Dependiendo de las tareas que se quieran llevar a cabo, y aunque el sistema funcione con menos recursos de los expuestos, no es recomendable si se quiere trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
+Los requerimientos necesarios para hacer funcionar *CloneWars Live* son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual, por lo que únicamente se enumeran los mínimos recomendados. Dependiendo de las tareas que se quieran llevar a cabo, y aunque el sistema funcione con menos recursos de los expuestos, no es recomendable si se quiere trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
 
-* Memoria: cantidad mínima recomendada de 512MB de memoria RAM
+* **Memoria**: cantidad mínima recomendada de 512MB de memoria ``RAM``
 
- Si se dispone de espacio libre NO PARTICIONADO en el disco duro del equipo, o en el dispositivo desde el que se está arrancando, se puede mejorar el rendimiento creando particiones para "memoria de intercambio" o "swap" y/o para "persistencia de datos". De esta manera se libera parte de la memoria RAM utilizada y se deja disponible para que pueda ser usada por el sistema operativo y los programas.
+  .. note::
+    Si se dispone de espacio libre **no particionado** en el disco duro del equipo, o en el dispositivo desde el que se está arrancando, se puede mejorar el rendimiento creando particiones para ``memoria de intercambio`` o ``swap`` y/o para ``persistencia de datos``. De esta manera se libera parte de la memoria ``RAM`` utilizada y se deja disponible para que pueda ser usada por el sistema operativo y los programas.
 
-* Procesador: procesador mínimo recomendado Intel Pentium3/Pentium4 o equivalente.
+* **Procesador**: procesador mínimo recomendado Intel Pentium3/Pentium4 o equivalente.
 
 Hardware probado con la distribución
 ====================================

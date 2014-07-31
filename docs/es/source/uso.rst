@@ -1,8 +1,8 @@
-==============================
-Instalación de Clone-Wars Live
-==============================
+=============================
+Instalación de CloneWars Live
+=============================
 
-Existen diferentes procedimientos para transferir el contenido del archivo ``.iso`` que se descarga a un medio físico. Esos procedimientos dependerán del medio físico en el que se va a instalar la distribución y del sistema operativo que se empleé para realizar dicho proceso.
+Existen diferentes procedimientos para transferir el contenido del archivo ``.iso`` que se descarga a un medio físico. Esos procedimientos dependerán del medio físico en el que se va a instalar la distribución y del sistema operativo que se empleé.
 
 Grabación a DVD
 ===============
@@ -17,9 +17,9 @@ Utilizando GNU/Linux
 
 * Utilizando el comando ``dd``:
 
-  El primer paso será enchufar la unidad de almacenamiento que se quiere emplear para la copia de la distribución, debiendo tener ésta el tamaño suficiente como para poder albergar el fichero ``.iso`` descargado. En caso de querer crear una o más particiones adicionales para utilizar persistencia de los datos, el tamaño necesario habrá de aumentarse en consonancia con el tamaño requerido para dichas particiones.
+  El primer paso será conectar la unidad de almacenamiento que se quiere emplear para la copia de la distribución, debiendo tener ésta el tamaño suficiente como para poder albergar el fichero ``.iso`` descargado. En caso de querer crear una o más particiones adicionales para utilizar persistencia de los datos, el tamaño necesario habrá de aumentarse en consonancia con el tamaño requerido para dichas particiones.
 
-  Una vez enchufada la unidad de almacenamiento, desde una consola de comandos se puede utilizar el comando ``dmesg`` para inspeccionar las últimas líneas de mensajes del ``kernel`` y obtener el identificador de dispositivo que el sistema le ha asignado. 
+  Una vez conectada la unidad de almacenamiento, desde una consola de comandos se puede utilizar el comando ``dmesg`` para inspeccionar las últimas líneas de mensajes del ``kernel`` y obtener el identificador de dispositivo que el sistema le ha asignado. 
 
   Conociendo el identificador de dispositivo ya es posible hacer la copia del fichero ``.iso``, para lo que se podrán emplear dos métodos diferentes:
 
@@ -90,7 +90,7 @@ Utilizando GNU/Linux
 
 *  Con la utilidad `UNetbootin`_:
 
-  Al igual que en el apartado anterior, el primer paso será enchufar la unidad de almacenamiento que se quiere emplear para copiar la distribución en élla. Es necesario que contenga una partición con el sistema de ficheros ``FAT32`` y que ésta cuente con espacio suficiente para albergar el fichero ``.iso`` descargado. En caso de no ser así habrá que crearla previamente.
+  Al igual que en el apartado anterior, el primer paso será conectar la unidad de almacenamiento que se quiere emplear para copiar la distribución en élla. Es necesario que contenga una partición con el sistema de ficheros ``FAT32`` y que ésta cuente con espacio suficiente para albergar el fichero ``.iso`` descargado. En caso de no ser así habrá que crearla previamente.
 
   El siguiente paso será conocer el identificador de dispositivo asignado por el sistema a dicha partición. En el caso de que la partición ya existiese previamente, desde una consola de comandos se podrá utilizar el comando ``dmesg`` para inspeccionar las últimas líneas de mensajes del ``kernel`` y obtener así el identificador de dispositivo asignado. Si en cambio se ha creado posteriormente, éste ya será conocido por nosotros.
 
@@ -119,7 +119,8 @@ Utilizando MAC OSX
 
 En equipos con MAC OSX es posible emplear los mismos métodos que para GNU/Linux, variando únicamente el nombre del dispositivo en el que se va a volcar el contenido de la imagen.
 
-Es importante resaltar que trás haber realizado múltiples pruebas con diferentes equipos Apple, los pendrives generados con `UNetbootin`_ no siempre arrancan en dichos equipos, por lo que se recomienda utilizar el comando ``dd`` desde una consola de comandos para copiar la imagen de la distribución.
+  .. note::
+    Es importante resaltar que trás haber realizado múltiples pruebas con diferentes equipos Apple, los pendrives generados con `UNetbootin`_ no siempre arrancan en dichos equipos, por lo que se recomienda utilizar el comando ``dd`` desde una consola de comandos para copiar la imagen de la distribución.
 
 
 Utilizando MS Windows

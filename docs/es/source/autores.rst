@@ -1,13 +1,20 @@
-=======
-Credits
-=======
+========
+Créditos
+========
 
-Development Lead
-----------------
+Desarrollador principal
+-----------------------
 
 * Carlos Temes https://github.com/ctemescw
 
-Contributors
-------------
+Colaboradores
+-------------
 
 * Luis Morales https://github.com/lacion
+* Xoán Sampaiño https://github.com/xoan
+
+Beta testers
+------------
+
+* Furanshishouco https://github.com/furanshishouco
+
