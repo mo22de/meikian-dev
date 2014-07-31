@@ -76,10 +76,19 @@ Equipos
 Tarjetas controladoras
 ----------------------
 
-* Arduino Mega 2560 + RAMPS 1.4
-* Gen7 1.4.1
-* Gen7 1.5
-* Megatronics v2
-* Megatronics v3
-* Sanguinololu 1.3a
-* SAV MKI + SAV LCD
+* `Arduino Mega 2560`_ + `RAMPS 1.4`_
+* `Gen7 1.4.1`_
+* `Gen7 1.5`_
+* `Megatronics v2.0`_
+* Megatronics v3.0
+* `Sanguinololu 1.3a`_
+* `SAV MKI`_ + `SAV 3D LCD`_
+
+.. _`Arduino Mega 2560`: http://arduino.cc/en/Main/arduinoBoardMega2560
+.. _`Gen7 1.4.1`: http://reprap.org/wiki/Gen7_Board_1.4.1
+.. _`Gen7 1.5`: http://reprap.org/wiki/Gen7_Board-AVR_1.5
+.. _`Megatronics v2.0`: http://reprap.org/wiki/Megatronics_2.0
+.. _`RAMPS 1.4`: http://reprap.org/wiki/RAMPS_1.4/es
+.. _`Sanguinololu 1.3a`: http://reprap.org/wiki/Sanguinololu/es
+.. _`SAV 3D LCD`: http://reprap.org/wiki/SAV_3D_LCD
+.. _`SAV MKI`: http://reprap.org/wiki/SAV_MKI/es

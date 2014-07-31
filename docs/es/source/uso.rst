@@ -1,6 +1,6 @@
-=============================
-Instalación de CloneWars Live
-=============================
+==================================
+Puesta en marcha de CloneWars Live
+==================================
 
 Existen diferentes procedimientos para transferir el contenido del archivo ``.iso`` que se descarga a un medio físico. Esos procedimientos dependerán del medio físico en el que se va a instalar la distribución y del sistema operativo que se empleé.
 
