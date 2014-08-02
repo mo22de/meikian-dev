@@ -29,12 +29,20 @@ El sistema utilizado para su desarrollo es `LiveDebian`_, un sistema propio de `
 .. _`LinuxMint`: http://www.linuxmint.com
 .. _`LiveDebian`: http://live.debian.net
 
-Documentación
-=============
+Recursos
+========
 
-La documentación completa del proyecto se encuentra disponible *on line* a través de la dirección `clonewars-live.readthedocs.org`_.
+* La página `CWLive`_ creada dentro del ``Wiki`` de `RepRap.org`_.
+
+* El código y ficheros necesarios para generar una imagen de la distribución partiendo de cero están disponibles en el repositorio `cwlive-dev`_ de `GitHub`_.
+
+* La documentación completa del proyecto se encuentra disponible *on line* a través de la dirección `clonewars-live.readthedocs.org`_.
 
 .. _`clonewars-live.readthedocs.org`: http://clonewars-live.readthedocs.org/es/latest
+.. _`GitHub`: https://github.com
+.. _`cwlive-dev`: https://github.com/ctemescw/cwlive-dev
+.. _`RepRap.org`: http://reprap.org
+.. _`CWLive`: http://reprap.org/wiki/Clone_Wars:_CWLive
 
 Requisitos de hardware
 ======================

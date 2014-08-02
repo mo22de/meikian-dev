@@ -19,3 +19,5 @@ Beta testers
 ------------
 
 * Francisco Molina https://github.com/furanshishouco
+* WeSo https://github.com/WeSoRz
+* Xarpe Serpe https://github.com/XarpeSerpe
