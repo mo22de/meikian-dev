@@ -47,7 +47,7 @@ Recursos
 Requisitos de hardware
 ======================
 
-Los requerimientos necesarios para hacer funcionar *CloneWars Live* son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual, por lo que únicamente se enumeran los mínimos recomendados. Dependiendo de las tareas que se quieran llevar a cabo, y aunque el sistema funcione con menos recursos de los expuestos, no es recomendable si se quiere trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
+Los requerimientos necesarios para hacer funcionar *CloneWars Live* son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual, enumerándose únicamente los mínimos recomendados. A su vez, el consumo total de recursos también está determinado por las tareas que se lleven a cabo, por lo que no es aconsejable utilizar la distribución con menos recursos de los especificados para que sea posible trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
 
 * **Memoria**: cantidad mínima recomendada de 512MB de memoria ``RAM``
 
