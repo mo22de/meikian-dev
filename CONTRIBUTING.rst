@@ -24,21 +24,24 @@ If you are reporting a bug, please include:
 Fix Bugs
 ~~~~~~~~
 
-Look through the GitHub issues for bugs. Anything tagged with "bug"
+Look through the `GitHub`_ issues for bugs. Anything tagged with ``bug``
 is open to whoever wants to implement it.
+
+.. _`GitHub`: https://github.com
 
 Implement Features
 ~~~~~~~~~~~~~~~~~~
 
-Look through the GitHub issues for features. Anything tagged with "feature"
+Look through the `GitHub`_ issues for features. Anything tagged with ``feature``
 is open to whoever wants to implement it.
+
+.. _`GitHub`: https://github.com
 
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-cwlive could always use more documentation, whether as part of the 
-official cwlive docs, in docstrings, or even on the web in blog posts,
-articles, and such.
+*CloneWars Live* could always use more documentation, whether as part of the 
+official docs, in docstrings, or even on the web in blog posts, articles, and such.
 
 Submit Feedback
 ~~~~~~~~~~~~~~~
@@ -55,9 +58,9 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `cwlive` for local development.
+Ready to contribute? Here's how to set up *CloneWars Live* for local development.
 
-1. Fork the `cwlive` repo on GitHub.
+1. Fork the `cwlive-dev` repo on `GitHub`_.
 2. Clone your fork locally::
 
     $ git clone git@github.com:your_name_here/cwlive.git
@@ -72,22 +75,24 @@ Ready to contribute? Here's how to set up `cwlive` for local development.
 
 5. ToDo
 
-6. Commit your changes and push your branch to GitHub::
+6. Commit your changes and push your branch to `GitHub`_::
 
     $ git add .
     $ git commit -m "Your detailed description of your changes."
     $ git flow feature publish
 
-7. Submit a pull request through the GitHub website.
+7. Submit a pull request through the `GitHub`_ website.
+
+.. _`GitHub`: https://github.com
 
 Pull Request Guidelines
 -----------------------
 
 Before you submit a pull request, check that it meets these guidelines:
 
-cwlive uses `gitflow`_ for its branch management.
+`cwlive-dev` uses `git-flow`_ for its branch management.
 
-1. Implement changes in new git branches, following git-flow's model:
+1. Implement changes in new git branches, following `git-flow`_'s model:
  
  * Changes based off of *develop* will receive the least amount of skepticism.
        
@@ -97,7 +102,7 @@ cwlive uses `gitflow`_ for its branch management.
        
  * Changes based off of *master* or a prior release tag will be given the most 
    skepticism. We may accept patches for major bugs against past releases, but
-   would prefer to see such changes follow the normal git-flow process.
+   would prefer to see such changes follow the normal `git-flow`_ process.
        
     We will not accept new features based off of *master*.
 
@@ -107,4 +112,4 @@ cwlive uses `gitflow`_ for its branch management.
  
 4. Update the change log appropriately.
 
-.. _`gitflow`: https://github.com/nvie/gitflow
+.. _`git-flow`: https://github.com/nvie/gitflow
