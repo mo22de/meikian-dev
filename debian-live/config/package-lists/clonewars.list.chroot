@@ -94,6 +94,8 @@ cwlive-arduino-extras
 geda geda-utils geda-examples gerbv geda-gsymcheck geda-gattrib geda-xgsch2pcb kicad kicad-doc-es pcb
 ## fritzing binaries packaged for cw-live
 fritzing
+## scratch 4 arduino binaries packaged for cw-live
+s4a
 
 
 ## Misc
