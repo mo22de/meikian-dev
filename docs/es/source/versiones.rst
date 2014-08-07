@@ -8,8 +8,16 @@ Versiones
 
 **Primera versión beta**
 
+* Añadido un segundo kernel con soporte para PAE y SMP como opción por defecto en el menú de arranque
+* Añadida opción en el menú de arranque para equipos antiguos que utiliza el anterior kernel
+* Migrado el sistema de documentación a RST y readthedocs.org
 * Actualización de Fritzing a la versión 0.9.0b
+* Actualización de Slic3r a la versión 1.1.7 stable
+* Añadido Scratch 1.4
+* Añadido S4A 1.5 
 * Agregado directorio para acceso fácil a configuraciones de utilidades de impresión 3D
+* Agregados enlaces al administrador de archivos para facilitar la navegación
+* Sustituido oracle-java7-installer por openjdk-7-jre debido a problemas con la licencia
 
 2014.07.12
 ++++++++++
@@ -27,7 +35,7 @@ Versiones
 * Actualización de Netfabb Basic a la versión 5.1.1
 * Actualización de Slic3r a la versión 1.1.6
 * Actualización de FreeCAD a la versión 0.14.3692
-* Añadido Fitzing 0.8.7b
+* Añadido Fritzing 0.8.7b
 * Inclusión de Graphviz para poder ver las dependencias en FreeCAD
 * Backport de PySerial desde Debian testing con inclusión de parche para permitir conexiones a cualquier velocidad
 * Añadido soporte de flash para chromium

@@ -62,6 +62,7 @@ Hardware probado con la distribución
 Equipos
 -------
 
+* Acer Aspire 7750G: OK
 * Apple MacBook Air 11" 2011: OK
 * Apple MacBook Pro 5.1 15" late 2008: No detecta el arranque. KO
 * Apple MacBook Pro Retina 11.2 15" late 2013: Arranca con algunos problemas, aunque no detecta la tarjeta WiFi
