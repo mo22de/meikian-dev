@@ -1,7 +1,24 @@
+# Distro build files and logs
+auto
+binary
+binary.*
+.build
+cache
+chroot
+chroot.*
+config/binary
+config/bootstrap
+config/chroot
+config/common
+config/source
+cw-live_*.log
+local
+
 # Packages
 *.egg
 *.egg-info
 
+# Python virtual environment
 venv
 
 # Installer logs
