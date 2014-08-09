@@ -1,27 +1,32 @@
-==================================
-Puesta en marcha de CloneWars Live
-==================================
+===========================
+Obtención de CloneWars Live
+===========================
 
-Existen diferentes procedimientos para transferir el contenido del archivo ``.iso`` que se descarga a un medio físico. Esos procedimientos dependerán del medio físico en el que se va a instalar la distribución y del sistema operativo que se empleé.
+La descarga de la distribución de *CloneWars Live* se puede hacer por cualquiera de los siguientes métodos:
+
+ * Descarga directa
+ * Descarga vía torrent
+
+Una vez se ha descargado el fichero ``iso`` conteniendo la distribución, es necesario transferir su contenido a un medio físico. Los procedimientos necesarios para realizar dicha operación dependeran tanto del medio físico como del sistema operativo utilizados.
 
 Grabación a DVD
 ===============
 
-No representa ningún problema en cuanto a sistema operativo o plataforma puesto que cualquier programa de grabación a DVD, que permita grabar imágenes ``.iso``, servirá para realizar tal operación.
+No plantea ningún problema en cuanto a la plataforma o el sistema operativo utilizados, puesto que cualquier programa de grabación a CD/DVD que permita grabar imágenes ``iso`` servirá para realizar esta operación.
 
 Copia a un dispositivo de almacenamiento USB
 ============================================
 
 Utilizando GNU/Linux
----------------------------
+--------------------
 
 * Utilizando el comando ``dd``:
 
-  El primer paso será conectar la unidad de almacenamiento que se quiere emplear para la copia de la distribución, debiendo tener ésta el tamaño suficiente como para poder albergar el fichero ``.iso`` descargado. En caso de querer crear una o más particiones adicionales para utilizar persistencia de los datos, el tamaño necesario habrá de aumentarse en consonancia con el tamaño requerido para dichas particiones.
+  El primer paso será conectar la unidad de almacenamiento que se quiere emplear para la copia de la distribución, debiendo tener ésta el tamaño suficiente como para poder albergar el fichero ``iso`` descargado. En caso de querer crear una o más particiones adicionales para utilizar persistencia de los datos, el tamaño necesario habrá de aumentarse en consonancia con el tamaño requerido para dichas particiones.
 
   Una vez conectada la unidad de almacenamiento, desde una consola de comandos se puede utilizar el comando ``dmesg`` para inspeccionar las últimas líneas de mensajes del ``kernel`` y obtener el identificador de dispositivo que el sistema le ha asignado. 
 
-  Conociendo el identificador de dispositivo ya es posible hacer la copia del fichero ``.iso``, para lo que se podrán emplear dos métodos diferentes:
+  Conociendo el identificador de dispositivo ya es posible hacer la copia del fichero ``iso``, para lo que se podrán emplear dos métodos diferentes:
 
   * El primero, más correcto, será utilizando los comandos ``isoinfo`` y ``dd``:
 
@@ -90,7 +95,7 @@ Utilizando GNU/Linux
 
 *  Con la utilidad `UNetbootin`_:
 
-  Al igual que en el apartado anterior, el primer paso será conectar la unidad de almacenamiento que se quiere emplear para copiar la distribución en élla. Es necesario que contenga una partición con el sistema de ficheros ``FAT32`` y que ésta cuente con espacio suficiente para albergar el fichero ``.iso`` descargado. En caso de no ser así habrá que crearla previamente.
+  Al igual que en el apartado anterior, el primer paso será conectar la unidad de almacenamiento que se quiere emplear para copiar la distribución en élla. Es necesario que contenga una partición con el sistema de ficheros ``FAT32`` y que ésta cuente con espacio suficiente para albergar el fichero ``iso`` descargado. En caso de no ser así habrá que crearla previamente.
 
   El siguiente paso será conocer el identificador de dispositivo asignado por el sistema a dicha partición. En el caso de que la partición ya existiese previamente, desde una consola de comandos se podrá utilizar el comando ``dmesg`` para inspeccionar las últimas líneas de mensajes del ``kernel`` y obtener así el identificador de dispositivo asignado. Si en cambio se ha creado posteriormente, éste ya será conocido por nosotros.
 
@@ -100,7 +105,7 @@ Utilizando GNU/Linux
 
   Pasos a seguir una vez se ha lanzado la aplicación:
 
-  * Seleccionar ``DiscoImagen``, formato ``ISO`` e introducir la ubicación del fichero ``.iso`` con la imagen de la distribución. Esto último se puede hacer a través del explorador de archivos incorporado.
+  * Seleccionar ``DiscoImagen``, formato ``ISO`` e introducir la ubicación del fichero ``iso`` con la imagen de la distribución. Esto último se puede hacer a través del explorador de archivos incorporado.
 
   * Seleccionar el tipo ``Unidad USB`` y como ``Unidad`` el identificador de dispositivo asignado a la partición en donde se va a instalar. Esto último normalmente es posible hacerlo desde el propio botón desplegable.
 
@@ -130,28 +135,28 @@ Para los equipos con MS Windows también es posible recurrir al empleo de `UNetb
 
 
 Uso de persistencia para los datos del usuario
-----------------------------------------------
+==============================================
 
 Para conservar la información, archivos, configuraciones, etc o los cambios que se realicen entre reinicios de la distribución *Live*, se puede recurrir al uso de particiones auxiliares en las que dicha información quede almacenada de manera permanente. Se puede elegir entre dos clases de persistencia:
 
-* **De datos de sistema**: en la que se almacenan todos los cambios que se realicen en el sistema, incluidos los de los directorios del usuario.
-* **De datos de usuario**: en la que se almacenan únicamente los cambios que se realicen en el directorio del usuario.
+* **De datos de sistema** en la que se almacenan todos los cambios que se realicen en el sistema, incluidos los de los directorios del usuario.
+* **De datos de usuario** en la que se almacenan únicamente los cambios que se realicen en el directorio del usuario.
 
 Para activarla es necesario crear una partición adicional, en el espacio libre en el dispositivo ``USB`` o en el disco duro, usando un sistema de ficheros ``ext3`` o ``ext4`` y asignándole una de las siguientes etiquetas de volumen:
 
-* ``live-rw``: para tener persistencia de datos de sistema.
-* ``home-rw``: para tener persistencia de datos de usuario.
+* ``live-rw`` para tener persistencia de datos de sistema.
+* ``home-rw`` para tener persistencia de datos de usuario.
 
-Si se crean desde la propia distribución *Live*, será necesario el reinicio del sistema para que se reconozca en el arranque la nueva partición y se generen la estructura de directorios y los ficheros necesarios para su funcionamiento.
+Si se crean desde la propia distribución *Live*, será necesario el reinicio del sistema para que se reconozcan en el arranque las nuevas particiones y se genere la estructura de directorios y ficheros necesaria para su funcionamiento.
 
 
 Usuarios
---------
+========
 
 Los usuarios definidos en la distribución, tanto en modo *Live* como instalada en disco duro, son los siguientes:
 
-* ``root``: deshabilitado por defecto, por lo que para ejecutar acciones o comandos con privilegios de superusuario habrá que recurrir al uso de los comandos ``sudo`` o ``gksudo``.
-* ``cw``: es el usuario por defecto de la distribución, tiene contraseña idéntica al nombre de usuario, es decir ``cw``.
+* ``root`` deshabilitado por defecto, por lo que para ejecutar acciones o comandos con privilegios de superusuario habrá que recurrir al uso de los comandos ``sudo`` o ``gksudo``.
+* ``cw`` es el usuario por defecto de la distribución, tiene contraseña idéntica al nombre de usuario, es decir ``cw``.
 
   .. note::
-    Cuando la distribución esté instalada en disco duro se nos pedirá la contraseña para la ejecución de ciertos comandos o acciones que necesitan privilegios de superusuario, no siendo así en el modo *Live*.
+    Cuando la distribución esté instalada en disco duro sera necesario introducir la contraseña del usuario para la ejecución de ciertos comandos o acciones que necesitan privilegios de superusuario, no siendo así en el modo *Live*.

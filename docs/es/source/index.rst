@@ -12,8 +12,9 @@ Contents:
    :maxdepth: 2
 
    leeme
-   uso
+   descargar
    programas
+   iso
    contribuciones
    autores
    versiones

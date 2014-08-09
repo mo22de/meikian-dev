@@ -18,6 +18,7 @@ Versiones
 * Agregado directorio para acceso fácil a configuraciones de utilidades de impresión 3D
 * Agregados enlaces al administrador de archivos para facilitar la navegación
 * Sustituido oracle-java7-installer por openjdk-7-jre debido a problemas con la licencia
+* Eliminada la imagen de memtest86 debido a problemas con la licencia
 
 2014.07.12
 ++++++++++
