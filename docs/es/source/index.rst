@@ -14,9 +14,10 @@ Contents:
    leeme
    descargar
    programas
-   iso
+   imagen
    contribuciones
    autores
+   licencias
    versiones
 
 Indices and tables

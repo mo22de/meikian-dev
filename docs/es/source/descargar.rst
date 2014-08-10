@@ -1,18 +1,18 @@
-===========================
-Obtención de CloneWars Live
-===========================
+======================
+Obtener CloneWars Live
+======================
 
 La descarga de la distribución de *CloneWars Live* se puede hacer por cualquiera de los siguientes métodos:
 
  * Descarga directa
  * Descarga vía torrent
 
-Una vez se ha descargado el fichero ``iso`` conteniendo la distribución, es necesario transferir su contenido a un medio físico. Los procedimientos necesarios para realizar dicha operación dependeran tanto del medio físico como del sistema operativo utilizados.
+Una vez descargado el archivo ``iso`` conteniendo la distribución, es necesario transferir su contenido a un medio físico. Los procedimientos necesarios para realizar dicha operación dependeran tanto del medio físico como del sistema operativo utilizados.
 
 Grabación a DVD
 ===============
 
-No plantea ningún problema en cuanto a la plataforma o el sistema operativo utilizados, puesto que cualquier programa de grabación a CD/DVD que permita grabar imágenes ``iso`` servirá para realizar esta operación.
+No plantea ningún problema en cuanto a la plataforma o el sistema operativo utilizados, puesto que cualquier programa de grabación a ``CD``/``DVD`` que permita grabar imágenes ``iso`` servirá para realizar esta operación.
 
 Copia a un dispositivo de almacenamiento USB
 ============================================
@@ -22,15 +22,15 @@ Utilizando GNU/Linux
 
 * Utilizando el comando ``dd``:
 
-  El primer paso será conectar la unidad de almacenamiento que se quiere emplear para la copia de la distribución, debiendo tener ésta el tamaño suficiente como para poder albergar el fichero ``iso`` descargado. En caso de querer crear una o más particiones adicionales para utilizar persistencia de los datos, el tamaño necesario habrá de aumentarse en consonancia con el tamaño requerido para dichas particiones.
+  El primer paso será conectar la unidad de almacenamiento que se quiere emplear para la copia de la distribución, debiendo tener ésta el tamaño suficiente como para poder albergar el archivo ``iso`` descargado. En caso de querer crear una o más particiones adicionales para utilizar persistencia de los datos, el tamaño necesario habrá de aumentarse en consonancia con el tamaño requerido para dichas particiones.
 
   Una vez conectada la unidad de almacenamiento, desde una consola de comandos se puede utilizar el comando ``dmesg`` para inspeccionar las últimas líneas de mensajes del ``kernel`` y obtener el identificador de dispositivo que el sistema le ha asignado. 
 
-  Conociendo el identificador de dispositivo ya es posible hacer la copia del fichero ``iso``, para lo que se podrán emplear dos métodos diferentes:
+  Conociendo el identificador de dispositivo ya es posible hacer la copia del archivo ``iso``, para lo que se podrán emplear dos métodos diferentes:
 
   * El primero, más correcto, será utilizando los comandos ``isoinfo`` y ``dd``:
 
-    Por ejemplo, para obtener la información del fichero ``cwlive-alpha3.iso`` se ejecutará el siguiente comando::
+    Por ejemplo, para obtener la información del archivo ``cwlive-alpha3.iso`` se ejecutará el siguiente comando::
 
       $ isoinfo -d -i cwlive-alpha3.iso
            
@@ -95,7 +95,7 @@ Utilizando GNU/Linux
 
 *  Con la utilidad `UNetbootin`_:
 
-  Al igual que en el apartado anterior, el primer paso será conectar la unidad de almacenamiento que se quiere emplear para copiar la distribución en élla. Es necesario que contenga una partición con el sistema de ficheros ``FAT32`` y que ésta cuente con espacio suficiente para albergar el fichero ``iso`` descargado. En caso de no ser así habrá que crearla previamente.
+  Al igual que en el apartado anterior, el primer paso será conectar la unidad de almacenamiento que se quiere emplear para copiar la distribución en élla. Es necesario que contenga una partición con sistema de ficheros ``FAT32`` y que ésta cuente con espacio suficiente para albergar el archivo ``iso`` descargado. En caso de no ser así habrá que crearla previamente.
 
   El siguiente paso será conocer el identificador de dispositivo asignado por el sistema a dicha partición. En el caso de que la partición ya existiese previamente, desde una consola de comandos se podrá utilizar el comando ``dmesg`` para inspeccionar las últimas líneas de mensajes del ``kernel`` y obtener así el identificador de dispositivo asignado. Si en cambio se ha creado posteriormente, éste ya será conocido por nosotros.
 
@@ -105,7 +105,7 @@ Utilizando GNU/Linux
 
   Pasos a seguir una vez se ha lanzado la aplicación:
 
-  * Seleccionar ``DiscoImagen``, formato ``ISO`` e introducir la ubicación del fichero ``iso`` con la imagen de la distribución. Esto último se puede hacer a través del explorador de archivos incorporado.
+  * Seleccionar ``DiscoImagen``, formato ``ISO`` e introducir la ubicación del archivo ``iso`` con la imagen de la distribución. Esto último se puede hacer a través del explorador de archivos incorporado.
 
   * Seleccionar el tipo ``Unidad USB`` y como ``Unidad`` el identificador de dispositivo asignado a la partición en donde se va a instalar. Esto último normalmente es posible hacerlo desde el propio botón desplegable.
 
@@ -113,7 +113,7 @@ Utilizando GNU/Linux
 
   La utilidad `UNetbootin`_ modifica la configuración del menú de arranque de la distribución haciendo que no funcione correctamente, por lo que para restaurarlo a su estado normal hay que realizar la siguiente operación:
 
-  * Dentro del directorio raíz de la unidad de almacenamiento en donde se ha volcado la distribución, existe un directorio con nombre ``"syslinux`` que contiene un fichero ``syslinux.cfg``. Es necesario borrar dicho fichero para, a continuación, proceder a renombrar el fichero ``syslinux.cfg.orig`` a ``syslinux.cfg``.
+  * Dentro del directorio raíz de la unidad de almacenamiento en donde se ha volcado la distribución, existe un directorio con nombre ``"syslinux`` que contiene un archivo ``syslinux.cfg``. Es necesario borrar dicho archivo para, a continuación, proceder a renombrar el archivo ``syslinux.cfg.orig`` a ``syslinux.cfg``.
 
   A partir de este momento la distribución ya estará transferida a la unidad de almacenamiento. A la hora de arrancarla es necesario asegurarse de que el equipo permita el arranque desde dispositivos ``USB`` y que en la "BIOS" del equipo esté seleccionado correctamente el orden de la secuencia de arranque.
 
@@ -147,7 +147,7 @@ Para activarla es necesario crear una partición adicional, en el espacio libre 
 * ``live-rw`` para tener persistencia de datos de sistema.
 * ``home-rw`` para tener persistencia de datos de usuario.
 
-Si se crean desde la propia distribución *Live*, será necesario el reinicio del sistema para que se reconozcan en el arranque las nuevas particiones y se genere la estructura de directorios y ficheros necesaria para su funcionamiento.
+Si se crean desde la propia distribución *Live*, será necesario el reinicio del sistema para que se reconozcan en el arranque las nuevas particiones y se genere la estructura de directorios y archivos necesaria para su funcionamiento.
 
 
 Usuarios

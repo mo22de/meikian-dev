@@ -34,7 +34,7 @@ Recursos
 
 * La página `CWLive`_ creada dentro del ``Wiki`` de `RepRap.org`_.
 
-* El código y ficheros necesarios para generar una imagen de la distribución partiendo de cero están disponibles en el repositorio `cwlive-dev`_ de `GitHub`_.
+* El código y archivos necesarios para generar una imagen de la distribución partiendo de cero están disponibles en el repositorio `cwlive-dev`_ de `GitHub`_.
 
 * La documentación completa del proyecto se encuentra disponible *on line* a través de la dirección `clonewars-live.readthedocs.org`_.
 
