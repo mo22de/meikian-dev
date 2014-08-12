@@ -36,9 +36,9 @@ Recursos
 
 * El código y archivos necesarios para generar una imagen de la distribución partiendo de cero están disponibles en el repositorio `cwlive-dev`_ de `GitHub`_.
 
-* La documentación completa del proyecto se encuentra disponible *on line* a través de la dirección `clonewars-live.readthedocs.org`_.
+* La documentación completa del proyecto se encuentra disponible *on line* a través de la dirección `clonewars-live-es.readthedocs.org`_.
 
-.. _`clonewars-live.readthedocs.org`: http://clonewars-live.readthedocs.org/es/latest
+.. _`clonewars-live-es.readthedocs.org`: http://clonewars-live.readthedocs.org/es/latest
 .. _`GitHub`: https://github.com
 .. _`cwlive-dev`: https://github.com/ctemescw/cwlive-dev
 .. _`RepRap.org`: http://reprap.org
@@ -47,7 +47,7 @@ Recursos
 Requisitos de hardware
 ======================
 
-Los requerimientos necesarios para hacer funcionar *CloneWars Live* son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual, enumerándose únicamente los mínimos recomendados. A su vez, el consumo total de recursos también está determinado por las tareas que se lleven a cabo, por lo que no es aconsejable utilizar la distribución con menos recursos de los especificados para que sea posible trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
+Los requerimientos necesarios para hacer funcionar *CloneWars Live* son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual, enumerándose únicamente los mínimos recomendados. A su vez el consumo total de recursos también está determinado por las tareas que se lleven a cabo, por lo que no es aconsejable utilizar la distribución con menos recursos de los especificados para que sea posible trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
 
 * **Memoria**: cantidad mínima recomendada de 512MB de memoria ``RAM``
 

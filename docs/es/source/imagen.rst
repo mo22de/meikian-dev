@@ -2,9 +2,9 @@
 Generar una imagen de CloneWars live
 ====================================
 
-*CloneWars Live* se desarrolla con `Debian`_ GNU/Linux 7.x ``Wheezy`` para arquitectura ``x86`` utilizando para ello `LiveDebian`_, el sistema de creación de sistemas ``live`` propio de dicha distribución. Es posible utilizar otras versiones o arquitecturas, o incluso usar distribuciones derivadas, pero en dichos casos ya no se puede garantizar que el proceso detallado a continuación sea el mismo o que funcione.
+*CloneWars Live* se desarrolla con `Debian`_ GNU/Linux 7.x ``Wheezy`` para arquitectura ``x86`` utilizando para ello `LiveDebian`_, el sistema de creación de sistemas ``live`` propio de dicha distribución. Es posible utilizar otras versiones o arquitecturas, o incluso usar distribuciones derivadas, pero en dichos casos ya no se puede garantizar que funcione el proceso detallado a continuación o que sea el mismo.
 
-Para generar una imagen ``iso`` de *CloneWars Live* partiendo de cero se necesitan una serie de requisitos.
+Para generar una imagen de *CloneWars Live* partiendo de cero se necesitan previamente una serie de requisitos.
 
 .. _`Debian`: http://www.debian.org
 .. _`LiveDebian`: http://live.debian.net
@@ -17,18 +17,18 @@ El ``script`` de creación se necesita ejecutar con permisos de susperusuario, y
 Utilidades necesarias
 ---------------------
 
-Se necesitan una serie de utilidades instaladas previamente a generar la imagen, para lo que se puede recurrir al siguiente comando::
+Se necesitan una serie de utilidades instaladas previamente, para lo que se puede recurrir al siguiente comando::
 
   user@cw-dev:~$ sudo apt-get install apt-utils debootstrap dosfstools debian-keyring fakeroot genisoimage genext2fs gnu-fdisk loadlin mtd-utils parted squashfs-tools syslinux uuid-runtime win32-loader xorriso
 
-También se necesita tener instalado el conjunto de utilidades de `LiveDebian`_ en su rama ``3.x`` que es la actualmente disponible en `Debian`_ GNU/Linux 7.x ``Wheezy``. Para ello se puede utilizar el comando::
+También se necesita tener instalado el conjunto de utilidades de `LiveDebian`_ en su rama ``3.x`` que es la actualmente disponible en `Debian`_ GNU/Linux 7.x ``Wheezy``. Para ello también se puede utilizar el comando::
 
   user@cw-dev:~$ sudo apt-get install live-build
 
 Repositorio de CloneWars Live en GitHub
 ---------------------------------------
 
-Se necesita disponer de una copia del contenido del repositorio de *CloneWars Live* en `GitHub`_. Esto se puede hacer de dos maneras diferentes, mediante el clonado del repositorio  o descargándose un archivo ``zip`` con su contenido desde la propia página de `GitHub`_.
+Se necesita disponer de una copia del contenido del repositorio de *CloneWars Live* en `GitHub`_. Esto se puede hacer de dos maneras diferentes, mediante el clonado del repositorio o descargándose un archivo ``zip`` con su contenido desde la propia página de `GitHub`_.
 
 .. _`GitHub`: https://www.github.com
 
@@ -47,13 +47,13 @@ Se necesita disponer de una copia del contenido del repositorio de *CloneWars Li
 
   A continuación se descomprime el archivo ``zip`` descargado previamente y se renombra para hacer más fácil el trabajo con él::
 
-    user@cw-dev:~$ unzip cwlive-dev.zip
+    user@cw-dev:~$ unzip develop.zip
     user@cw-dev:~$ mv cwlive-dev-development my_cwlive
 
 Modificación del script de creación de CloneWars Live
 -----------------------------------------------------
 
-Puesto que cada persona hace las cosas de manera diferente, se necesitan modificar un par de parámetros dentro del ``script`` de creación para especificar la ruta en dónde se ha copiado el contenido del repositorio de *CloneWars Live*.
+Se necesitan modificar un par de parámetros dentro del ``script`` de creación para especificar la ruta dónde se ha copiado el contenido del repositorio de *CloneWars Live*.
 
 Dentro del directorio que se ha utilizado para albergar el contenido del repositorio se encuentra el ``script`` ``make-live.sh``, en el cual se tendrán que modificar las líneas ``14`` y ``15`` para especificar las rutas correspondientes.
 
