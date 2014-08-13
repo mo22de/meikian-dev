@@ -32,6 +32,10 @@ cp -f "/etc/cwlive.d/etc/skel/.gtk-bookmarks.${FILE_EXT}" "/home/${DEFAULT_USER}
 cp -f "/etc/cwlive.d/etc/skel/.config/chromium/Default/Bookmarks.${FILE_EXT}" \
     "/home/${DEFAULT_USER}/.config/chromium/Default/Bookmarks"
 
+# copy Firefox bookmarks to the user's home
+cp -f "/etc/cwlive.d/etc/skel/.mozilla/firefox/acrs5bg5.default/places.sqlite.${FILE_EXT}" \
+    "/home/${DEFAULT_USER}/.mozilla/firefox/acrs5bg5.default/places.sqlite"
+
 # copy configurations directory to the user's home
 if [ "${FILE_EXT}" = "es" ]; then
     cp -rf "/etc/cwlive.d/etc/skel/Configurations" \
