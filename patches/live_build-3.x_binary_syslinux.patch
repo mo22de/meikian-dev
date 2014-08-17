@@ -1,0 +1,35 @@
+--- /usr/lib/live/build/binary_syslinux.orig	2013-04-30 08:28:19.000000000 +0200
++++ /usr/lib/live/build/binary_syslinux	2014-08-15 15:58:14.168013010 +0200
+@@ -183,15 +183,29 @@
+ 			;;
+ 
+ 		*)
++      # this "for" uses a sorting by lenght and adds an indexed order
++      # example:
++      # - if we have: "686-pae 486 3.8-trunk-686-pae", we got this list:
++      # 3.8-trunk-686-pae:3
++      # 686-pae:1
++      # 486:2
++
++      for _FLAVOUR_INDEXED in $( echo "$LB_LINUX_FLAVOURS" | tr ' ' '\n' | awk '{ printf "%d:%s:%d\n", length($0), $0, NR;}' | sort -rn | sed 's/^[0-9]*://' )
++      do
++        _FLAVOUR="$(echo "${_FLAVOUR_INDEXED}" | sed 's|:.*$||g' )"
++        _INDEX="$(echo "${_FLAVOUR_INDEXED}" | sed 's|^.*:||g' )"
++
++        mv binary/live/vmlinuz-*${_FLAVOUR} binary/live/vmlinuz${_INDEX}
++        mv binary/live/initrd.img-*${_FLAVOUR} binary/live/initrd${_INDEX}.img
++      done
++
++
+ 			_NUMBER="0"
+ 
+ 			for _FLAVOUR in ${LB_LINUX_FLAVOURS}
+ 			do
+ 				_NUMBER="$((${_NUMBER} + 1))"
+ 
+-				mv binary/live/vmlinuz-*-${_FLAVOUR} binary/live/vmlinuz${_NUMBER}
+-				mv binary/live/initrd.img-*-${_FLAVOUR} binary/live/initrd${_NUMBER}.img
+-
+ 				if [ "${_NUMBER}" -gt 1 ]
+ 				then
+ 					echo "" >> "${_TARGET}/live.cfg"
