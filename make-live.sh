@@ -44,8 +44,8 @@ fi
 ## setup the "live" system
 lb config                                                             \
     --distribution wheezy --system live                               \
-    --architectures i386 --linux-flavours "486 686-pae rt-686-pae"    \
-    --linux-packages linux-image-3.2.0-4                              \
+    --architectures i386                                              \
+    --linux-flavours "3.2.0-4-486 3.2.0-4-686-pae 3.4-9-rtai-686-pae" \
     --apt apt --apt-indices false --apt-recommends false              \
     --apt-secure true --security true --apt-source-archives true      \
     --updates false                                                   \
