@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Link
+Name=README
+Comment=Documentation
+Icon=gtk-help
+URL=/usr/local/doc/cwlive/html/en/index.html
