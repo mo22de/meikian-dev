@@ -95,15 +95,21 @@ dfu-programmer
 cwlive-arduino-extras
 
 
+## Development
+##
+## processing binaries packaged for cw-live
+processing
+## scratch
+scratch
+## scratch 4 arduino binaries packaged for cw-live
+s4a
+
+
 ## Electronics
 ##
 geda geda-utils geda-examples gerbv geda-gsymcheck geda-gattrib geda-xgsch2pcb kicad kicad-doc-es pcb
 ## fritzing binaries packaged for cw-live
 fritzing
-## scratch
-scratch
-## scratch 4 arduino binaries packaged for cw-live
-s4a
 
 
 ## Misc
