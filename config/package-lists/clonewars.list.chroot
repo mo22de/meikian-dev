@@ -72,8 +72,8 @@ slic3r
 python-gtk2 python-gtkglext1 
 ## tatlin packaged for cw-live
 tatlin
-## netfabb-basic
-netfabb-basic
+## netfabb-basic 
+#netfabb-basic
 
 
 ## CNC
