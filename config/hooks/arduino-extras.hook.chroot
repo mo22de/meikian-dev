@@ -2,7 +2,7 @@
 
 set -e
 
-## Setting CloneWars-Live Arduino extras
+## Setting Arduino extras
 ##
 
 # Making backup of the original arduino directories
@@ -12,7 +12,7 @@ fi
 if [ -d "/usr/share/doc/arduino-core/examples" ]; then
   cp -af /usr/share/doc/arduino-core/examples /usr/share/doc/arduino-core/examples.orig
 fi
-# Copying the cwlive arduino extras over the arduino directories
+# Copying the arduino extras over the arduino directories
 if [ -d "/usr/share/arduino.cwlive" ]; then
   cp -af /usr/share/arduino.cwlive/. /usr/share/arduino
   rm -rf /usr/share/arduino.cwlive
