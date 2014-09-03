@@ -70,7 +70,7 @@
         <Setting name="Show Tree Remote">1</Setting>
         <Setting name="File Pane Layout">0</Setting>
         <Setting name="File Pane Swap">0</Setting>
-        <Setting name="Last local directory">/home/cw/</Setting>
+        <Setting name="Last local directory">/home/user/</Setting>
         <Setting name="Filelist directory sort">0</Setting>
         <Setting name="Queue successful autoclear">0</Setting>
         <Setting name="Queue column widths">180 60 180 80 60 150</Setting>
@@ -123,7 +123,7 @@
         <Setting name="Toolbar hidden">0</Setting>
         <Setting name="Strip VMS revisions">0</Setting>
         <Setting name="Show Site Manager on startup">0</Setting>
-        <Setting name="Config Location">/home/cw/.filezilla</Setting>
+        <Setting name="Config Location">/home/user/.filezilla</Setting>
         <Setting name="Kiosk mode">0</Setting>
         <Setting name="Disable update check">0</Setting>
         <LastServer>

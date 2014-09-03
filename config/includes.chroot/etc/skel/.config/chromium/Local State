@@ -110,7 +110,7 @@
       "last_active_profiles": [  ],
       "last_used": "Default",
       "preference_hashes": {
-         "/home/cw/.config/chromium/Default": {
+         "/home/user/.config/chromium/Default": {
             "browser": {
                "show_home_button": "9463DEC4C15E47646D05FD921E0E475249EA15DE77808C4664EF238C54D89FC7"
             },
@@ -149,10 +149,10 @@
             }
          },
          "hash_of_hashes": {
-            "/home/cw/.config/chromium/Default": "A73653F84CBA733812578027144A90A0308C9EE515F14E813656FC27B0B86B52"
+            "/home/user/.config/chromium/Default": "A73653F84CBA733812578027144A90A0308C9EE515F14E813656FC27B0B86B52"
          },
          "store_versions": {
-            "/home/cw/.config/chromium/Default": 2
+            "/home/user/.config/chromium/Default": 2
          }
       }
    },

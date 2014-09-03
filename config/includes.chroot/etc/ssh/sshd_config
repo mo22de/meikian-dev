@@ -87,7 +87,7 @@ Subsystem sftp /usr/lib/openssh/sftp-server
 UsePAM yes
 
 # Allow authorized users only
-AllowUsers cw
+AllowUsers user
 
 # Disallow weak keys
 PermitBlacklistedKeys no

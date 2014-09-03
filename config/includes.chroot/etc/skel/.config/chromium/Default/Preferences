@@ -73,7 +73,7 @@
       "startup_list": [ 1 ]
    },
    "download": {
-      "default_directory": "/home/cw/Descargas",
+      "default_directory": "/home/user/Descargas",
       "directory_upgrade": true
    },
    "enable_do_not_track": true,
@@ -449,7 +449,7 @@
       }
    },
    "savefile": {
-      "default_directory": "/home/cw/Descargas"
+      "default_directory": "/home/user/Descargas"
    },
    "search": {
       "suggest_enabled": false
