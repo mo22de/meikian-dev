@@ -1,11 +1,11 @@
 #!/bin/sh
 
-# Change the default user password to "cw"
+# Change the default user password to "live"
 #
 
-# "cw":"cw"
+# "user":"live"
 echo "I: update user password"
 
-#echo "cw" | mkpasswd -s
-sed -i -e 's/\(_PASSWORD=\)\(.*\)/\1\"nw4JRqljKcAHg\"/' /lib/live/config/0030-user-setup
+#echo "live" | mkpasswd -s
+sed -i -e 's/\(_PASSWORD=\)\(.*\)/\1\"yAt6i2bk8VBHc\"/' /lib/live/config/0030-user-setup
 

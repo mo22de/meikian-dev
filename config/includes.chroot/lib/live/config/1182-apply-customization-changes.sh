@@ -12,7 +12,7 @@ export `cat /proc/cmdline | \
 
 DEFAULT_EXT="en"
 FILE_LANG=`echo $locales | cut -d '_' -f1`
-DEFAULT_USER="cw"
+DEFAULT_USER="user"
 
 ## applying changes
 su -l ${DEFAULT_USER} -c 'xdg-user-dirs-update; xdg-user-dirs-gtk-update'
