@@ -69,7 +69,7 @@ lb config                                                             \
     --iso-volume "CloneWars_${file_date}"                             \
     --iso-application "CloneWars LiveCD"                              \
     --iso-publisher "CloneWars"                                       \
-    --bootappend-live "boot=live config hostname=cw-live username=cw noeject" \
+    --bootappend-live "boot=live config hostname=cw-live username=user noeject" \
     --memtest none                                                    \
     --win32-loader true                                               
 #    --win32-loader true                                              \
