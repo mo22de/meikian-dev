@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###
-### Debian-Live v3.x-CW
+### Debian-Live v3.x-Meikian
 ### 2014/01/05
 
 if [ $# = 0 ]; then
@@ -12,10 +12,10 @@ fi
 
 ## default values
 HOME_DIR="/home/debian-live/"
-BUILD_DIR="${HOME_DIR}/cw-live"
+BUILD_DIR="${HOME_DIR}/meikian-live"
 
 file_date=`date +"%Y%m%d"`
-file_name="cw-live_${file_date}"
+file_name="meikian-live_${file_date}"
 msgs_date=`date +"%Y/%m/%d"`
 
 
@@ -66,10 +66,10 @@ lb config                                                             \
     --parent-archive-areas "main contrib non-free"                    \
     --archive-areas "main contrib non-free"                           \
     --binary-images ${1}                                              \
-    --iso-volume "CloneWars_${file_date}"                             \
-    --iso-application "CloneWars LiveCD"                              \
-    --iso-publisher "CloneWars"                                       \
-    --bootappend-live "boot=live config hostname=cw-live username=user noeject" \
+    --iso-volume "Meikian_${file_date}"                               \
+    --iso-application "Meikian Live"                                  \
+    --iso-publisher "Meikian"                                         \
+    --bootappend-live "boot=live config hostname=meikian username=user noeject" \
     --memtest none                                                    \
     --win32-loader true                                               
 #    --win32-loader true                                              \

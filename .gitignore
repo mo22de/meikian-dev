@@ -12,9 +12,9 @@ config/bootstrap
 config/chroot
 config/common
 config/source
-cw-live_*.iso
-cw-live_*.log
-cw-live_*.md5
+meikian-live_*.iso
+meikian-live_*.log
+meikian-live_*.md5
 local
 
 # Packages

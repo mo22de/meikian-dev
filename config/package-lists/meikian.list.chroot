@@ -1,4 +1,4 @@
-### CloneWars Live package list
+### Meikian Live package list
 ###
 
 
@@ -44,33 +44,33 @@ pep8 pyflakes pylint python python3 python3-setuptools python3-pip
 python-matplotlib libboost-signals1.49.0 liboce-foundation2 liboce-modeling2 liboce-ocaf-lite2 liboce-ocaf2 python-ply libspnav0 libxerces-c28 libzipios++0c2a libjs-jquery libjs-underscore python-lxml libjs-sphinxdoc graphviz libpyside1.1 libpython2.6 libshiboken1.1 libxerces-c3.1 python-pyside.qtcore python-pyside.qtgui python-pyside.qtsvg python-pyside.qtuitools python-pyside.qtxml pyside-tools python-importlib
 ## freecad packages backported from testing
 libsoqt4-20 python-pivy libcoin80 python-collada freecad freecad-doc
-## inkscape extensions packaged for cw-live
+## inkscape extensions packaged for meikian live
 gcodetools inkscape-paths2openscad
 ## openscad dependencies: libboost-program-options1.49.0 libboost-regex1.49.0 libboost-thread1.49.0 libcgal9 libopencsg1 libgmpxx4ldbl
 libboost-program-options1.49.0 libboost-regex1.49.0 libboost-thread1.49.0 libcgal9 libopencsg1 libgmpxx4ldbl
-## openscad binaries packaged for cw-live
+## openscad binaries packaged for meikian live
 openscad openscad-bolts
 ## cura dependencies: python-opengl python-numpy python-serial python-setuptools
 python-opengl python-numpy python-serial python-setuptools
-## cura repackaged for cw-live
+## cura repackaged for meikian live
 cura
 ## printrun dependencies: python-argparse python-serial python-wxgtk2.8 python-numpy python-pyglet python-cairo python-cairosvg python-psutil
 python-argparse python-wxgtk2.8 python-pyglet python-cairo python-cairosvg python-psutil
-## printrun binaries packaged for cw-live
+## printrun binaries packaged for meikian live
 printrun
 ## repetier host dependencies: mono-complete
 mono-complete
-## repetier host binaries packaged for cw-live
+## repetier host binaries packaged for meikian live
 repetier-host
 ## skeinforge dependencies: python python-tk
 python-tk
-## skeinforge binaries packaged for cw-live
+## skeinforge binaries packaged for meikian live
 skeinforge
-## slic3r binaries packaged for cw-live
+## slic3r binaries packaged for meikian live
 slic3r
 ## tatlin dependencies: python python-gtk2 python-opengl python-gtkglext1 python-numpy
 python-gtk2 python-gtkglext1 
-## tatlin packaged for cw-live
+## tatlin packaged for meikian live
 tatlin
 ## netfabb-basic 
 #netfabb-basic
@@ -91,24 +91,24 @@ avr-libc avrdude binutils-avr gcc-avr libjna-java librxtx-java arduino-mk avrdud
 arduino arduino-core
 ## dfu-programmer
 dfu-programmer
-## arduino extras packaged for cw-live
+## arduino extras packaged for meikian live
 cwlive-arduino-extras
 
 
 ## Development
 ##
-## processing binaries packaged for cw-live
+## processing binaries packaged for meikian live
 processing
 ## scratch
 scratch
-## scratch 4 arduino binaries packaged for cw-live
+## scratch 4 arduino binaries packaged for meikian live
 s4a
 
 
 ## Electronics
 ##
 geda geda-utils geda-examples gerbv geda-gsymcheck geda-gattrib geda-xgsch2pcb kicad kicad-doc-es pcb
-## fritzing binaries packaged for cw-live
+## fritzing binaries packaged for meikian live
 fritzing
 
 

@@ -13,7 +13,7 @@ menu color tabmsg	* #ffcccccc #00000000 *
 menu color help		37;40 #ffcccccc #00000000 none
 menu color timeout_msg	* #ff999999 #00000000 *
 menu color timeout	* #ff009200 #00000000 *
-menu title CloneWars Live - <DATE>
+menu title Meikian Live - <DATE>
 
 menu vshift		12
 menu hshift		9

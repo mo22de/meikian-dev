@@ -1,12 +1,12 @@
 label live-@FLAVOUR@
-    menu label ^CW-Live 
+    menu label ^Meikian Live 
     menu default
     linux @LINUX@
     initrd @INITRD@
     append @APPEND_LIVE@ swapon persistence
 
 label live-@FLAVOUR@-failsafe
-    menu label C^W-Live (a prueba de fallos)
+    menu label M^eikian Live (a prueba de fallos)
     linux @LINUX@
     initrd @INITRD@
     append @APPEND_LIVE_FAILSAFE@
