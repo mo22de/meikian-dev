@@ -19,10 +19,10 @@ for file in live-setup.conf user-setup.conf; do
 
     [ -f "/etc/live/config/${file}" ] && rm -f "/etc/live/config/${file}"
 
-    if [ -f "/etc/cwlive.d/etc/live/config/${file}.${FILE_EXT}" ]; then
-        cp -f "/etc/cwlive.d/etc/live/config/${file}.${FILE_EXT}" "/etc/live/config/${file}"
+    if [ -f "/etc/meikian.d/etc/live/config/${file}.${FILE_EXT}" ]; then
+        cp -f "/etc/meikian.d/etc/live/config/${file}.${FILE_EXT}" "/etc/live/config/${file}"
     else
-        cp -f "/etc/cwlive.d/etc/live/config/${file}.${DEFAULT_EXT}" "/etc/live/config/${file}"
+        cp -f "/etc/meikian.d/etc/live/config/${file}.${DEFAULT_EXT}" "/etc/live/config/${file}"
     fi
 
 done
