@@ -44,8 +44,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'cwlive'
-copyright = u'2014, cwlive'
+project = u'Meikian Live'
+copyright = u'2014, Meikian Project'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -177,7 +177,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'cwlivedoc'
+htmlhelp_basename = 'meikiandoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -197,8 +197,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'cwlive.tex', u'cwlive Documentation',
-   u'cwlive', 'manual'),
+  ('index', 'meikian.tex', u'Documentación de Meikian Live',
+   u'Meikian Project', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -227,8 +227,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'cwlive', u'cwlive Documentation',
-     [u'cwlive'], 1)
+    ('index', 'Meikian Live', u'Documentación de Meikian Live',
+     [u'Meikian Project'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -241,8 +241,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'cwlive', u'cwlive Documentation',
-   u'cwlive', 'cwlive', 'One line description of project.',
+  ('index', 'meikian', u'Documentación de Meikian Live',
+   u'Meikian Project', 'meikian', 'Dsitribución basada en Debian GNU/Linux.',
    'Miscellaneous'),
 ]
 
