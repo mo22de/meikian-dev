@@ -13,7 +13,7 @@ Tipos de contribuciones
 Comunicar errores
 ~~~~~~~~~~~~~~~~~
 
-Report bugs at https://github.com/ctemescw/cwlive-dev/issues.
+Report bugs at https://github.com/ctemescw/meikian-dev/issues.
 
 If you are reporting a bug, please include:
 
@@ -40,14 +40,14 @@ is open to whoever wants to implement it.
 Escribir documentación
 ~~~~~~~~~~~~~~~~~~~~~~
 
-*CloneWars Live* could always use more documentation, whether as part of the 
+*Meikian Live* could always use more documentation, whether as part of the 
 official docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Enviar comentarios
 ~~~~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/ctemescw/cwlive-dev/issues.
+The best way to send feedback is to file an issue at https://github.com/ctemescw/meikian-dev/issues.
 
 If you are proposing a feature:
 
@@ -59,12 +59,12 @@ If you are proposing a feature:
 ¡Comenzar!
 ----------
 
-Ready to contribute? Here's how to set up *CloneWars Live* for local development.
+Ready to contribute? Here's how to set up *Meikian Live* for local development.
 
-1. Fork the `cwlive-dev` repo on `GitHub`_.
+1. Fork the `meikian-dev`_ repo on `GitHub`_.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/cwlive-dev.git
+    $ git clone git@github.com:your_name_here/meikian-dev.git
 
 3. ToDo
 
@@ -85,13 +85,14 @@ Ready to contribute? Here's how to set up *CloneWars Live* for local development
 7. Submit a pull request through the `GitHub`_ website.
 
 .. _`GitHub`: https://github.com
+.. _`meikian-dev`: https://github.com/ctemescw/meikian-dev
 
 Instrucciones para efectuar un "Pull Request"
 ---------------------------------------------
 
 Before you submit a pull request, check that it meets these guidelines:
 
-`cwlive-dev` uses `git-flow`_ for its branch management.
+`meikian-dev_` uses `git-flow`_ for its branch management.
 
 1. Implement changes in new git branches, following `git-flow`_'s model:
  
@@ -114,3 +115,5 @@ Before you submit a pull request, check that it meets these guidelines:
 4. Update the change log appropriately.
 
 .. _`git-flow`: https://github.com/nvie/gitflow
+.. _`meikian-dev`: https://github.com/ctemescw/meikian-dev
+

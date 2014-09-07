@@ -8,17 +8,22 @@ Versiones
 
 **Primera versión beta**
 
+* Cambio de nombre del proyecto a Meikian Live 
 * Añadido un segundo kernel con soporte para PAE y SMP como opción por defecto en el menú de arranque
+* Añadido un tercer kernel con extensiones de tiempo real para LinuxCNC
 * Añadida opción en el menú de arranque para equipos antiguos que utiliza el anterior kernel
 * Migrado el sistema de documentación a RST y readthedocs.org
 * Actualización de Fritzing a la versión 0.9.0b
 * Actualización de Slic3r a la versión 1.1.7 stable
+* Añadido LinuxCNC 2.6.3
+* Añadido MeshLab 1.3.0
 * Añadido Scratch 1.4
 * Añadido S4A 1.5 
 * Agregado directorio para acceso fácil a configuraciones de utilidades de impresión 3D
 * Agregados enlaces al administrador de archivos para facilitar la navegación
 * Sustituido oracle-java7-installer por openjdk-7-jre debido a problemas con la licencia
 * Eliminada la imagen de memtest86 debido a problemas con la licencia
+* Eliminado Netfabb Basic por problemas con la licencia
 
 2014.07.12
 ++++++++++

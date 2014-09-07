@@ -1,6 +1,6 @@
-=================================================
-Programas específicos incluidos en CloneWars Live
-=================================================
+===============================================
+Programas específicos incluidos en Meikian Live
+===============================================
 
 Diseño 2D
 ---------
@@ -12,6 +12,53 @@ Diseño 2D
 .. _`Inkscape`: http://www.inkscape.org/es/
 .. _`GcodeTools`: http://www.cnc-club.ru/forum/viewtopic.php?t=35
 .. _`Paths2OpenSCAD`: https://github.com/l0b0/paths2openscad
+
+Diseño de circuitos
+-------------------
+
+* `Fritzing`_ 0.9.0b
+* `gEDA`_ 1.6.2-4.3
+* `KiCAD`_ 2012-04.16.27
+* `PCB Designer`_ 20110918
+
+.. _`Fritzing`: http://fritzing.org
+.. _`gEDA`: http://www.geda-project.org
+.. _`KiCAD`: http://www.kicad-pcb.org
+.. _`PCB Designer`: http://pcb.geda-project.org
+
+CNC
+---
+
+* `LinuxCNC`_ 2.6.3
+
+.. _`LinuxCNC`: http://linuxcnc.org/
+
+Control de impresoras 3D
+------------------------
+
+* `Cura`_ 14.07
+* `Printrun`_ 2014.01.26
+* `Repetier-Host`_ 0.95F
+
+.. _`Cura`: https://www.ultimaker.com/pages/our-software
+.. _`Printrun`: https://github.com/kliment/Printrun
+.. _`Repetier-Host`: http://www.repetier.com/documentation/repetier-host
+
+Herramientas para trabajar con objetos 3D
+-----------------------------------------
+
+* `MeshLab`_ 1.3.0
+
+.. _`MeshLab`: http://meshlab.sourceforge.net
+
+Laminado de objetos 3D
+----------------------
+
+* `Skeinforge`_ 2012.03.15
+* `Slic3r`_ 1.1.7
+
+.. _`Skeinforge`: http://fabmetheus.crsndoo.com
+.. _`Slic3r`: http://slic3r.org/
 
 Modelado 3D
 -----------
@@ -30,32 +77,14 @@ Modelado 3D
 .. _`Bolts`: http://jreinhardt.github.io/BOLTS/index.html
 .. _`Wings 3D`: http://www.wings3d.com
 
-Herramientas para trabajar con objetos 3D
------------------------------------------
+Programación
+------------
 
-* `Netfabb Basic`_ 5.1.1
+* `Processing`_ 2.2.1
+* `Scratch`_ 1.4
 
-.. _`Netfabb Basic`: http://www.netfabb.com/basic.php
-
-Laminado de objetos 3D
-----------------------
-
-* `Skeinforge`_ 2012.03.15
-* `Slic3r`_ 1.1.7
-
-.. _`Skeinforge`: http://fabmetheus.crsndoo.com
-.. _`Slic3r`: http://slic3r.org/
-
-Control de impresoras 3D
-------------------------
-
-* `Cura`_ 14.07
-* `Printrun`_ 2014.01.26
-* `Repetier-Host`_ 0.95F
-
-.. _`Cura`: https://www.ultimaker.com/pages/our-software
-.. _`Printrun`: https://github.com/kliment/Printrun
-.. _`Repetier-Host`: http://www.repetier.com/documentation/repetier-host
+.. _`Processing`: http://processing.org
+.. _`Scratch`: http://scratch.mit.edu
 
 Programación de Arduino
 -----------------------
@@ -66,22 +95,3 @@ Programación de Arduino
 .. _`Arduino IDE`: http://arduino.cc/en/pmwiki.php?n=main/software
 .. _`S4A`: http://s4a.cat/index_es.html
 
-Desarrollo
-----------
-
-* `Scratch`_ 1.4
-
-.. _`Scratch`: http://scratch.mit.edu
-
-Diseño de circuitos
--------------------
-
-* `Fritzing`_ 0.9.0b
-* `gEDA`_ 1.6.2-4.3
-* `KiCAD`_ 2012-04.16.27
-* `PCB Designer`_ 20110918
-
-.. _`Fritzing`: http://fritzing.org
-.. _`gEDA`: http://www.geda-project.org
-.. _`KiCAD`: http://www.kicad-pcb.org
-.. _`PCB Designer`: http://pcb.geda-project.org

@@ -1,8 +1,8 @@
-======================
-Obtener CloneWars Live
-======================
+====================
+Obtener Meikian Live
+====================
 
-La descarga de la distribución de *CloneWars Live* se puede hacer por cualquiera de los siguientes métodos:
+La descarga de la distribución de *Meikian Live* se puede hacer por cualquiera de los siguientes métodos:
 
  * Descarga directa
  * Descarga vía torrent
@@ -30,17 +30,17 @@ Utilizando GNU/Linux
 
   * El primero, más correcto, será utilizando los comandos ``isoinfo`` y ``dd``:
 
-    Por ejemplo, para obtener la información del archivo ``cwlive-alpha3.iso`` se ejecutará el siguiente comando::
+    Por ejemplo, para obtener la información del archivo ``meikian-live_beta1.iso`` se ejecutará el siguiente comando::
 
-      user@cw-dev:~$ isoinfo -d -i cwlive-alpha3.iso
+      user@meikian-dev:~$ isoinfo -d -i meikian-live_beta1.iso
            
       CD-ROM is in ISO 9660 format
       System id: 
-      Volume id: CloneWars_20140201
+      Volume id: Meikian_20140915
       Volume set id: 
-      Publisher id: CLONEWARS
+      Publisher id: MEIKIAN
       Data preparer id: LIVE-BUILD 3.0.5-1; HTTP://PACKAGES.QA.DEBIAN.ORG/LIVE-BUILD
-      Application id: CLONEWARS LIVECD
+      Application id: MEIKIAN LIVECD
       Copyright File id: 
       Abstract File id: 
       Bibliographic File id: 
@@ -76,7 +76,7 @@ Utilizando GNU/Linux
     
     Usando los datos del ejemplo anterior para un pendrive al que se le ha asignado un identificador de dispositivo ``sdb``, se ejecutará el siguiente comando con permisos de superusuario, ya sea mediante el uso del comando ``su`` o de ``sudo``::
 
-      user@cw-dev:~$ sudo dd if=cwlive-alpha3.iso bs=2048 count=749984 of=/dev/sdb
+      user@meikian-dev:~$ sudo dd if=meikian-live_beta1.iso bs=2048 count=749984 of=/dev/sdb
 
   * El segundo, más rápido y que normalmente suele ser suficiente, usando únicamente el comando ``dd``: 
 
@@ -89,7 +89,7 @@ Utilizando GNU/Linux
 
     Usando los datos del ejemplo anterior para un pendrive al que se le ha asignado un identificador de dispositivo ``sdb``, se ejecutará el siguiente comando con permisos de superusuario, ya sea mediante el uso del comando ``su`` o de ``sudo``::
 
-      user@cw-dev:~$ sudo dd if=cwlive-alpha3.iso of=/dev/sdb
+      user@meikian-dev:~$ sudo dd if=meikian-live_beta1.iso of=/dev/sdb
     
   Una vez el comando devuelve el control a la consola, y si no se ha producido ningún error durante el proceso, la copia ya estará realizada. Para arrancar la distribución es necesario asegurarse de que el equipo permita el arranque desde dispositivos ``USB`` y que en la ``BIOS`` del equipo esté seleccionado correctamente el orden de la secuencia de arranque.
 
@@ -154,7 +154,7 @@ Usuarios
 Los usuarios definidos en la distribución, tanto en modo *Live* como cuando se halla instalada en disco duro, son los siguientes:
 
 * ``root`` deshabilitado por defecto, por lo que para ejecutar acciones o comandos con privilegios de superusuario habrá que recurrir al uso de los comandos ``sudo`` o ``gksudo``.
-* ``cw`` es el usuario por defecto de la distribución, con contraseña idéntica al nombre de usuario, es decir ``cw``.
+* ``user`` es el usuario por defecto de la distribución, con contraseña ``live``.
 
   .. note::
     Cuando la distribución esté instalada en disco duro sera necesario introducir la contraseña del usuario para la ejecución de ciertos comandos o acciones que necesitan privilegios de superusuario, no siendo así en el modo *Live*.
