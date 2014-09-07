@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# cwlive documentation build configuration file, created by
+# Meikian Live documentation build configuration file, created by
 # sphinx-quickstart on Mon Jul 28 20:46:26 2014.
 #
 # This file is execfile()d with the current directory set to its

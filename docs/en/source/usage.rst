@@ -1,6 +1,6 @@
-==============================
-Instalación de Clone-Wars Live
-==============================
+===========================
+Instalación de Meikian Live
+===========================
 
 Existen diferentes procedimientos para copiar el contenido del archivo .iso que se descarga a un medio físico. Dichos procedimientos van a depender básicamente del medio físico en el que se quiera instalar la distribución y del sistema operativo que se empleé para realizar el proceso.
 
@@ -25,17 +25,17 @@ Utilizando GNU/Linux
 
   * El primero, el más correcto, utilizando los comandos "isoinfo" y "dd":
 
-    Por ejemplo, para obtener la información del fichero "cwlive-alpha3.iso", se ejecuta el siguiente comando::
+    Por ejemplo, para obtener la información del fichero "meikian-live_beta1.iso", se ejecuta el siguiente comando::
 
-      $ isoinfo -d -i cwlive-alpha3.iso
+      $ isoinfo -d -i meikian-live_beta1.iso
            
       CD-ROM is in ISO 9660 format
       System id: 
-      Volume id: CloneWars_20140201
+      Volume id: Meikian_20140915
       Volume set id: 
-      Publisher id: CLONEWARS
+      Publisher id: MEIKIAN
       Data preparer id: LIVE-BUILD 3.0.5-1; HTTP://PACKAGES.QA.DEBIAN.ORG/LIVE-BUILD
-      Application id: CLONEWARS LIVECD
+      Application id: MEIKIAN LIVECD
       Copyright File id: 
       Abstract File id: 
       Bibliographic File id: 
@@ -70,7 +70,7 @@ Utilizando GNU/Linux
     
     Si se usan los datos del ejemplo anterior, el comando final quedará de la siguente manera::
 
-      # dd if=cwlive-alpha3.iso bs=2048 count=749984 of=/dev/sdb
+      # dd if=meikian-live_beta1.iso bs=2048 count=749984 of=/dev/sdb
 
 * El segundo, más rápido y que normalmente suele funcionar, usando únicamente el comando "dd": 
 
@@ -82,7 +82,7 @@ Utilizando GNU/Linux
     
   Si se usan los datos del ejemplo anterior, el comando final quedará de la siguiente manera::
 
-    # dd if=cwlive-alpha3.iso of=/dev/sdb
+    # dd if=meikian-live_beta1.iso of=/dev/sdb
     
   Una vez finalizado el comando, la copia ya se ha realizado. Para arrancar la distribución es necesario asegurarse de que el equipo permita el arranque desde dispositivos "USB" y que, en la "BIOS" del mismo, esté seleccionado correctamente el orden de la secuencia de arranque.
 
@@ -148,4 +148,4 @@ Usuarios
 Los usuarios definidos en la distribución, tanto en modo "Live" como instalada en disco duro, son los siguientes:
 
 * "root": deshabilitado por defecto, por lo que para ejecutar acciones o comandos con privilegios de superusuario habrá que recurrir al uso de los comandos "sudo" o "gksudo".
-* "cw": es el usuario por defecto de la distribución, tiene contraseña idéntica al nombre de usuario, es decir "cw". Cuando la distribución esté instalada en disco duro, se nos pedirá la contraseña para la ejecución de ciertos comandos o acciones que necesitan privilegios de superusuario, no siendo así en el modo "Live".
+* "user": es el usuario por defecto de la distribución, tiene por contraseña "live". Cuando la distribución esté instalada en disco duro, se nos pedirá la contraseña para la ejecución de ciertos comandos o acciones que necesitan privilegios de superusuario, no siendo así en el modo "Live".

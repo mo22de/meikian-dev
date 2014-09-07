@@ -1,8 +1,8 @@
-==============
-CloneWars Live
-==============
+============
+Meikian Live
+============
 
-La idea detrás del origen de *CloneWars Live* es la de proporcionar un entorno de trabajo con las herramientas más habituales para el trabajo con impresoras 3D (diseño de piezas e impresión), `Arduino`_, circuitos electrónicos, CNC, RC, robótica, etc, así como documentación relacionada. 
+La idea detrás del origen de *Meikian Live* es la de proporcionar un entorno de trabajo con las herramientas más habituales para el trabajo con impresoras 3D (diseño de piezas e impresión), `Arduino`_, circuitos electrónicos, CNC, RC, robótica, etc, así como documentación relacionada. 
 
 .. _`Arduino`: http://www.arduino.cc
 
@@ -34,20 +34,20 @@ Recursos
 
 * La página `CWLive`_ creada dentro del ``Wiki`` de `RepRap.org`_.
 
-* El código y ficheros necesarios para generar una imagen de la distribución partiendo de cero están disponibles en el repositorio `cwlive-dev`_ de `GitHub`_.
+* El código y ficheros necesarios para generar una imagen de la distribución partiendo de cero están disponibles en el repositorio `meikian-dev`_ de `GitHub`_.
 
-* La documentación completa del proyecto se encuentra disponible *on line* a través de la dirección `clonewars-live.readthedocs.org`_.
+* La documentación completa del proyecto se encuentra disponible *on line* a través de la dirección `meikian-live.readthedocs.org`_.
 
-.. _`clonewars-live.readthedocs.org`: http://clonewars-live.readthedocs.org/es/latest
+.. _`meikian-live.readthedocs.org`: http://meikian-live.readthedocs.org/en/latest
 .. _`GitHub`: https://github.com
-.. _`cwlive-dev`: https://github.com/ctemescw/cwlive-dev
+.. _`meikian-dev`: https://github.com/ctemescw/meikian-dev
 .. _`RepRap.org`: http://reprap.org
 .. _`CWLive`: http://reprap.org/wiki/Clone_Wars:_CWLive
 
 Requisitos de hardware
 ======================
 
-Los requerimientos necesarios para hacer funcionar *CloneWars Live* son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual, enumerándose únicamente los mínimos recomendados. A su vez, el consumo total de recursos también está determinado por las tareas que se lleven a cabo, por lo que no es aconsejable utilizar la distribución con menos recursos de los especificados para que sea posible trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
+Los requerimientos necesarios para hacer funcionar *Meikian Live* son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual, enumerándose únicamente los mínimos recomendados. A su vez, el consumo total de recursos también está determinado por las tareas que se lleven a cabo, por lo que no es aconsejable utilizar la distribución con menos recursos de los especificados para que sea posible trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
 
 * **Memoria**: cantidad mínima recomendada de 512MB de memoria ``RAM``
 
