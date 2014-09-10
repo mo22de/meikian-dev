@@ -13,13 +13,13 @@ if [ -d "/usr/share/doc/arduino-core/examples" ]; then
   cp -af /usr/share/doc/arduino-core/examples /usr/share/doc/arduino-core/examples.orig
 fi
 # Copying the arduino extras over the arduino directories
-if [ -d "/usr/share/arduino.cwlive" ]; then
-  cp -af /usr/share/arduino.cwlive/. /usr/share/arduino
-  rm -rf /usr/share/arduino.cwlive
+if [ -d "/usr/share/arduino.meikian" ]; then
+  cp -af /usr/share/arduino.meikian/. /usr/share/arduino
+  rm -rf /usr/share/arduino.meikian
 fi
-if [ -d "/usr/share/doc/arduino-core.cwlive/examples" ]; then
-  cp -af /usr/share/doc/arduino-core.cwlive/examples/. /usr/share/doc/arduino-core/examples
-  rm -rf /usr/share/doc/arduino-core.cwlive
+if [ -d "/usr/share/doc/arduino-core.meikian/examples" ]; then
+  cp -af /usr/share/doc/arduino-core.meikian/examples/. /usr/share/doc/arduino-core/examples
+  rm -rf /usr/share/doc/arduino-core.meikian
 fi
 
 exit 0
