@@ -80,7 +80,10 @@ tatlin
 ##
 ## linuxcnc dependencies from wheezy: bwidget libart-2.0-2 libbonobo2-0 libbonobo2-common libbonoboui2-0 libbonoboui2-common libboost-python1.49.0 libgnome2-0 libgnome2-common libgnomeui-0 libgnomeui-common libgnomecanvas2-0 libgnomecanvas2-common libgnomecups1.0-1 libgnomeprint2.2-0 libgnomeprint2.2-data libgnomeprintui2.2-0 libgnomeprintui2.2-common libgtksourceview2.0-0 libgtksourceview2.0-common libidl0 libmodbus5 liborbit2 libpth20 libtk-img python-configobj python-gconf python-gnome2 python-gst0.10 python-gtkglext1 python-gtksourceview2 python-imaging python-imaging-tk python-libxml2 python-pyorbit python-vte tclreadline
 bwidget libart-2.0-2 libbonobo2-0 libbonobo2-common libbonoboui2-0 libbonoboui2-common libboost-python1.49.0 libgnome2-0 libgnome2-common libgnomeui-0 libgnomeui-common libgnomecanvas2-0 libgnomecanvas2-common libgnomecups1.0-1 libgnomeprint2.2-0 libgnomeprint2.2-data libgnomeprintui2.2-0 libgnomeprintui2.2-common libgtksourceview2.0-0 libgtksourceview2.0-common libidl0 libmodbus5 liborbit2 libpth20 libtk-img python-configobj python-gconf python-gnome2 python-gst0.10 python-gtksourceview2 python-imaging python-imaging-tk python-libxml2 python-pyorbit python-vte tclreadline
-rtai-modules-3.4-9-rtai-686-pae linuxcnc linuxcnc-doc-en linuxcnc-doc-es 
+#linux-image-3.4-9-rtai-686-pae rtai-modules-3.4-9-rtai-686-pae
+rtai-modules-3.4-9-rtai-686-pae
+linuxcnc linuxcnc-doc-en linuxcnc-doc-es
+hostmot2-firmware-3x20-1 hostmot2-firmware-4i65 hostmot2-firmware-4i68 hostmot2-firmware-5i20 hostmot2-firmware-5i22-1 hostmot2-firmware-5i22-1.5 hostmot2-firmware-5i23 hostmot2-firmware-7i43-2 hostmot2-firmware-7i43-4 hostmot2-firmware-all
 
 
 ## Arduino
@@ -92,7 +95,7 @@ arduino arduino-core
 ## dfu-programmer
 dfu-programmer
 ## arduino extras packaged for meikian live
-cwlive-arduino-extras
+meikian-arduino-extras
 
 
 ## Development
@@ -115,4 +118,4 @@ fritzing
 ## Misc
 ##
 ## Documentation, firmwares and calibration 3d objects
-cwlive-docs cwlive-misc
+meikian-docs meikian-misc
