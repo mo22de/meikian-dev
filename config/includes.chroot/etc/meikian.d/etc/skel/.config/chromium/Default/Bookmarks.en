@@ -1,5 +1,5 @@
 {
-   "checksum": "eae5a5cb7703aa451daf6ecbabec625f",
+   "checksum": "ba28160dd4d8cd078575d82cd4898b40",
    "roots": {
       "bookmark_bar": {
          "children": [  ],
@@ -20,20 +20,20 @@
             }, {
                "date_added": "13051623790000000",
                "id": "6",
-               "name": "CW Live docs",
+               "name": "Meikian Live docs",
                "type": "url",
-               "url": "http://clonewars-live.readthedocs.org/en/latest/"
+               "url": "http://meikian-live.readthedocs.org/en/latest/"
             }, {
                "date_added": "13051623895000000",
                "id": "7",
-               "name": "ctemescw/cwlive-dev · GitHub",
+               "name": "ctemescw/meikian-dev · GitHub",
                "type": "url",
-               "url": "https://github.com/ctemescw/cwlive-dev"
+               "url": "https://github.com/ctemescw/meikian-dev"
             } ],
             "date_added": "13052398227414493",
             "date_modified": "0",
             "id": "4",
-            "name": "CloneWars Live",
+            "name": "Meikian Live",
             "type": "folder"
          }, {
             "children": [ {
