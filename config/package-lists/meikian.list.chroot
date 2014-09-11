@@ -40,8 +40,8 @@ pep8 pyflakes pylint python python3 python3-setuptools python3-pip
 
 ## 3d Printers
 ##
-## freecad dependencies from wheezy: python-matplotlib libboost-signals1.49.0 liboce-foundation2 liboce-modeling2 liboce-ocaf-lite2 liboce-ocaf2 python-ply libspnav0 libxerces-c28 libzipios++0c2a libjs-jquery libjs-underscore python-lxml libjs-sphinxdoc graphviz libpyside1.1 libpython2.6 libshiboken1.1 libxerces-c3.1 python-pyside.qtcore python-pyside.qtgui python-pyside.qtsvg python-pyside.qtuitools python-pyside.qtxml pyside-tools python-importlib
-python-matplotlib libboost-signals1.49.0 liboce-foundation2 liboce-modeling2 liboce-ocaf-lite2 liboce-ocaf2 python-ply libspnav0 libxerces-c28 libzipios++0c2a libjs-jquery libjs-underscore python-lxml libjs-sphinxdoc graphviz libpyside1.1 libpython2.6 libshiboken1.1 libxerces-c3.1 python-pyside.qtcore python-pyside.qtgui python-pyside.qtsvg python-pyside.qtuitools python-pyside.qtxml pyside-tools python-importlib
+## freecad dependencies from wheezy: python-matplotlib libboost-signals1.49.0 liboce-foundation2 liboce-modeling2 liboce-ocaf-lite2 liboce-ocaf2 python-ply libspnav0 libxerces-c28 libzipios++0c2a libjs-jquery libjs-underscore python-lxml libjs-sphinxdoc graphviz libpyside1.1 libpython2.6 libshiboken1.1 libxerces-c3.1 python-pyside.qtcore python-pyside.qtgui python-pyside.qtsvg python-pyside.qtuitools python-pyside.qtxml pyside-tools python-importlib python-yaml
+python-matplotlib libboost-signals1.49.0 liboce-foundation2 liboce-modeling2 liboce-ocaf-lite2 liboce-ocaf2 python-ply libspnav0 libxerces-c28 libzipios++0c2a libjs-jquery libjs-underscore python-lxml libjs-sphinxdoc graphviz libpyside1.1 libpython2.6 libshiboken1.1 libxerces-c3.1 python-pyside.qtcore python-pyside.qtgui python-pyside.qtsvg python-pyside.qtuitools python-pyside.qtxml pyside-tools python-importlib python-yaml
 ## freecad packages backported from testing
 libsoqt4-20 python-pivy libcoin80 python-collada freecad freecad-doc
 ## inkscape extensions packaged for meikian live
