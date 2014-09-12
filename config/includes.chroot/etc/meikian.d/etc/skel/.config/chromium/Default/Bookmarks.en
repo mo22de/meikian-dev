@@ -1,5 +1,5 @@
 {
-   "checksum": "ba28160dd4d8cd078575d82cd4898b40",
+   "checksum": "f4bfb5b88a2b725df8c3392482f568f9",
    "roots": {
       "bookmark_bar": {
          "children": [  ],
@@ -882,11 +882,17 @@
                      "type": "url",
                      "url": "http://www.freecadweb.org/"
                   }, {
-                     "date_added": "13052399713284910",
-                     "id": "195",
+                     "date_added": "13054989578259008",
+                     "id": "241",
                      "name": "Bolts Library",
                      "type": "url",
-                     "url": "http://jreinhardt.github.io/BOLTS/index.html"
+                     "url": "http://www.bolts-library.org/en/index.html"
+                  }, {
+                     "date_added": "13054989084168911",
+                     "id": "239",
+                     "name": "Obijuan/printbot_part_library · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/Obijuan/printbot_part_library"
                   }, {
                      "date_added": "13052399654435464",
                      "id": "194",
@@ -901,7 +907,7 @@
                      "url": "http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_Freecad"
                   } ],
                   "date_added": "13052398227435958",
-                  "date_modified": "13052399794629573",
+                  "date_modified": "13054989612210169",
                   "id": "114",
                   "name": "FreeCAD",
                   "type": "folder"
@@ -957,11 +963,11 @@
                      "type": "url",
                      "url": "http://www.openscad.org/"
                   }, {
-                     "date_added": "13052399766294880",
-                     "id": "196",
+                     "date_added": "13054989623448683",
+                     "id": "242",
                      "name": "Bolts Library",
                      "type": "url",
-                     "url": "http://jreinhardt.github.io/BOLTS/index.html"
+                     "url": "http://www.bolts-library.org/en/index.html"
                   }, {
                      "date_added": "13034167332000000",
                      "id": "123",
@@ -988,7 +994,7 @@
                      "url": "http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_OpenScad_II"
                   } ],
                   "date_added": "13052398227437036",
-                  "date_modified": "13052399804649514",
+                  "date_modified": "13054989627787473",
                   "id": "121",
                   "name": "OpenSCAD",
                   "type": "folder"
@@ -1417,7 +1423,7 @@
             "url": "http://www.oshwa.org/definition/"
          } ],
          "date_added": "13036764108894147",
-         "date_modified": "13053732281280274",
+         "date_modified": "13054989040313028",
          "id": "2",
          "name": "Other bookmarks",
          "type": "folder"
