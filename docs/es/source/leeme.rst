@@ -12,13 +12,15 @@ Los puntos principales que se han tenido en cuenta en su desarrollo son:
 
 * Un **bajo consumo de recursos**. Es importante que los recursos necesarios para su funcionamiento sean bajos, ya que esto posibilitará su uso en una mayor cantidad de equipos y al mismo tiempo permite la reutilización y aprovechamiento de máquinas más antiguas.
 
+
 ¿Qué es una distribución "Live"?
-================================
+--------------------------------
 
 Una distribución *Live* es un un conjunto formado por un sistema operativo, programas adicionales y configuraciones, que está preparado para arrancar y ejecutarse desde un dispositivo extraible (``CD``/``DVD-ROM``, memoria o disco duro ``USB``, etc), permitiendo trabajar con él sin afectar al sistema operativo y a los programas o configuraciones del equipo en el que se ejecuta.
 
+
 Base tecnológica
-================
+----------------
 
 Para el desarrollo de la distribución se ha empleado `Debian`_ GNU/Linux como sistema operativo base. Es una de las distribuciones GNU/Linux más antiguas que existen en la actualidad y que goza de una salud excelente, tal y como lo demuestra el hecho de que se siga usando como base para muchas distribuciones, algunas de ellas muy populares, como es el caso de `Ubuntu`_ o `LinuxMint`_.
 
@@ -29,8 +31,9 @@ El sistema utilizado para su desarrollo es `DebianLive`_, un sistema propio de `
 .. _`Ubuntu`: http://www.ubuntu.com
 .. _`LinuxMint`: http://www.linuxmint.com
 
+
 Recursos
-========
+--------
 
 * La página `CWLive`_ creada dentro del ``Wiki`` de `RepRap.org`_.
 
@@ -44,8 +47,9 @@ Recursos
 .. _`RepRap.org`: http://reprap.org
 .. _`CWLive`: http://reprap.org/wiki/Clone_Wars:_CWLive
 
+
 Requisitos de hardware
-======================
+----------------------
 
 Los requerimientos necesarios para hacer funcionar *Meikian Live* son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual, enumerándose únicamente los mínimos recomendados. A su vez el consumo total de recursos también está determinado por las tareas que se lleven a cabo, por lo que no es aconsejable utilizar la distribución con menos recursos de los especificados para que sea posible trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
 
@@ -56,11 +60,12 @@ Los requerimientos necesarios para hacer funcionar *Meikian Live* son relativame
 
 * **Procesador**: procesador mínimo recomendado Intel Pentium3/Pentium4 o equivalente.
 
+
 Hardware probado con la distribución
-====================================
+------------------------------------
 
 Equipos
--------
+~~~~~~~
 
 * Acer Aspire 7750G: OK
 * Apple MacBook Air 11" 2011: OK
@@ -84,7 +89,7 @@ Equipos
 
 
 Tarjetas controladoras
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 * `Arduino Mega 2560`_ + `RAMPS 1.4`_
 * `Gen7 1.4.1`_
@@ -102,3 +107,4 @@ Tarjetas controladoras
 .. _`Sanguinololu 1.3a`: http://reprap.org/wiki/Sanguinololu/es
 .. _`SAV 3D LCD`: http://reprap.org/wiki/SAV_3D_LCD
 .. _`SAV MKI`: http://reprap.org/wiki/SAV_MKI/es
+

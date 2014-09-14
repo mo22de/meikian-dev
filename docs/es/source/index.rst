@@ -16,15 +16,7 @@ Contents:
    programas
    imagen
    contribuciones
-   autores
-   licencias
    versiones
-
-Índices y tablas
-================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   licencias
+   autores
 

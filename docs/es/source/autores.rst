@@ -3,12 +3,12 @@ Créditos
 ========
 
 Desarrollador principal
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 * Carlos Temes https://github.com/ctemescw
 
 Colaboradores
--------------
+~~~~~~~~~~~~~
 
 * Francisco Molina https://github.com/furanshishouco
 * Luigi Pirelli https://github.com/luipir
@@ -18,7 +18,8 @@ Colaboradores
 * Xoán Sampaiño https://github.com/xoan
 
 Beta testers
-------------
+~~~~~~~~~~~~
 
 * WeSo https://github.com/WeSoRz
 * Xarpe Serpe https://github.com/XarpeSerpe
+

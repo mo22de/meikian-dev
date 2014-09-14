@@ -3,7 +3,7 @@ Programas específicos incluidos en Meikian Live
 ===============================================
 
 Diseño 2D
----------
+~~~~~~~~~
 
 * `Inkscape`_ 0.48
 * `GcodeTools`_ 1.7
@@ -13,8 +13,9 @@ Diseño 2D
 .. _`GcodeTools`: http://www.cnc-club.ru/forum/viewtopic.php?t=35
 .. _`Paths2OpenSCAD`: https://github.com/l0b0/paths2openscad
 
+
 Diseño de circuitos
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 * `Fritzing`_ 0.9.0b
 * `gEDA`_ 1.6.2-4.3
@@ -26,15 +27,17 @@ Diseño de circuitos
 .. _`KiCAD`: http://www.kicad-pcb.org
 .. _`PCB Designer`: http://pcb.geda-project.org
 
+
 CNC
----
+~~~
 
 * `LinuxCNC`_ 2.6.3
 
 .. _`LinuxCNC`: http://linuxcnc.org/
 
+
 Control de impresoras 3D
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `Cura`_ 14.07
 * `Printrun`_ 2014.01.26
@@ -44,15 +47,19 @@ Control de impresoras 3D
 .. _`Printrun`: https://github.com/kliment/Printrun
 .. _`Repetier-Host`: http://www.repetier.com/documentation/repetier-host
 
+
 Herramientas para trabajar con objetos 3D
------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `MeshLab`_ 1.3.0
+* `Tatlin`_ 2012.11.16
 
 .. _`MeshLab`: http://meshlab.sourceforge.net
+.. _`Tatlin`: http://dkobozev.github.io/tatlin/
+
 
 Laminado de objetos 3D
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 * `Skeinforge`_ 2012.03.15
 * `Slic3r`_ 1.1.7
@@ -60,25 +67,28 @@ Laminado de objetos 3D
 .. _`Skeinforge`: http://fabmetheus.crsndoo.com
 .. _`Slic3r`: http://slic3r.org/
 
+
 Modelado 3D
------------
+~~~~~~~~~~~
 
 * `Blender`_ 2.63
 * `FreeCAD`_ 0.14
+* `BOLTS`_ for `FreeCAD`_
 * `LibreCAD`_ 1.0.2
 * `OpenSCAD`_ 2014.03
-* `Bolts`_ for `OpenSCAD`_
+* `BOLTS`_ for `OpenSCAD`_
 * `Wings 3D`_ 1.4.1
 
 .. _`Blender`: http://www.blender.org
 .. _`FreeCAD`: http://www.freecadweb.org
 .. _`LibreCAD`: http://librecad.org
 .. _`OpenSCAD`: http://www.openscad.org
-.. _`Bolts`: http://jreinhardt.github.io/BOLTS/index.html
+.. _`BOLTS`: http://www.bolts-library.org
 .. _`Wings 3D`: http://www.wings3d.com
 
+
 Programación
-------------
+~~~~~~~~~~~~
 
 * `Processing`_ 2.2.1
 * `Scratch`_ 1.4
@@ -86,8 +96,9 @@ Programación
 .. _`Processing`: http://processing.org
 .. _`Scratch`: http://scratch.mit.edu
 
+
 Programación de Arduino
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 * `Arduino IDE`_ 1.0.5
 * `S4A`_ 1.5

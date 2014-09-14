@@ -1,10 +1,11 @@
 .. :changelog:
 
+=========
 Versiones
----------
+=========
 
 2014.xx.xx
-++++++++++
+~~~~~~~~~~
 
 **Primera versión beta**
 
@@ -19,14 +20,17 @@ Versiones
 * Añadido MeshLab 1.3.0
 * Añadido Scratch 1.4
 * Añadido S4A 1.5 
+* Añadidas reglas de UDEV del proyecto OpenOCD
+* Añadidos paquetes con bibliotecas y macros extra para FreeCAD
 * Agregado directorio para acceso fácil a configuraciones de utilidades de impresión 3D
 * Agregados enlaces al administrador de archivos para facilitar la navegación
 * Sustituido oracle-java7-installer por openjdk-7-jre debido a problemas con la licencia
 * Eliminada la imagen de memtest86 debido a problemas con la licencia
+* Eliminadas las imágenes de Balder y gPXE 
 * Eliminado Netfabb Basic por problemas con la licencia
 
 2014.07.12
-++++++++++
+~~~~~~~~~~
 
 **Séptima versión alpha**
 
@@ -48,7 +52,7 @@ Versiones
 * Corrección en la instalación del firmware para las tarjetas wireless Intel IPW
 
 2014.03.23
-++++++++++
+~~~~~~~~~~
 
 **Sexta versión alpha.**
 
@@ -61,7 +65,7 @@ Versiones
 * Actualización de Cura a la versión 14.03
 
 2014.02.19
-++++++++++
+~~~~~~~~~~
 
 **Quinta versión alpha**
 
@@ -71,7 +75,7 @@ Versiones
 * Creado directorio para acceder a configuraciones desde el escritorio
 
 2014.02.13
-++++++++++
+~~~~~~~~~~
 
 **Cuarta versión alpha.**
 
@@ -83,16 +87,17 @@ Versiones
 * Corregido el soporte de Sanguinololu en el IDE de Arduino
 
 2014.02.01
-++++++++++
+~~~~~~~~~~
 
 **Tercera versión alpha.**
 
 2014.01.14
-++++++++++
+~~~~~~~~~~
 
 **Segunda versión alpha.**
 
 2014.01.09
-++++++++++
+~~~~~~~~~~
 
 **Primera versión alpha.**
+
