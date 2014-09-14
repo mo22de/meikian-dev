@@ -2,9 +2,12 @@
 Meikian Live
 ============
 
-La idea detrás del origen de *Meikian Live* es la de proporcionar un entorno de trabajo con las herramientas más habituales para el trabajo con impresoras 3D (diseño de piezas e impresión), `Arduino`_, circuitos electrónicos, CNC, RC, robótica, etc, así como documentación relacionada. 
+*Meikian Live* nació originalmente como *CW-Live* dentro de la comunidad de usuarios del `Proyecto Clone Wars`_.
+
+La idea detrás del origen de *Meikian Live* es la de proporcionar un entorno de trabajo con las herramientas más habituales para el trabajo con impresoras 3D (diseño de piezas e impresión), `Arduino`_, circuitos electrónicos, CNC, RC, robótica, etc, así como recursos y documentación relacionada. 
 
 .. _`Arduino`: http://www.arduino.cc
+.. _`Proyecto Clone Wars`: http://www.reprap.org/wiki/Proyecto_Clone_Wars
 
 Los puntos principales que se han tenido en cuenta en su desarrollo son:
 
@@ -16,20 +19,20 @@ Los puntos principales que se han tenido en cuenta en su desarrollo son:
 ¿Qué es una distribución "Live"?
 --------------------------------
 
-Una distribución *Live* es un un conjunto formado por un sistema operativo, programas adicionales y configuraciones, que está preparado para arrancar y ejecutarse desde un dispositivo extraible (``CD``/``DVD-ROM``, memoria o disco duro ``USB``, etc), permitiendo trabajar con él sin afectar al sistema operativo y a los programas o configuraciones del equipo en el que se ejecuta.
+Una distribución *Live* es un conjunto formado por un sistema operativo, programas adicionales y configuraciones, que está preparado para arrancar y ejecutarse desde un dispositivo extraible (``CD``/``DVD-ROM``, memoria o disco duro ``USB``, etc.), permitiendo trabajar con él sin afectar al sistema operativo y a los programas o configuraciones del equipo en el que se ejecuta.
 
 
 Base tecnológica
 ----------------
 
-Para el desarrollo de la distribución se ha empleado `Debian`_ GNU/Linux como sistema operativo base. Es una de las distribuciones GNU/Linux más antiguas que existen en la actualidad y que goza de una salud excelente, tal y como lo demuestra el hecho de que se siga usando como base para muchas distribuciones, algunas de ellas muy populares, como es el caso de `Ubuntu`_ o `LinuxMint`_.
+Para el desarrollo de la distribución se ha empleado `Debian`_ GNU/Linux como sistema operativo base. Es una de las distribuciones GNU/Linux más antiguas que existen en la actualidad y que goza de una salud excelente, tal y como lo demuestra el hecho de que se siga usando como base para muchas otras distribuciones, algunas de ellas muy populares, como es el caso de `Ubuntu`_ o `LinuxMint`_.
 
 El sistema utilizado para su desarrollo es `DebianLive`_, un sistema propio de `Debian`_ para la creación de sistemas *Live* personalizados.
 
 .. _`Debian`: http://www.debian.org
 .. _`DebianLive`: http://live.debian.net
-.. _`Ubuntu`: http://www.ubuntu.com
 .. _`LinuxMint`: http://www.linuxmint.com
+.. _`Ubuntu`: http://www.ubuntu.com
 
 
 Recursos
@@ -39,26 +42,26 @@ Recursos
 
 * El código y archivos necesarios para generar una imagen de la distribución partiendo de cero están disponibles en el repositorio `meikian-dev`_ de `GitHub`_.
 
-* La documentación completa del proyecto se encuentra disponible *on line* a través de la dirección `meikian-live-es.readthedocs.org`_.
+* La documentación completa del proyecto está incluida en la propia distribución y también se encuentra disponible *on line* a través de la dirección `meikian-live-es.readthedocs.org`_.
 
+.. _`CWLive`: http://reprap.org/wiki/Clone_Wars:_CWLive
 .. _`GitHub`: https://github.com
 .. _`meikian-dev`: https://github.com/ctemescw/meikian-dev
 .. _`meikian-live-es.readthedocs.org`: http://meikian-live.readthedocs.org/es/latest
 .. _`RepRap.org`: http://reprap.org
-.. _`CWLive`: http://reprap.org/wiki/Clone_Wars:_CWLive
 
 
 Requisitos de hardware
 ----------------------
 
-Los requerimientos necesarios para hacer funcionar *Meikian Live* son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual, enumerándose únicamente los mínimos recomendados. A su vez el consumo total de recursos también está determinado por las tareas que se lleven a cabo, por lo que no es aconsejable utilizar la distribución con menos recursos de los especificados para que sea posible trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
+Los requisitos necesarios para hacer funcionar *Meikian Live* son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual. A su vez, el consumo total de recursos también está determinado por las tareas que se vayan a llevar a cabo, por lo que no es aconsejable utilizar la distribución con menos recursos de los especificados para que sea posible trabajar con un mínimo de soltura en la mayoría de los programas incluidos:
 
 * **Memoria**: cantidad mínima recomendada de 512MB de memoria ``RAM``
 
   .. note::
-    Si se dispone de espacio libre **no particionado** en el disco duro del equipo, o en el dispositivo desde el que se está arrancando, se puede mejorar el rendimiento creando particiones para ``memoria de intercambio`` o ``swap`` y/o para ``persistencia de datos``. De esta manera se libera parte de la memoria ``RAM`` utilizada y se deja disponible para que pueda ser usada por el sistema operativo y los programas.
+    Si se dispone de espacio libre **no particionado** en el disco duro del equipo, o en el dispositivo desde el que se está arrancando, puede mejorarse el rendimiento creando particiones para ``memoria de intercambio`` o ``swap`` y/o para ``persistencia de datos``. De esta manera se libera parte de la memoria ``RAM`` utilizada y se deja disponible para poder ser usada por el sistema operativo y los programas.
 
-* **Procesador**: procesador mínimo recomendado Intel Pentium3/Pentium4 o equivalente.
+* **Procesador**: procesador mínimo recomendado Intel Pentium4 o equivalente.
 
 
 Hardware probado con la distribución
