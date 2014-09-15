@@ -2,118 +2,111 @@
 Contribuciones
 ==============
 
-Contributions are welcome, and they are greatly appreciated! Every
-little bit helps, and credit will always be given. 
+Las contribuciones son bienvenidas y muy apreciadas. Todo pequeño aporte ayuda y siempre tendrá el reconocimiento correspondiente.
 
-You can contribute in many ways:
+Se puede contribuir de muchas maneras:
+
 
 Tipos de contribuciones
 -----------------------
 
-Comunicar errores
-~~~~~~~~~~~~~~~~~
+Comunicación de errores
+~~~~~~~~~~~~~~~~~~~~~~~
 
-Report bugs at https://github.com/ctemescw/meikian-dev/issues.
+Pueden comunicarse los errores encontrados creando nuevas entradas para ellos en el apartado `issues`_ del repositorio de `GitHub`_.
 
-If you are reporting a bug, please include:
+Cuando se esté comunicando un error, es conveniente incluir:
 
-* Your operating system name and version.
-* Any details about your local setup that might be helpful in troubleshooting.
-* Detailed steps to reproduce the bug.
+* El nombre del sistema operativo y su versión.
+* Cualquier detalle relacionado con su configuración local que pueda ser útil en la resolución del problema.
+* Pasos detallados para poder reproducir el error.
 
-Corregir errores
-~~~~~~~~~~~~~~~~
 
-Look through the `GitHub`_ issues for bugs. Anything tagged with ``bug``
-is open to whoever wants to implement it.
+Corrección de errores
+~~~~~~~~~~~~~~~~~~~~~
 
-.. _`GitHub`: https://github.com
+Dentro del listado de entradas que aparecen en el apartado `issues`_ del repositorio de  `GitHub`_, todas aquellas que aparecen etiquetadas como ``bug`` están disponibles para cualquiera que quiera solucionarlas.
 
-Implementar funcionalidades
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Look through the `GitHub`_ issues for features. Anything tagged with ``feature``
-is open to whoever wants to implement it.
+Implementación de funcionalidades
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _`GitHub`: https://github.com
+Dentro del listado de entradas que aparecen en el apartado `issues`_ del repositorio de  `GitHub`_, todas aquellas que aparecen etiquetadas como ``feature`` están disponibles para cualquiera que quiera implementarlas.
 
-Escribir documentación
-~~~~~~~~~~~~~~~~~~~~~~
 
-*Meikian Live* could always use more documentation, whether as part of the 
-official docs, in docstrings, or even on the web in blog posts,
-articles, and such.
+Escritura de documentación
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Enviar comentarios
-~~~~~~~~~~~~~~~~~~
+*Meikian Live* siempre puede beneficiarse de más documentación, ya sea como parte de la documentación oficial, como comentarios dentro del código o incluso en la web, como entradas de blog, artículos y similares.
 
-The best way to send feedback is to file an issue at https://github.com/ctemescw/meikian-dev/issues.
 
-If you are proposing a feature:
+Envío de comentarios
+~~~~~~~~~~~~~~~~~~~~
 
-* Explain in detail how it would work.
-* Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions
-  are welcome :)
+La mejor manera de proporcionar retroalimentación al proyecto es añadiendo comentarios y nuevas entradas en el apartado `issues`_ del repositorio de `GitHub`_.
+
+Si se está proponiendo una funcionalidad, es conveniente tener en cuenta:
+
+* Incluir una explicación detallada de como funcionaría.
+* Mantener su campo de aplicación tan reducido como sea posible, para que sea más fácil de implementar.
+* Recordar que se trata de un proyecto mantenido por voluntarios y que toda contribución es bienvenida :)
+
 
 ¡Comenzar!
 ----------
 
-Ready to contribute? Here's how to set up *Meikian Live* for local development.
+¿Preparado para contribuir? a continuación se detalla cómo preparar *Meikian Live* para poder hacer desarrollo localmente.
 
-1. Fork the `meikian-dev`_ repo on `GitHub`_.
-2. Clone your fork locally::
+1. Hacer un fork del repositorio `meikian-dev`_ en `GitHub`_.
+2. Clonar el repositorio que se acaba de crear, localmente::
 
-    $ git clone git@github.com:your_name_here/meikian-dev.git
+    $ git clone git@github.com:"nombre de usuario"/meikian-dev.git
 
 3. ToDo
 
-4. Create a branch for local development::
+4. Crear una rama para el desarrollo en el repositorio local::
 
-    $ git flow feature start name-of-your-bugfix-or-feature
+    $ git flow feature start "nombre de la corrección del error o de la funcionalidad"
 
-  Now you can make your changes locally.
+  A partir de este momento ya pueden hacerse los cambios localmente.
 
 5. ToDo
 
-6. Commit your changes and push your branch to `GitHub`_::
+6. Confirmar los cambios y sincronizar el repositorio local con `GitHub`_::
 
     $ git add .
-    $ git commit -m "Your detailed description of your changes."
+    $ git commit -m "descripción detallada de los cambios."
     $ git flow feature publish
 
-7. Submit a pull request through the `GitHub`_ website.
+7. Hacer una solicitud de "pull request" a traves del interfaz web de `GitHub`_.
 
-.. _`GitHub`: https://github.com
-.. _`meikian-dev`: https://github.com/ctemescw/meikian-dev
 
-Instrucciones para efectuar un "Pull Request"
+Instrucciones para efectuar un "pull request"
 ---------------------------------------------
 
-Before you submit a pull request, check that it meets these guidelines:
+Antes de solicitar un "pull request" debe comprobarse que cumple con las siguientes pautas:
 
-`meikian-dev_` uses `git-flow`_ for its branch management.
+`meikian-dev`_ utiliza `git-flow`_ para la gestión de sus ramas.
 
-1. Implement changes in new git branches, following `git-flow`_'s model:
+1. Implementar cambios en nuevas ramas de `git`_ siguiendo el modelo de `git-flow`_:
  
- * Changes based off of *develop* will receive the least amount of skepticism.
+ * Los cambios centrados en la rama *develop* serán aceptados más fácilmente.
        
- * Changes based off of a *release* branches (if one exists) will be considered,
-   especially for small bug fixes relevant to the release. We are not likely to 
-   accept new features against *release* branches.
+ * Los cambios centrados en la rama de una *release* (en caso de que exista) tenderán a considerarse, especialmente para pequeñas correcciones de errores que afecten a dicha versión. No se aceptarán en cambio nuevas funcionalidades en la rama de una *release*.
        
- * Changes based off of *master* or a prior release tag will be given the most 
-   skepticism. We may accept patches for major bugs against past releases, but
-   would prefer to see such changes follow the normal `git-flow`_ process.
+ * Los cambios centrados en la rama *master* o en las de versiones anterior difícilmente serán aceptados. En ciertos casos es posible que se tengan en cuenta parches para solucionar errores graves en versiones anteriores, pero es preferible que dichos cambios sigan el proceso normal de `git-flow`_.
        
-    We will not accept new features based off of *master*.
+   En ningún caso se aceptarán nuevas funcionalidades centradas en la rama *master* o en las de versiones anteriores.
 
-2. Limit the scope of changes to a single bug fix or feature per branch.
+2. Limitar el alcance de los cambios a una sola corrección de errores o funcionalidad por rama.
  
-3. Treat documentation as an essential part of any change.
+3. Tratar la documentación como una parte esencial de cualquier cambio.
  
-4. Update the change log appropriately.
+4. Actualizar el registro de cambios de manera apropiada.
 
+.. _`git`: http://git-scm.com
 .. _`git-flow`: https://github.com/nvie/gitflow
+.. _`GitHub`: https://github.com
+.. _`issues`: https://github.com/ctemescw/meikian-dev/issues
 .. _`meikian-dev`: https://github.com/ctemescw/meikian-dev
 
