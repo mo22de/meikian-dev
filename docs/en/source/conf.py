@@ -45,7 +45,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Meikian Live'
-copyright = u'2014, Meikian Project'
+copyright = u'2014, The Meikian Project'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -198,7 +198,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'meikian.tex', u'Meikian Live Documentation',
-   u'Meikian Project', 'manual'),
+   u'The Meikian Project', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -228,7 +228,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'Meikian Live', u'Meikian Live Documentation',
-     [u'Meikian Project'], 1)
+     [u'The Meikian Project'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -242,7 +242,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'meikian', u'Meikian Live Documentation',
-   u'Meikian Project', 'meikian', 'Debian GNU/Linux based distro.',
+   u'The Meikian Project', 'meikian', 'Debian GNU/Linux based distro.',
    'Miscellaneous'),
 ]
 

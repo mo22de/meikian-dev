@@ -13,16 +13,10 @@ Contents:
 
    readme
    usage
-   batteries
+   software
+   building
    contributing
-   authors
    history
-
-Indexes and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   licenses
+   authors
 
