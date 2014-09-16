@@ -1,6 +1,6 @@
-==================================
-Generar una imagen de Meikian live
-==================================
+=======================================
+Construyendo una imagen de Meikian live
+=======================================
 
 *Meikian Live* es desarrollada con `Debian`_ GNU/Linux 7.x ``Wheezy`` para arquitectura ``x86`` utilizando para ello `DebianLive`_, el sistema de creación de sistemas ``live`` propio de dicha distribución. Es posible utilizar otras versiones o arquitecturas, o incluso usar distribuciones derivadas, pero en dichos casos ya no se puede garantizar que funcione el proceso detallado a continuación o que sea el mismo.
 

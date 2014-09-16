@@ -6,13 +6,13 @@
 Documentacion de Meikian Live
 =============================
 
-Contents:
+Contenido:
 
 .. toctree::
    :maxdepth: 2
 
    leeme
-   descargar
+   uso
    programas
    imagen
    contribuciones

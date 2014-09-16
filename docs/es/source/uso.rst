@@ -1,6 +1,6 @@
-====================
-Obtener Meikian Live
-====================
+===================
+Usando Meikian Live
+===================
 
 La descarga de la distribución *Meikian Live* puede hacerse a través de los enlaces que figuran en el apartado de descargas de la página `www.meikian.eu`_.
 

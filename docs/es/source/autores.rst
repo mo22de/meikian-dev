@@ -7,6 +7,7 @@ Desarrollador principal
 
 * Carlos Temes https://github.com/ctemescw
 
+
 Colaboradores
 ~~~~~~~~~~~~~
 
@@ -21,7 +22,8 @@ Colaboradores
 * Rafa Couto https://github.com/rafacouto
    Aportando ideas, reglas de UDEV y probando la distro
 * Xoán Sampaiño https://github.com/xoan
-   Aportando ideas, presentando y utilizando la distro en las charlas/eventos en los que participa
+   Aportando ideas, mostrando y utilizando la distro en los eventos en los que participa como ponente
+
 
 Beta testers
 ~~~~~~~~~~~~
