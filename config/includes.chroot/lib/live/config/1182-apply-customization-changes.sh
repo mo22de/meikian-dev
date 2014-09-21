@@ -13,6 +13,12 @@ export `cat /proc/cmdline | \
 DEFAULT_EXT="en"
 FILE_LANG=`echo $locales | cut -d '_' -f1`
 DEFAULT_USER="user"
+STATUS_FILE=".meikian-configured"
+
+
+## check if a status file exists
+[ -f "/home/${DEFAULT_USER}/${STATUS_FILE}" ] && exit 0
+
 
 ## applying changes
 su -l ${DEFAULT_USER} -c 'xdg-user-dirs-update; xdg-user-dirs-gtk-update'
@@ -36,6 +42,10 @@ cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Bookmarks.${FILE_EXT}" \
 cp -f "/etc/meikian.d/etc/skel/.mozilla/firefox/acrs5bg5.default/places.sqlite.${FILE_EXT}" \
     "/home/${DEFAULT_USER}/.mozilla/firefox/acrs5bg5.default/places.sqlite"
 
+# delete the extension for the spanish language in mozilla's firefox when the language is english
+[ "${FILE_LANG}" != "es" ] && rm -f \
+    "/home/${DEFAULT_USER}/.mozilla/firefox/acrs5bg5.default/extensions/"langpack-es-ES*
+
 # copy configurations directory to the user's home
 if [ "${FILE_EXT}" = "es" ]; then
     cp -rf "/etc/meikian.d/etc/skel/Configurations" \
@@ -51,3 +61,8 @@ for file in "/etc/meikian.d/desktop/${FILE_EXT}/*"; do
 done
 
 chown -R ${DEFAULT_USER}:${DEFAULT_USER} "/home/${DEFAULT_USER}"
+
+
+## set a status file
+touch "/home/${DEFAULT_USER}/${STATUS_FILE}"
+
