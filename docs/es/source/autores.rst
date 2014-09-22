@@ -22,7 +22,7 @@ Colaboradores
 * Rafa Couto https://github.com/rafacouto
    Aportando ideas, reglas de UDEV y probando la distro
 * Xoán Sampaiño https://github.com/xoan
-   Aportando ideas, mostrando y utilizando la distro en los eventos en los que participa como ponente
+   Aportando ideas, diseño del logo, mostrando y utilizando la distro en los eventos en los que participa como ponente
 
 
 Beta testers

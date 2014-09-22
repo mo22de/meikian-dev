@@ -3,6 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. image:: ../../images/meikian-logo_docs.png
+   :align: right
+
+|
+|
+|
+|
+|
+|
+
 Documentacion de Meikian Live
 =============================
 

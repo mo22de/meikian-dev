@@ -22,7 +22,7 @@ Contributors
 * Rafa Couto https://github.com/rafacouto
    Contributing ideas, UDEV rules and testing the distro
 * Xoán Sampaiño https://github.com/xoan
-   Contributing ideas, showing and using the distro in the events in which participates as a speaker
+   Contributing ideas, logo design, showing and using the distro in the events in which participates as a speaker
 
 
 Beta testers
