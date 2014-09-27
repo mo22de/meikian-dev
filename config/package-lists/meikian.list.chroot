@@ -90,13 +90,14 @@ hostmot2-firmware-3x20-1 hostmot2-firmware-4i65 hostmot2-firmware-4i68 hostmot2-
 
 ## Arduino
 ##
-## arduino dependencies from wheezy: avr-libc avrdude binutils-avr gcc-avr libjna-java librxtx-java arduino-mk avrdude-doc
-avr-libc avrdude binutils-avr gcc-avr libjna-java librxtx-java arduino-mk avrdude-doc
+## arduino dependencies from wheezy: avr-libc avrdude binutils-avr gcc-avr libjna-java librxtx-java avrdude-doc
+libjna-java librxtx-java
 ## arduino packages backported from testing: arduino arduino-core
-arduino arduino-core
+#arduino arduino-core
 ## dfu-programmer
 dfu-programmer
-## arduino extras packaged for meikian live
+## arduino packaged for meikian live
+arduino
 meikian-arduino-extras
 
 

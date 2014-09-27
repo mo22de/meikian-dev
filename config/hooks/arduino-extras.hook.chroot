@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -x
 
 set -e
 
@@ -6,20 +6,19 @@ set -e
 ##
 
 # Making backup of the original arduino directories
-if [ -d "/usr/share/arduino" ]; then
-  cp -af /usr/share/arduino /usr/share/arduino.orig
-fi
-if [ -d "/usr/share/doc/arduino-core/examples" ]; then
-  cp -af /usr/share/doc/arduino-core/examples /usr/share/doc/arduino-core/examples.orig
-fi
+for dir in examples hardware lib libraries; do
+  if [ -d "/usr/local/share/arduino/${dir}" ]; then
+    cp -af "/usr/local/share/arduino/${dir}" "/usr/local/share/arduino/${dir}.orig"
+  fi
+done
+
 # Copying the arduino extras over the arduino directories
-if [ -d "/usr/share/arduino.meikian" ]; then
-  cp -af /usr/share/arduino.meikian/. /usr/share/arduino
-  rm -rf /usr/share/arduino.meikian
-fi
-if [ -d "/usr/share/doc/arduino-core.meikian/examples" ]; then
-  cp -af /usr/share/doc/arduino-core.meikian/examples/. /usr/share/doc/arduino-core/examples
-  rm -rf /usr/share/doc/arduino-core.meikian
-fi
+for dir in examples hardware lib libraries; do
+  if [ -d "/usr/local/share/arduino.meikian/${dir}" ]; then
+    cp -af "/usr/local/share/arduino.meikian/${dir}/." "/usr/local/share/arduino/${dir}"
+
+    rm -rf "/usr/local/share/arduino.meikian"
+  fi
+done
 
 exit 0
