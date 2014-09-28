@@ -4,11 +4,13 @@
 Versiones
 =========
 
-2014.xx.xx
+2014.09.28
 ~~~~~~~~~~
 
 **Primera versión beta**
 
+* Empaquetados los binarios de Arduino de arduino.cc por varios problemas en los paquetes de Debian testing
+* Cambio de la imagen de arranque de isolinux
 * Cambio de nombre del proyecto a Meikian Live 
 * Añadido un segundo kernel con soporte para PAE y SMP como opción por defecto en el menú de arranque
 * Añadido un tercer kernel con extensiones de tiempo real para LinuxCNC

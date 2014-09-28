@@ -13,6 +13,8 @@ Colaboradores
 
 * Francisco Molina https://github.com/furanshishouco
    Aportando ideas, modificaciones a Gcodetools, localizando el parche para Py-Serial y probando la distro
+* Javier Collado https://github.com/fuseprods
+   Traduciendo documentación al idioma inglés
 * Luigi Pirelli https://github.com/luipir
    Aportando ideas y probando la distro
 * Luis Morales https://github.com/lacion

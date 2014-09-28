@@ -4,11 +4,13 @@
 History
 =======
 
-2014.xx.xx
+2014.09.28
 ++++++++++
 
 **1st beta version**
 
+* Packaged Arduino binaries from arduino.cc due to several problems with the Debian testing packages
+* Changed the isolinux bootsplash image
 * Changed the name of the project to Meikian Live 
 * Added a second kernel with PAE and SMP support as the default option in the boot menu
 * Added a third kernel with realtime extensions for LinuxCNC

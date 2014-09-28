@@ -13,6 +13,8 @@ Contributors
 
 * Francisco Molina https://github.com/furanshishouco
    Contributing ideas, modifications to the Gcodetools software, locating the Py-Serial patch and testing the distro
+* Javier Collado https://github.com/fuseprods
+   Translating documentation to the english language
 * Luigi Pirelli https://github.com/luipir
    Contributing ideas and testing the distro
 * Luis Morales https://github.com/lacion
