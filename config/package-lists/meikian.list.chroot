@@ -45,7 +45,8 @@ python-matplotlib libboost-signals1.49.0 liboce-foundation2 liboce-modeling2 lib
 ## freecad packages backported from testing
 libsoqt4-20 python-pivy libcoin80 python-collada freecad freecad-doc
 ## freecad extras packaged for meikian live
-freecad-bolts freecad-library freecad-printbot-part-library
+#freecad-bolts freecad-library freecad-printbot-part-library
+freecad-bolts freecad-library
 ## inkscape extensions packaged for meikian live
 gcodetools inkscape-paths2openscad
 ## openscad dependencies: libboost-program-options1.49.0 libboost-regex1.49.0 libboost-thread1.49.0 libcgal9 libopencsg1 libgmpxx4ldbl

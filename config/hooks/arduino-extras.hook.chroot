@@ -17,8 +17,13 @@ for dir in examples hardware lib libraries; do
   if [ -d "/usr/local/share/arduino.meikian/${dir}" ]; then
     cp -af "/usr/local/share/arduino.meikian/${dir}/." "/usr/local/share/arduino/${dir}"
 
-    rm -rf "/usr/local/share/arduino.meikian"
   fi
 done
+
+# Removing the arduino extras directory
+if [ -d "/usr/local/share/arduino.meikian" ]; then
+  rm -rf "/usr/local/share/arduino.meikian"
+fi
+
 
 exit 0
