@@ -8,7 +8,7 @@ Main developer
 * Carlos Temes https://github.com/ctemescw
 
 
-Collaborators
+Contributors
 ~~~~~~~~~~~~~
 
 * Francisco Molina https://github.com/furanshishouco
