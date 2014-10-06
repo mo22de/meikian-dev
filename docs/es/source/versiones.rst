@@ -4,6 +4,13 @@
 Versiones
 =========
 
+2014.XX.XX
+~~~~~~~~~~
+
+**Segunda versión beta**
+
+* Actualización de Cura a la versión 14.09
+
 2014.09.28
 ~~~~~~~~~~
 

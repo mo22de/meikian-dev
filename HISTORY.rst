@@ -4,8 +4,15 @@
 History
 =======
 
+2014.XX.XX
+~~~~~~~~~~
+
+**2nd beta version**
+
+* Updated Cura to the 14.09 version
+
 2014.09.28
-++++++++++
+~~~~~~~~~~
 
 **1st beta version**
 
@@ -33,7 +40,7 @@ History
 
 
 2014.07.12
-++++++++++
+~~~~~~~~~~
 
 **7th alpha version**
 
@@ -55,7 +62,7 @@ History
 * Fixed the installation of the Intel IPW wireless cards' firmware 
 
 2014.03.23
-++++++++++
+~~~~~~~~~~
 
 **6th alpha version.**
 
@@ -68,7 +75,7 @@ History
 * Added the Inkscape's Gcodetools v1.7 extension
 
 2014.02.19
-++++++++++
+~~~~~~~~~~
 
 **5th alpha version**
 
@@ -78,7 +85,7 @@ History
 * Added a directory to be able to access from the desktop to the configuration files
 
 2014.02.13
-++++++++++
+~~~~~~~~~~
 
 **4th alpha version.**
 
@@ -90,17 +97,17 @@ History
 * Fixed the support for the Sanguinololu and Rambo controllers in the Arduino's IDE
 
 2014.02.01
-++++++++++
+~~~~~~~~~~
 
 **3rd alpha version alpha.**
 
 2014.01.14
-++++++++++
+~~~~~~~~~~
 
 **2nd alpha version.**
 
 2014.01.09
-++++++++++
+~~~~~~~~~~
 
 **1st alpha version.**
 
