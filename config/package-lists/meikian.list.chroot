@@ -9,7 +9,7 @@ xfce4-artwork xfce4-battery-plugin xfce4-cpufreq-plugin xfce4-cpugraph-plugin xf
 gvfs-bin menu-l10n ristretto thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler tumbler-plugins-extra
 
 ## Xorg desktop: apps
-arandr blender docky evince-gtk fbreader galculator gedit gedit-plugins gedit-source-code-browser-plugin gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gparted gucharmap gvidm inkscape librecad meshlab python-xlib qt4-qtconfig wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk xscreensaver zenity
+arandr blender docky evince-gtk fbreader galculator gedit gedit-plugins gedit-source-code-browser-plugin gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gparted gucharmap gvidm inkscape librecad meshlab python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk xscreensaver zenity
 openjdk-7-jre icedtea-7-plugin
 ## packages backported from testing: unetbootin unetbootin-translations
 unetbootin unetbootin-translations
@@ -64,7 +64,7 @@ printrun
 ## repetier host dependencies: mono-complete
 mono-complete
 ## repetier host binaries packaged for meikian live
-repetier-host
+#repetier-host
 ## skeinforge dependencies: python python-tk
 python-tk
 ## skeinforge binaries packaged for meikian live

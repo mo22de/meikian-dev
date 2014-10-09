@@ -10,6 +10,7 @@ Versiones
 **Segunda versión beta**
 
 * Actualización de Cura a la versión 14.09
+* Eliminado Repetier-host debido a problemas con la licencia
 
 2014.09.28
 ~~~~~~~~~~

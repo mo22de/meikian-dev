@@ -10,6 +10,8 @@ History
 **2nd beta version**
 
 * Updated Cura to the 14.09 version
+* Removed Repetier-host due to license issues
+
 
 2014.09.28
 ~~~~~~~~~~

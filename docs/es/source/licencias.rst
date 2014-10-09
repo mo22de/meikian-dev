@@ -107,7 +107,7 @@ Otros ficheros o proyectos incluidos
 Distribución Meikian Live
 -------------------------
 
-Todos los programas incluidos en la distribución hacen uso de licencias libres, a excepción de `Repetier-host`_ que únicamente permite su libre uso y redistribución.
+Todos los programas incluidos en la distribución hacen uso de licencias libres.
 
 
 Programas contenidos en los repositorios de Debian GNU/Linux
@@ -139,84 +139,6 @@ Otros programas o proyectos incluidos
   Enlace a la `GNU Lesser General Public License v2.1`_
 
 
-Programas sujetos a licencias "no libres"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* `Repetier-host`_ ::
-
-    EULA (End User License Agreement) for Repetier-Host (hereinafter called software)
-
-    IMPORTANT, PLEASE READ THIS AGREEMENT CAREFULLY before you start installing the
-    software.
-
-    This EULA is a legal agreement between you (hereinafter called licensee) and the
-    company Hot-World GmbH & Co. KG (hereinafter called licensor). By installing or 
-    using the software, you agree that you accept this agreement binding. If you do 
-    not agree with this agreement, do not install and use the software.
-
-    The software is protected by copyright. All rights to the program remain with the
-    licensor.
-
-    · 1 License
-    The licensor grants you a non-exclusive, non-sublicensable, non-transferable, 
-    limited license for this software. The software is free for personal and 
-    commercial use. It can be installed on as many computers as you like. It can be 
-    freely distributed and copied.
-
-     · 2 Support und Updates
-     The licensor is not obligated to provide support, fix bugs or provide updates. 
-     In what type and frequency this happens is solely the responsibility of the 
-     licensor.
-
-     · 3 Costs
-     By installing and using the software no costs arise.
-
-     · 4 Restrictions
-     Reverse engineering, decompilation and disassembling the software are prohibited.
-     The software is based on Repetier-Host version 0.90 with Apache License, Version
-     2.0. Newly developed codes including bug fixes are no longer under the Apache 
-     License, Version 2.0. Exceptions are the translations, which still have an Apache
-     License, Version 2.0.
-
-     · 5 Warranty restriction
-     The Software is provided "as is" without warranty of any kind, either express or
-     implied, including without limitation any implied warranties of condition, 
-     uninterrupted use, merchantability, fitness for a particular purpose, or 
-     non-infringement. The Licensor does not give any guarantee or warranty to the 
-     accuracy or completeness of the software and the provided functions or their 
-     products. The licensor is not liable for any damages or viruses, trojans, 
-     malware or other malicious software that result from the use of the software. 
-     The program was written by the licensor to the best of knowledge and belief 
-     without malicious programs.
-
-     · 6 Limitation of Liability
-     The author of this program is not liable for damage to software or hardware, or
-     property damage caused by the use of the program, unless they are based on gross
-     negligence or intent on the part of the author, his agents or his legal 
-     representatives.
-
-     Warning: 3D printers contain parts that are very hot and can cause a fire in 
-     case of errors or misuse. Therefore, 3D printers may only be operated under 
-     constant supervision. Also, toxins can be set free upon melting the filament 
-     depending on the material. Contact the manufacturer of the filament to ask for 
-     risks and dangers. The 3D printer may therefore be used only in well-ventilated 
-     areas.
-
-     · 7 Privacy Policy
-     The Repetier-Host will automatically connect to the Internet to retrieve data 
-     from web servers to check for updates or to download advertising contents. It 
-     will not transmit personal data, statistics or files.
-
-     · 8 Third-Party Software
-     This software contains or is accompanied by third-party software, data or other 
-     materials, which supplement the Repetier-Host functionality. For these programs,
-     the licenses of the software applies. By accepting this license, you acknowledge
-     and agree that you comply with the third-party terms and conditions and that the
-     licensor has no responsibility and gives no warrenties for third-party software.
-     You find these terms and conditions on the third-party web pages or in the about
-     boxes.
-
-
 
 .. _`3-clause BSD License`: http://opensource.org/licenses/BSD-3-Clause
 .. _`Debian`: http://www.debian.org
@@ -233,7 +155,6 @@ Programas sujetos a licencias "no libres"
 .. _`Meikian Live`: http://www.meikian.eu
 .. _`Memtest86+`: http://www.memtest.org
 .. _`pci.ids`: http://pci-ids.ucw.cz
-.. _`Repetier-host`: http://www.repetier.com/documentation/repetier-host
 .. _`repositorio`: https://github.com/ctemescw/meikian-dev
 .. _`repositorios`: http://packages.debian.org
 .. _`Software Libre`: http://es.wikipedia.org/wiki/Software_libre

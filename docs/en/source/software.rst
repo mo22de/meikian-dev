@@ -41,11 +41,9 @@ CNC
 
 * `Cura`_ 14.07
 * `Printrun`_ 2014.01.26
-* `Repetier-Host`_ 0.95F
 
 .. _`Cura`: https://www.ultimaker.com/pages/our-software
 .. _`Printrun`: https://github.com/kliment/Printrun
-.. _`Repetier-Host`: http://www.repetier.com/documentation/repetier-host
 
 
 Tools for working with 3D objects
