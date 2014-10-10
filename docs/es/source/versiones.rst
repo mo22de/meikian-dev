@@ -11,6 +11,8 @@ Versiones
 
 * Actualización de Cura a la versión 14.09
 * Eliminado Repetier-host debido a problemas con la licencia
+* Añadidas FreeCAD Library, Printbot part library y Printbots library para usar con FreeCAD
+
 
 2014.09.28
 ~~~~~~~~~~
@@ -39,6 +41,7 @@ Versiones
 * Eliminadas las imágenes de Balder y gPXE 
 * Eliminado Netfabb Basic por problemas con la licencia
 
+
 2014.07.12
 ~~~~~~~~~~
 
@@ -61,6 +64,7 @@ Versiones
 * Añadido soporte de Adobe Flash para el navegador chromium
 * Corrección en la instalación del firmware para las tarjetas wireless Intel IPW
 
+
 2014.03.23
 ~~~~~~~~~~
 
@@ -74,6 +78,7 @@ Versiones
 * Añadida extensión Gcodetools v1.7 para InkScape
 * Actualización de Cura a la versión 14.03
 
+
 2014.02.19
 ~~~~~~~~~~
 
@@ -83,6 +88,7 @@ Versiones
 * Actualización de Slic3r a la versión 1.0.0RC3
 * Añadidos los siguientes paquetes: unetbootin, unetbootin-translations, vinagre, x11vnc
 * Creado directorio para poder acceder a archivos de configuración desde el escritorio
+
 
 2014.02.13
 ~~~~~~~~~~
@@ -96,15 +102,18 @@ Versiones
 * Eliminados los siguientes paquetes: dia, firefox, gigolo, thunderbird
 * Corregido el soporte de las controladoras Sanguinololu y Rambo en el IDE de Arduino
 
+
 2014.02.01
 ~~~~~~~~~~
 
 **Tercera versión alpha.**
 
+
 2014.01.14
 ~~~~~~~~~~
 
 **Segunda versión alpha.**
+
 
 2014.01.09
 ~~~~~~~~~~

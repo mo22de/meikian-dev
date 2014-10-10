@@ -11,6 +11,7 @@ History
 
 * Updated Cura to the 14.09 version
 * Removed Repetier-host due to license issues
+* Added FreeCAD Library, Printbot part library and Printbots library for use with FreeCAD
 
 
 2014.09.28
