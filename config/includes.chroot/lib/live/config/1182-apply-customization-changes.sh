@@ -42,10 +42,6 @@ cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Bookmarks.${FILE_EXT}" \
 cp -f "/etc/meikian.d/etc/skel/.mozilla/firefox/acrs5bg5.default/places.sqlite.${FILE_EXT}" \
     "/home/${DEFAULT_USER}/.mozilla/firefox/acrs5bg5.default/places.sqlite"
 
-# delete the extension for the spanish language in mozilla's firefox when the language is english
-[ "${FILE_LANG}" != "es" ] && rm -f \
-    "/home/${DEFAULT_USER}/.mozilla/firefox/acrs5bg5.default/extensions/"langpack-es-ES*
-
 # copy configurations directory to the user's home
 if [ "${FILE_EXT}" = "es" ]; then
     cp -rf "/etc/meikian.d/etc/skel/Configurations" \
