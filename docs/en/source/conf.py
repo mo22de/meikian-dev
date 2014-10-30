@@ -45,7 +45,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Meikian Live'
-copyright = u'2014, The Meikian Project'
+copyright = u'2014, The Meikian Project - Some rights reserved - CC-BY-SA'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
