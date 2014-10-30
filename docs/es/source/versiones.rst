@@ -4,14 +4,18 @@
 Versiones
 =========
 
-2014.XX.XX
+2014.11.07
 ~~~~~~~~~~
 
-**Segunda versión beta**
+**Primera versión 'estable'**
 
 * Actualización de Cura a la versión 14.09
+* Cambiado el navegador Firefox por Iceweasel
+* Actualizado el paquete meikian-arduino-extras con nuevas bibliotecas
 * Eliminado Repetier-host debido a problemas con la licencia
 * Añadidas FreeCAD Library, Printbot part library y Printbots library para usar con FreeCAD
+* Añadida la traducción al inglés de la documentación
+* Cambiadas las imágenes del menú de arranque y del fondo del escritorio
 
 
 2014.09.28

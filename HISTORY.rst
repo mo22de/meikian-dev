@@ -4,14 +4,18 @@
 History
 =======
 
-2014.XX.XX
+2014.11.07
 ~~~~~~~~~~
 
 **1st 'stable' version**
 
 * Updated Cura to the 14.09 version
+* Firefox browser replaced by Iceweasel
+* Updated the meikian-arduino-extras package with new libraries
 * Removed Repetier-host due to license issues
 * Added FreeCAD Library, Printbot part library and Printbots library for use with FreeCAD
+* Added the english translation for the documentation
+* Changed the images for boot menu and desktop's background
 
 
 2014.09.28
