@@ -42,7 +42,7 @@ Recursos
 
 * El código y archivos necesarios para generar una imagen de la distribución partiendo de cero están disponibles en el repositorio `meikian-dev`_ de `GitHub`_.
 
-* La documentación completa del proyecto está incluida en la propia distribución y también se encuentra disponible *on line* a través de la dirección `docs-es.meikian.eu`_.
+* La documentación completa del proyecto está incluida en la propia distribución y también se encuentra disponible *online* a través de la dirección `docs-es.meikian.eu`_.
 
 .. _`Meikian`: http://meikian.eu/index-es.html
 .. _`GitHub`: https://github.com
