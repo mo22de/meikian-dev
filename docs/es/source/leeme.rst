@@ -87,6 +87,7 @@ Equipos
 * HP Compaq NX9030: Interfaz WiFi es "eth*" no "wlan*". OK
 * Lenovo Ideapad u430 Touch: Sin soporte para la WiFi. OK
 * Lenovo n500: OK
+* Lenovo t430s: OK
 * Lenovo x200s: OK
 * PackardBell EasyNote A7738: Interfaz WiFi es "eth*" no "wlan*". OK
 
