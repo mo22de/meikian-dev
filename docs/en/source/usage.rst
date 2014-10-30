@@ -18,18 +18,17 @@ Copy to an USB storage device
 Using GNU/Linux
 ~~~~~~~~~~~~~~~
 
-* Using ``dd`` `command`: 
+* Using ``dd`` command:
 
-  The first step will be to connect the storage unit you want used for the copy of the distribution, it must have capacity enough to accommodate the downloaded ``iso``. If you want to create one or more additional partitions to use data persistence, the size needed space will increase depending on the size you want for those partitions. 
+  The first step will be to connect the storage unit you want used for the copy of the distribution, it must have capacity enough to accommodate the downloaded ``iso``. If you want to create one or more additional partitions to use data persistence, the size needed space will increase depending on the size you want for those partitions. 
 
-  After connecting the storage unit from a command console ``dmesg`` command can be used to see last message lines from ``kernel`` and get the device ID that the system assigned to it. 
+  After connecting the storage unit from a command console ``dmesg`` command can be used to see last message lines from ``kernel`` and get the device ID that the system assigned to it. 
 
-  To copy the ``iso`` file, two diffeent methods can be used: 
+  To copy the ``iso`` file, two differnt methods can be used: 
 
-  * The first, more correct, will be using the commands ``isoinfo`` and ``dd``: 
+  * The first, more correct, will be using the commands ``isoinfo`` and ``dd``: 
 
-    For example, to obtain the information of ``meikian-live_beta1.iso`` file, the following command will be executed::
-
+    For example, to obtain the information of ``meikian-live_beta1.iso`` file, the following command will be executed::
 
       user@meikian-dev:~$ isoinfo -d -i meikian-live_beta1.iso
            
@@ -64,7 +63,7 @@ Using GNU/Linux
           Bootoff 19B32 105266
 
 
-    From the information that the command returns the values ??of ``Logical block size`` and ``Volume size`` fields are needed.
+    From the information that the command returns, the values of ``Logical block size`` and ``Volume size`` fields are needed.
 
     .. warning::
       The following process eliminates the partition table and all the information contained in the specified device, so it is imperative to be sure it is the correct device.
