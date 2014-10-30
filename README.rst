@@ -38,16 +38,16 @@ The operating system used for its development is `DebianLive`_, a `Debian`_ oper
 Resources
 ---------
 
-* `CWLive`_ page created within `RepRap.org`_ ``Wiki``.
+* The `Meikian`_ web page.
 
 * The code and files needed to generate an image of the distribution from scratch are available in `meikian-dev`_ `GitHub`_ repository.
 
-* The complete project documentation is included in the distribution itself and also available *online* at `meikian-live-es.readthedocs.org`_.
+* The complete project documentation is included in the distribution itself and also available *online* at `docs.meikian.eu`_.
 
-.. _`CWLive`: http://reprap.org/wiki/Clone_Wars:_CWLive
+.. _`Meikian`: http://meikian.eu
 .. _`GitHub`: https://github.com
 .. _`meikian-dev`: https://github.com/ctemescw/meikian-dev
-.. _`meikian-live-es.readthedocs.org`: http://meikian-live.readthedocs.org/es/latest
+.. _`docs.meikian.eu`: http://docs.meikian.eu/en/stable
 .. _`RepRap.org`: http://reprap.org
 
 

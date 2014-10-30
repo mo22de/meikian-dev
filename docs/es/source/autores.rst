@@ -33,3 +33,23 @@ Beta testers
 * WeSo https://github.com/WeSoRz
 * Xarpe Serpe https://github.com/XarpeSerpe
 
+
+Proyectos que han hecho posible Meikian Live
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* GNU http://www.gnu.org
+
+* Linux http://www.linuxfoundation.org
+
+* Debian GNU/Linux https://www.debian.org
+
+* Open Source Hardware http://www.oshwa.org/definition/spanish
+
+* RepRap http://reprap.org/wiki/RepRap/es
+
+* Clone Wars http://www.reprap.org/wiki/Proyecto_Clone_Wars
+
+* BricoLabs http://bricolabs.cc
+
+* GPUL http://gpul.org
+
