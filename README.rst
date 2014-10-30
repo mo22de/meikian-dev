@@ -13,13 +13,13 @@ The main points to be considered in their development are:
 
 * Make it a **free system**. It must allow free usage, modification and redistribution to anyone interested in using it. 
 
-* A **low resources consumption**. It is important that the needed resources for operation are low, as this will allow to use it in a greater number of teams while allowing reuse of older machines.
+* A **low resources consumption**. It is important that the needed resources for operation are low, as this will allow to use it in a greater number of computers while allowing reuse of older machines.
 
 
 What is a "Live" distribution?
 ------------------------------
 
-A *Live* distribution is a set consisting of an opeating system, additional software and settings, that is ready to boot and run from a removable drive (``CD``/``DVD-ROM``, ``USB`` flash or hard drive, etc.), allowing you to work with it without affecting the operating system, software or settings of the computer on which it runs.
+A *Live* distribution is a set consisting of an operating system, additional software and settings, that is ready to boot and run from a removable drive (``CD``/``DVD-ROM``, ``USB`` flash or hard drive, etc.), allowing you to work with it without affecting the operating system, software or settings of the computer on which it runs.
 
 
 Technological base
@@ -27,7 +27,7 @@ Technological base
 
 `Debian`_ GNU/Linux was used for the development of the distribution as base operating system. It is one of the oldest GNU/Linux that exist today and enjoying excellent health, as evidenced by the fact that it is still used as a base for many other distributions, some of them really popular, as `Ubuntu`_ or `LinuxMint`_.
 
-The operating system used for its development is `DebianLive`_, a `Debian`_ operating system to create custom *Live* systems.
+The software used for its development is `DebianLive`_, a `Debian`_ own system to create custom *Live* systems.
 
 .. _`Debian`: http://www.debian.org
 .. _`DebianLive`: http://live.debian.net

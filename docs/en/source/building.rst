@@ -16,7 +16,7 @@ The creation script needs to be executed with root privileges, either by ``su`` 
 Needed tools
 ------------
 
-A number of preínstalled tools are needed, for which the following command may be used::
+A number of preinstalled tools are needed, for which the following command may be used::
 
   user@meikian-dev:~$ sudo apt-get install apt-utils debootstrap dosfstools debian-keyring fakeroot genisoimage genext2fs gnu-fdisk loadlin mtd-utils parted squashfs-tools syslinux uuid-runtime win32-loader xorriso
 

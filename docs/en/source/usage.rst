@@ -4,7 +4,7 @@ Using Meikian Live
 
 *Meikian Live* distribution download can be made through the links on `www.meikian.eu`_ download page.
 
-Once you download the ``iso`` file containing the distribution, you the content need to be transfered to a physical device. Procedures for performing the operation depend on both the physical device and the operating system used.
+Once you download the ``iso`` file containing the distribution, the content need to be transfered to a physical device. Procedures for performing the operation depend on both the physical device and the operating system used.
 
 Recording to DVD
 ----------------
@@ -20,15 +20,15 @@ Using GNU/Linux
 
 * Using ``dd`` `command`: 
 
-   The first step will be to connect the storage unit you want used for the copy of the distribution, it must have capacity enough to accommodate the downloaded ``iso``. If you want to create one or more additional partitions to use data persistence, the size needed space will increase depending on the size you want for those partitions. 
+  The first step will be to connect the storage unit you want used for the copy of the distribution, it must have capacity enough to accommodate the downloaded ``iso``. If you want to create one or more additional partitions to use data persistence, the size needed space will increase depending on the size you want for those partitions. 
 
-   After connecting the storage unit from a command console ``dmesg`` command can be used to see last message lines from ``kernel`` and get the device ID that the system assigned to it. 
+  After connecting the storage unit from a command console ``dmesg`` command can be used to see last message lines from ``kernel`` and get the device ID that the system assigned to it. 
 
-   To copy the ``iso`` file, two diffeent methods can be used: 
+  To copy the ``iso`` file, two diffeent methods can be used: 
 
-   * The first, more correct, will be using the commands ``isoinfo`` and ``dd``: 
+  * The first, more correct, will be using the commands ``isoinfo`` and ``dd``: 
 
-     For example, to obtain the information of ``meikian-live_beta1.iso`` file, the following command will be executed::
+    For example, to obtain the information of ``meikian-live_beta1.iso`` file, the following command will be executed::
 
 
       user@meikian-dev:~$ isoinfo -d -i meikian-live_beta1.iso
@@ -64,7 +64,7 @@ Using GNU/Linux
           Bootoff 19B32 105266
 
 
-From the information that the command returns the values ??of ``Logical block size`` and ``Volume size`` fields are needed.
+    From the information that the command returns the values ??of ``Logical block size`` and ``Volume size`` fields are needed.
 
     .. warning::
       The following process eliminates the partition table and all the information contained in the specified device, so it is imperative to be sure it is the correct device.
@@ -86,21 +86,20 @@ From the information that the command returns the values ??of ``Logical block si
 
       dd if="path to downloaded file" of=/dev/"device identifier"
 
-
     Using data from the previous example for a flash drive that has been assigned a device identifier``sdb``, the following command will be executed with root privileges, either by using ``su`` or ``sudo`` command::
 
       user@meikian-dev:~$ sudo dd if=meikian-live_beta1.iso of=/dev/sdb
     
-Once the command returns control to the console, and if there has been no error during the process, the copy will be made. To start the distribution is necessary to ensure that the computer allows booting from ``USB`` devices and that the boot sequence order is correctly selected on the computer ``BIOS``.
+  Once the command returns control to the console, and if there has been no error during the process, the copy will be made. To start the distribution is necessary to ensure that the computer allows booting from ``USB`` devices and that the boot sequence order is correctly selected on the computer ``BIOS``.
 
 *  With `UNetbootin`_ utility:
 
-As in the previous section, the first step is to connect the storage unit you want to use to copy the distribution in it. It must contain a partition with ``FAT32`` file system with enough space to hold the downloaded ``iso`` file. That partition should also be mounted. If not,  one must be previously created and mounted.
+  As in the previous section, the first step is to connect the storage unit you want to use to copy the distribution in it. It must contain a partition with ``FAT32`` file system with enough space to hold the downloaded ``iso`` file. That partition should also be mounted. If not,  one must be previously created and mounted.
 
-The device ID assigned to the partition must be known to be selected later in `UNetbootin`_. If the partition already existed before connecting the unit, it can be obtained from a command prompt using the ``dmesg`` command to view the last lines of ``kernel`` messages. If it was created later instead, this data is already known.
+  The device ID assigned to the partition must be known to be selected later in `UNetbootin`_. If the partition already existed before connecting the unit, it can be obtained from a command prompt using the ``dmesg`` command to view the last lines of ``kernel`` messages. If it was created later instead, this data is already known.
 
 
-Next proceed to run the ÙNetbootin`_ utility. The steps to follow once the application has been launched are:
+  Next proceed to run the `UNetbootin`_ utility. The steps to follow once the application has been launched are:
 
   * Select ``Diskimage``, ``ISO`` format and browse for the ``iso`` path trough the file browser included on the application.
 
@@ -121,9 +120,9 @@ Using MAC OSX
 On computers with MAC OSX is possible to use the same methods as for GNU/Linux, changing only the name of the device being used to dump the content of the image.
 
   .. note::
-    It is important to note that after several test with different Apple computers, flash drives created with  `UNetbootin`_ not always start on those teams, so we recommend using the ``dd`` command from a command console to copy the distribution image.
+    It is important to note that after several test with different Apple computers, flash drives created with `UNetbootin`_ not always start on those computers, so we recommend using the ``dd`` command from a command console to copy the distribution image.
 
-To facilitate the utilisation of the command, `dd-gui`_ utility may be used, allowing you to use a graphical interface to perform the operations.
+To facilitate the utilisation of the ``dd`` command, `dd-gui`_ utility may be used, allowing you to use a graphical interface to perform the operations.
 
 
 Using MS Windows
@@ -144,7 +143,7 @@ To store the information, files, settings, etc. or changes made between reboots 
 
 They are not mutually exclusive, so we can create both or either separately.
 
-To enable data persistence it is needed to create one or both additional partitions in the free space of the ``USB`` device or hard disk and use them for a ``ext3`` or ``ext4`` type filsystem within the following volume labels:
+To enable data persistence it is needed to create one or both additional partitions in the free space of the ``USB`` device or hard disk and use an ``ext3`` or ``ext4`` type filesystem for them with the following volume labels:
 
 * ``live-rw`` to enable system data persistence.
 * ``home-rw`` to enable user data persistence.

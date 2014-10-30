@@ -16,7 +16,7 @@ The source code of all the software included in both cases, which is necessary t
 Distribution building system
 ----------------------------
 
-The distribution building system is based on `DebianLive`_, a `Debian`_ GNU/Linux system for building custimised *Live* systems::
+The distribution building system is based on `DebianLive`_, a `Debian`_ GNU/Linux system for building customised *Live* systems::
 
     Copyright ©  2006-2013 Debian Live Project
 
@@ -107,7 +107,7 @@ Other included files or projects
 Meikian Live Distribution
 -------------------------
 
-All software included in the distribution use free licenses, with the exception of `Repetier-host`_ that only allows its free use and redistribution.
+All software included in the distribution use free licenses.
 
 
 Software contained in Debian GNU/Linux repositories
@@ -115,15 +115,15 @@ Software contained in Debian GNU/Linux repositories
 
 All the software listed in the official `Debian`_ GNU/Linux repositories, save the information corresponding to ``copyright`` and their licenses in the documentation directory of each package.
 
-This information can be found from the distribution itself, accessing to ``/usr/share/doc/"package name"``. 
+This information can be found from the distribution itself, accessing to the ``/usr/share/doc/"package name"`` directory. 
 
 
 Software specifically packaged for the distribution
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-All software specifically packaged for the distribution  store the information corresponding to ``copyright`` and the licenses they are subject to within the directory of the program itself or the documentation of each package.
+All software specifically packaged for the distribution, store the information corresponding to ``copyright`` and the licenses they are subject to within the directory of the program itself or the documentation of each package.
 
-In most cases it is available from the distribution itself accessing to ``/usr/local/doc/"package name"``.
+In most cases it is available from the distribution itself accessing to the ``/usr/local/doc/"package name"`` directory.
 
 
 Other software or projects included
