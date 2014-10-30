@@ -1,33 +1,34 @@
-=================== 
-Using Live Meikian 
-=================== 
+==================
+Using Meikian Live
+==================
 
 *Meikian Live* distribution download can be made through the links on `www.meikian.eu`_ download page.
 
 Once you download the ``iso`` file containing the distribution, you the content need to be transfered to a physical device. Procedures for performing the operation depend on both the physical device and the operating system used.
 
-Recording to DVD 
---------------- 
+Recording to DVD
+----------------
 
 No problem about the platform or operating system used, since any ``CD``/``DVD`` recording program that allows ``iso`` images recording will be able to perform this operation.
 
-Copy to a USB storage device 
--------------------------------------------- 
 
-Using GNU / Linux 
-~~~~~~~~~~~~~~~~~~~~ 
+Copy to an USB storage device
+-----------------------------
+
+Using GNU/Linux
+~~~~~~~~~~~~~~~
 
 * Using ``dd`` `command`: 
 
-   The first step will be to connect the storage unit you want used for the copy of the distribution, it must have capacity enough to accommodate the downloaded ``iso``. If you want to create one or more additional partitions to use data persistence, the size needed space will increase depending on the size you want for those partitions. 
+Â Â  The first step will be to connect the storage unit you want used for the copy of the distribution, it must have capacity enough to accommodate the downloaded ``iso``. If you want to create one or more additional partitions to use data persistence, the size needed space will increase depending on the size you want for those partitions. 
 
-   After connecting the storage unit from a command console ``dmesg`` command can be used to see last message lines from ``kernel`` and get the device ID that the system assigned to it. 
+Â Â  After connecting the storage unit from a command console ``dmesg`` command can be used to see last message lines from ``kernel`` and get the device ID that the system assigned to it. 
 
-   To copy the ``iso`` file, two diffeent methods can be used: 
+Â Â  To copy the ``iso`` file, two diffeent methods can be used: 
 
-   * The first, more correct, will be using the commands ``isoinfo`` and ``dd``: 
+Â Â  * The first, more correct, will be using the commands ``isoinfo`` and ``dd``: 
 
-     For example, to obtain the information of ``meikian-live_beta1.iso`` file, the following command will be executed::
+Â Â Â Â  For example, to obtain the information of ``meikian-live_beta1.iso`` file, the following command will be executed::
 
 
       user@meikian-dev:~$ isoinfo -d -i meikian-live_beta1.iso
@@ -99,7 +100,7 @@ As in the previous section, the first step is to connect the storage unit you wa
 The device ID assigned to the partition must be known to be selected later in `UNetbootin`_. If the partition already existed before connecting the unit, it can be obtained from a command prompt using the ``dmesg`` command to view the last lines of ``kernel`` messages. If it was created later instead, this data is already known.
 
 
-Next proceed to run the ÙNetbootin`_ utility. The steps to follow once the application has been launched are:
+Next proceed to run the Ã™Netbootin`_ utility. The steps to follow once the application has been launched are:
 
   * Select ``Diskimage``, ``ISO`` format and browse for the ``iso`` path trough the file browser included on the application.
 
@@ -115,7 +116,7 @@ Next proceed to run the ÙNetbootin`_ utility. The steps to follow once the appli
 
 
 Using MAC OSX
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 On computers with MAC OSX is possible to use the same methods as for GNU/Linux, changing only the name of the device being used to dump the content of the image.
 
@@ -126,7 +127,7 @@ To facilitate the utilisation of the command, `dd-gui`_ utility may be used, all
 
 
 Using MS Windows
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 As in MAC OSX case, for computers running MS Windows it is possible to resort to using `UNetbootin`_. The only significant difference from mentioned to GNU/Linux will be the name of the storage units we are going to transfer the image of the distribution.
 
@@ -134,7 +135,7 @@ Another utility to perform the operation, similar to GNU/Linux ``dd`` command bu
 
 
 Using persistence for user data
-----------------------------------------------
+-------------------------------
 
 To store the information, files, settings, etc. or changes made between reboots of the *Live* distribution, it may be resorted to the use of auxiliary partitions in which the information can be stored permanently. To do this, two different types of data persistance may be chosen:
 
@@ -150,8 +151,9 @@ To enable data persistence it is needed to create one or both additional partiti
 
 If created from the *Live* distribution itself, the system must be restarted to recognize the new partitions at startup and to generate the files and directory structure required for operation.
 
+
 Users
---------
+-----
 
 Default users defined in the distribution are as follows:
 

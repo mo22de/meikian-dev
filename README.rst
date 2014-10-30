@@ -15,13 +15,15 @@ The main points to be considered in their development are:
 
 * A **low resources consumption**. It is important that the needed resources for operation are low, as this will allow to use it in a greater number of teams while allowing reuse of older machines.
 
+
 What is a "Live" distribution?
---------------------------------
+------------------------------
 
 A *Live* distribution is a set consisting of an opeating system, additional software and settings, that is ready to boot and run from a removable drive (``CD``/``DVD-ROM``, ``USB`` flash or hard drive, etc.), allowing you to work with it without affecting the operating system, software or settings of the computer on which it runs.
 
+
 Technological base
-----------------
+------------------
 
 `Debian`_ GNU/Linux was used for the development of the distribution as base operating system. It is one of the oldest GNU/Linux that exist today and enjoying excellent health, as evidenced by the fact that it is still used as a base for many other distributions, some of them really popular, as `Ubuntu`_ or `LinuxMint`_.
 
@@ -34,7 +36,7 @@ The operating system used for its development is `DebianLive`_, a `Debian`_ oper
 
 
 Resources
---------
+---------
 
 * `CWLive`_ page created within `RepRap.org`_ ``Wiki``.
 
@@ -50,7 +52,7 @@ Resources
 
 
 Hardware requirements
-----------------------
+---------------------
 
 The requirements to run *Meikian Live* are relatively modest compared with the hardware resources at the disposal of any existing equipment. In turn, the total resources consumption is also determined by the tasks that will be performed, so it is not recommended to use the distribution with lower resources than the specified ones to be able to work with minimal fluency in most included programs:
 
@@ -63,8 +65,10 @@ The requirements to run *Meikian Live* are relatively modest compared with the h
 
 
 Hardware tested with the distribution
-------------------------------------
+-------------------------------------
 
+Computers
+~~~~~~~~~
 
 * Acer Aspire 7750G: OK
 * Apple MacBook Air 11" 2011: OK
@@ -87,9 +91,8 @@ Hardware tested with the distribution
 * PackardBell EasyNote A7738: WiFi interface is "eth*" no "wlan*". OK
 
 
-
 Controller boards
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 * `Arduino Mega 2560`_ + `RAMPS 1.4`_
 * `Gen7 1.4.1`_
@@ -107,3 +110,4 @@ Controller boards
 .. _`Sanguinololu 1.3a`: http://reprap.org/wiki/Sanguinololu/es
 .. _`SAV 3D LCD`: http://reprap.org/wiki/SAV_3D_LCD
 .. _`SAV MKI`: http://reprap.org/wiki/SAV_MKI/es
+

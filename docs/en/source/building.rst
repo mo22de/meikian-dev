@@ -1,7 +1,6 @@
-===============================
+=============================
 Building a Meikian Live image
-===============================
-
+=============================
 
 *Meikian Live* is developed with `Debian`_ GNU/Linux 7.x ``Wheezy`` for ``x86`` architecture, using `DebianLive`_, its own ``live`` systems creator. It is possible to use other versions or architectures, even derived distributions, but in such cases it cannot be guaranteed that the following detailed process works or it may not be the same.
 
@@ -9,15 +8,15 @@ To generate a *Meikian Live* image from scratch, the following requeriment are n
 
 
 Root access
-----------------------
+-----------
 
 The creation script needs to be executed with root privileges, either by ``su`` or ``sudo`` command.
 
 
 Needed tools
----------------------
+------------
 
-A number of preínstalled tools are needed, for which the following command may be used::
+A number of preÃ­nstalled tools are needed, for which the following command may be used::
 
   user@meikian-dev:~$ sudo apt-get install apt-utils debootstrap dosfstools debian-keyring fakeroot genisoimage genext2fs gnu-fdisk loadlin mtd-utils parted squashfs-tools syslinux uuid-runtime win32-loader xorriso
 
@@ -27,7 +26,7 @@ It is also needed to have the ``3.x`` branch of `DebianLive`_ toolset installed 
 
 
 Meikian Live repository on GitHub
--------------------------------------
+---------------------------------
 
 A copy of *Meikian Live* repository content on `GitHub`_ is needed. This can be obtained in two different ways, by cloning the repository or by downloading the ``zip`` file with its content from `GitHub`_ webpage.
 
@@ -51,7 +50,7 @@ A copy of *Meikian Live* repository content on `GitHub`_ is needed. This can be 
 
 
 Modifying Meikian Live building script
----------------------------------------------------
+--------------------------------------
 
 Few parameters inside the  distribution building ``script`` need to be modified to specify the path where the content of the *Meikian Live* repository has been copied.
 
@@ -74,7 +73,7 @@ As an example for the case of a use ``user`` having its home directory in ``/hom
 
 
 Applying patch to Live-Build 3.x
--------------------------------
+--------------------------------
 
 Within the *Meikian Live* repository in `GitHub`_ exists a directory named ``patches`` and inside it the necessary patch for the ``Live-Build`` 3.x branch that allows images with more than two ``kernels`` to be created.
 
@@ -85,7 +84,7 @@ Using the same scenario as in previous sections, the commands to be executed to 
 
 
 Creating Meikian Live iso
-----------------------------------
+-------------------------
 
 The distribution building ``script`` can generate various types of images for different purposes. The available types are:
 
@@ -117,5 +116,4 @@ Using the same scenario as in previous sections, the commands needed to generate
 .. _`Debian`: http://www.debian.org
 .. _`DebianLive`: http://live.debian.net
 .. _`GitHub`: https://www.github.com
-
 

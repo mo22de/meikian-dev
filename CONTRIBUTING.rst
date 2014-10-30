@@ -1,18 +1,17 @@
-==============
+============
 Contributing
-==============
+============
 
 Contributions are welcome and really appreciated. Every single contribution helps and will always have the corresponding acknowledgement.
-
 
 You can contribute in many ways:
 
 
 Types of contributions
------------------------
+----------------------
 
 Bugs/issues reporting
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 They can be reported creating new entries at `issues`_ section of `GitHub`_ repository.
 
@@ -24,25 +23,25 @@ When an issue is being reported, it is convenient to include:
 
 
 Debugging
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
 
 All entries tagged as `bug` on `issues`_ section of `GitHub`_ repository are available for anyone who wants to help debugging them.
 
 
 Implementing features
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 All entries tagged as `feature` on `issues`_ section of `GitHub`_ repository are available for anyone who wants to help implementing them.
 
 
 Writing documentation
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 *Meikian Live* can always benefit with more documentation, either as part of the official documentation, comments within the code or even on the web, or as blog posts, articles and similar.
 
 
 Giving feedback
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 The best way to provide feedback to the project is adding comments and new entries at `issues`_ section of `GitHub`_ repository.
 
@@ -54,7 +53,7 @@ If a feature is being proposed, it is convenient to consider:
 
 
 Starting!
-----------
+---------
 
 Ready to contribute? How to prepare *Meikian Live* to develop locally is detailed below.
 
@@ -83,7 +82,7 @@ Ready to contribute? How to prepare *Meikian Live* to develop locally is detaile
 
 
 Instructions to make a "pull request"
----------------------------------------------
+-------------------------------------
 
 Before a "pull request", the following guideline should be checked:
 
