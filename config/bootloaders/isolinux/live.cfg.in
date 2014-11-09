@@ -1,0 +1,45 @@
+label live-@FLAVOUR@
+    menu label ^Meikian Live 
+    menu default
+    linux @LINUX@
+    initrd @INITRD@
+    append @APPEND_LIVE@ swapon persistence
+
+label live-@FLAVOUR@-failsafe
+    menu label M^eikian Live (a prueba de fallos)
+    linux @LINUX@
+    initrd @INITRD@
+    append @APPEND_LIVE_FAILSAFE@
+
+menu begin Instalar a disco ...
+    label installer
+        menu label ^Volver al menu anterior ...
+        menu exit
+
+    include /isolinux/install.cfg
+menu end
+
+menu begin Arrancar desde ...
+    label maindev
+        menu label ^Volver al menu anterior ...
+        menu exit
+
+    include /isolinux/bootdevs.cfg
+menu end
+
+menu begin Informacion del sistema ...
+    label mainhw
+        menu label ^Volver al menu anterior ...
+        menu exit
+
+    include /isolinux/hardware.cfg
+menu end
+
+menu begin Grub ...
+    label maingrub
+        menu label ^Volver al menu anterior ...
+        menu exit
+
+    include /isolinux/bootgrub.cfg
+menu end
+

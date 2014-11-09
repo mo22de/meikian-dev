@@ -1,41 +1,44 @@
-==============================
-Instalación de Clone-Wars Live
-==============================
+==================
+Using Meikian Live
+==================
 
-Existen diferentes procedimientos para copiar el contenido del archivo .iso que se descarga a un medio físico. Dichos procedimientos van a depender básicamente del medio físico en el que se quiera instalar la distribución y del sistema operativo que se empleé para realizar el proceso.
+*Meikian Live* distribution download can be made through the links on `www.meikian.eu`_ download page.
 
-Grabación a DVD
-===============
+Once you download the ``iso`` file containing the distribution, the content need to be transfered to a physical device. Procedures for performing the operation depend on both the physical device and the operating system used.
 
-No representa ningún problema en cuanto a S.O. o plataforma, puesto que cualquier programa de grabación de DVD que permita grabar imágenes .iso sirve para realizar la grabación.
+Recording to DVD
+----------------
 
-Copia a un dispositivo de almacenamiento USB
-============================================
+No problem about the platform or operating system used, since any ``CD``/``DVD`` recording program that allows ``iso`` images recording will be able to perform this operation.
 
-Utilizando GNU/Linux
----------------------------
 
-* Con el comando "dd":
+Copy to an USB storage device
+-----------------------------
 
-  El primer paso será enchufar la unidad de almacenamiento que se quiere emplear para la copia de la distribución, debiendo ser ésta de tamaño suficiente como para que pueda albergar el fichero .iso descargado. En caso de querer crear una o más particiones adicionales para la persistencia de los datos, el tamaño necesario habrá de aumentarse en consonancia con el tamaño de dichas particiones.
+Using GNU/Linux
+~~~~~~~~~~~~~~~
 
-  Una vez enchufada, desde una consola de comandos se puede utilizar el comando "dmesg" para ver las últimas líneas de mensajes del kernel y obtener el dispositivo de sistema que se le ha asignado. 
+* Using ``dd`` command:
 
-  Conociendo el dispositivo de sistema asignado ya es posible hacer la copia del fichero .iso descargado y para ello se podrán emplear dos métodos diferentes:
+  The first step will be to connect the storage unit you want used for the copy of the distribution, it must have capacity enough to accommodate the downloaded ``iso``. If you want to create one or more additional partitions to use data persistence, the size needed space will increase depending on the size you want for those partitions. 
 
-  * El primero, el más correcto, utilizando los comandos "isoinfo" y "dd":
+  After connecting the storage unit from a command console ``dmesg`` command can be used to see last message lines from ``kernel`` and get the device ID that the system assigned to it. 
 
-    Por ejemplo, para obtener la información del fichero "cwlive-alpha3.iso", se ejecuta el siguiente comando::
+  To copy the ``iso`` file, two differnt methods can be used: 
 
-      $ isoinfo -d -i cwlive-alpha3.iso
+  * The first, more correct, will be using the commands ``isoinfo`` and ``dd``: 
+
+    For example, to obtain the information of ``meikian-live_beta1.iso`` file, the following command will be executed::
+
+      user@meikian-dev:~$ isoinfo -d -i meikian-live_beta1.iso
            
       CD-ROM is in ISO 9660 format
       System id: 
-      Volume id: CloneWars_20140201
+      Volume id: Meikian_20140915
       Volume set id: 
-      Publisher id: CLONEWARS
+      Publisher id: MEIKIAN
       Data preparer id: LIVE-BUILD 3.0.5-1; HTTP://PACKAGES.QA.DEBIAN.ORG/LIVE-BUILD
-      Application id: CLONEWARS LIVECD
+      Application id: MEIKIAN LIVECD
       Copyright File id: 
       Abstract File id: 
       Bibliographic File id: 
@@ -60,92 +63,107 @@ Utilizando GNU/Linux
           Bootoff 19B32 105266
 
 
-    De la información que devuelve el comando son necesarios los valores de "Logical block size" y "Volume size".
+    From the information that the command returns, the values of ``Logical block size`` and ``Volume size`` fields are needed.
 
-    ATENCION: el siguiente paso elimina la tabla de particiones y toda la información contenida en el dispositivo que se indique, por eso es imprescindible asegurarse de que se trata del dispositivo correcto :ATENCIÓN
+    .. warning::
+      The following process eliminates the partition table and all the information contained in the specified device, so it is imperative to be sure it is the correct device.
 
-    Para un pendrive al que se le ha asignado el dispositivo de sistema "sdb", se ejecutará con permisos de superusuario (como root o con sudo) el siguiente comando::
+    The command that must be executed is::
 
-      # dd if="ruta al archivo descargado" bs="Logical block size" count="Volume size" of=/dev/"dispositivo de sistema del destino"
+      dd if="path to the downloaded file" bs="Logical block size" count="Volume size" of=/dev/"device identifier"
     
-    Si se usan los datos del ejemplo anterior, el comando final quedará de la siguente manera::
+    Using data from the previous example for a flash drive that has been assigned a device identifier``sdb``, the following command will be executed with root privileges, either by using ``su`` or ``sudo`` command::
 
-      # dd if=cwlive-alpha3.iso bs=2048 count=749984 of=/dev/sdb
+      user@meikian-dev:~$ sudo dd if=meikian-live_beta1.iso bs=2048 count=749984 of=/dev/sdb
 
-* El segundo, más rápido y que normalmente suele funcionar, usando únicamente el comando "dd": 
+  * The second, faster and usually enough, using only ``dd`` command: 
 
-  ATENCION: el siguiente paso elimina la tabla de particiones y toda la información contenida en el dispositivo que se indique, por eso es imprescindible asegurarse de que se trata del dispositivo correcto :ATENCIÓN
+    .. warning::
+      The following process eliminates the partition table and all the information contained in the specified device, so it is imperative to be sure it is the correct device.
 
-  Para un pendrive al que se le ha asignado el dispositivo de sistema "sdb", se ejecutará con permisos de superusuario (como root o con sudo) el siguiente comando::
+    The command to be executed is::
 
-    # dd if="ruta al archivo descargado" of=/dev/"dispositivo de sistema del destino"
+      dd if="path to downloaded file" of=/dev/"device identifier"
+
+    Using data from the previous example for a flash drive that has been assigned a device identifier``sdb``, the following command will be executed with root privileges, either by using ``su`` or ``sudo`` command::
+
+      user@meikian-dev:~$ sudo dd if=meikian-live_beta1.iso of=/dev/sdb
     
-  Si se usan los datos del ejemplo anterior, el comando final quedará de la siguiente manera::
+  Once the command returns control to the console, and if there has been no error during the process, the copy will be made. To start the distribution is necessary to ensure that the computer allows booting from ``USB`` devices and that the boot sequence order is correctly selected on the computer ``BIOS``.
 
-    # dd if=cwlive-alpha3.iso of=/dev/sdb
-    
-  Una vez finalizado el comando, la copia ya se ha realizado. Para arrancar la distribución es necesario asegurarse de que el equipo permita el arranque desde dispositivos "USB" y que, en la "BIOS" del mismo, esté seleccionado correctamente el orden de la secuencia de arranque.
+*  With `UNetbootin`_ utility:
 
-*  Con la utilidad `UNetbootin`_:
+  As in the previous section, the first step is to connect the storage unit you want to use to copy the distribution in it. It must contain a partition with ``FAT32`` file system with enough space to hold the downloaded ``iso`` file. That partition should also be mounted. If not,  one must be previously created and mounted.
 
-  Al igual que en el apartado anterior, el primer paso será enchufar la unidad de almacenamiento que se quiere usar para copiar en élla la distribución. Es necesario que contenga una partición con sistema de ficheros "FAT32" con espacio suficiente para albergar el fichero .iso descargado. En caso no ser así habrá que crearla previamente.
+  The device ID assigned to the partition must be known to be selected later in `UNetbootin`_. If the partition already existed before connecting the unit, it can be obtained from a command prompt using the ``dmesg`` command to view the last lines of ``kernel`` messages. If it was created later instead, this data is already known.
 
-  El siguiente paso será conocer el dispositivo de sistema asignado a dicha partición. En el caso de que que la partición ya existiese al enchufar la unidad de almacenamiento, desde una consola de comandos se puede utilizar el comando "dmesg" para ver las últimas líneas de mensajes del kernel y obtener así el dispositivo de sistema asignado. Si en cambio se ha creado posteriormente, éste ya será conocido por nosotros.
 
-  Para poder continuar con el proceso de volcado de la imagen, la partición deberá estar montada.
+  Next proceed to run the `UNetbootin`_ utility. The steps to follow once the application has been launched are:
 
-  Una vez conocido el dispositivo de sistema de la partición y con ésta montada, se ejecutará la utilidad `UNetbootin`_
+  * Select ``Diskimage``, ``ISO`` format and browse for the ``iso`` path trough the file browser included on the application.
 
-  Pasos a seguir una vez se ha lanzado la aplicación:
+  * Select ``USB Drive`` and as ``Drive``, use the device ID assigned to the partition where it is going to be installed. This is normally possible from the dropdown button itself.
 
-  * Seleccionar "DiscoImagen", formato "ISO" e introducir la ruta al fichero .iso descargado con la imagen de la distribución. Esto último se puede hacer a través del explorador de archivos incorporado.
+  * Press ``OK`` button and wait until the process is completed.
 
-  * Seleccionar el tipo "Unidad USB" y como "Unidad" el dispositivo de sistema asignado a la partición en donde se va a instalar que, normalmente, se puede seleccionar desde el propio botón desplegable.
+  `UNetbootin`_ modifies the distribution boot menu causing malfunction. Perform the following operation to restore it to normal.
 
-  * Pulsar el botón "Aceptar" y esperar a que termine el proceso.
+  * The root directory of the storage unit where the distribution has been shifted contains a folder named ``syslinux`` containing a file named ``syslinux.cfg``. This file needs to be erased for then, proceed to rename the file ``syslinux.cfg.orig`` to ``syslinux.cfg``.
 
-    La utilidad `UNetbootin`_ efectua una modificación en la configuración del menú de arranque de la distribución que hace que no funcione correctamente, por lo que para restaurarlo a su estado normal hay que realizar la siguiente operación:
+  From this moment the distribution will be transferred to the storage unit. When booting it is mandatory to be sure that the system allows booting from ``USB`` devices and that the proper booting sequence has been selected in the "BIOS".
 
-  * Dentro del directorio raíz de la unidad de almacenamiento en donde se ha volcado la distribución, existe un directorio llamado "syslinux" que contiene un fichero con nombre "syslinux.cfg". Es necesario borrar dicho fichero para a continuación proceder a renombrar el fichero "syslinux.cfg.orig" a "syslinux.cfg".
 
-    A partir de este momento la distribución ya estará volcada a la unidad de almacenamiento. A la hora de arrancarla es necesario asegurarse de que el equipo permita el arranque desde dispositivos "USB" y que, en la "BIOS" del mismo, esté seleccionado correctamente el orden de la secuencia de arranque.
+Using MAC OSX
+~~~~~~~~~~~~~
 
+On computers with MAC OSX is possible to use the same methods as for GNU/Linux, changing only the name of the device being used to dump the content of the image.
+
+  .. note::
+    It is important to note that after several test with different Apple computers, flash drives created with `UNetbootin`_ not always start on those computers, so we recommend using the ``dd`` command from a command console to copy the distribution image.
+
+To facilitate the utilisation of the ``dd`` command, `dd-gui`_ utility may be used, allowing you to use a graphical interface to perform the operations.
+
+
+Using MS Windows
+~~~~~~~~~~~~~~~~
+
+As in MAC OSX case, for computers running MS Windows it is possible to resort to using `UNetbootin`_. The only significant difference from mentioned to GNU/Linux will be the name of the storage units we are going to transfer the image of the distribution.
+
+Another utility to perform the operation, similar to GNU/Linux ``dd`` command but using a graphical interface is `win32diskimager`_.
+
+
+Using persistence for user data
+-------------------------------
+
+To store the information, files, settings, etc. or changes made between reboots of the *Live* distribution, it may be resorted to the use of auxiliary partitions in which the information can be stored permanently. To do this, two different types of data persistance may be chosen:
+
+* **System data** in which all changes made in the system including the user directory is stored.
+* **User data** in which only the changes made in the user directory are stored.
+
+They are not mutually exclusive, so we can create both or either separately.
+
+To enable data persistence it is needed to create one or both additional partitions in the free space of the ``USB`` device or hard disk and use an ``ext3`` or ``ext4`` type filesystem for them with the following volume labels:
+
+* ``live-rw`` to enable system data persistence.
+* ``home-rw`` to enable user data persistence.
+
+If created from the *Live* distribution itself, the system must be restarted to recognize the new partitions at startup and to generate the files and directory structure required for operation.
+
+
+Users
+-----
+
+Default users defined in the distribution are as follows:
+
+* ``root`` is the admin user and is disabled by default, so to execute actions or commands with root privileges you have to resort to using ``su``, ``sudo`` or ``gksudo`` commands.
+* ``user`` is the common use user of the distribution and its password is ``live``.
+
+  .. note::
+    When the distribution is installed on a hard drive it will be needed to enter the user password to execute certain commands or actions that need root privileges, but not in *Live* mode.
+
+
+.. _`dd-gui`: http://www.gingerbeardman.com/dd-gui
+.. _`www.meikian.eu`: http://www.meikian.eu
 .. _`UNetbootin`: http://unetbootin.sourceforge.net
+.. _`win32diskimager`: http://sourceforge.net/projects/win32diskimager
 
-Utilizando MAC OSX
-------------------
-
-En equipos con MAC OSX es posible emplear los mismos métodos que para GNU/Linux, variando únicamente el nombre del dispositivo en el que se va a volcar el contenido de la imagen.
-
-Es importante resaltar que trás haber realizado múltiples pruebas con diferentes equipos Apple, los pendrives generados con "UNetbootin" no siempre arrancan en dichos equipos, por lo que se recomienda utilizar el comando "dd" desde una consola de comandos para copiar la imagen.
-
-
-Utilizando MS Windows
----------------------
-
-Para los equipos con MS Windows también es posible recurrir al empleo de "UNetbootin" y al igual que en el caso de MAC OSX, la única diferencia en el proceso respecto a lo mencionado para GNU/Linux viene determinada por el nombre de la unidad en la que vamos a volcar la imagen.
-
-
-Uso de persistencia para los datos del usuario
-----------------------------------------------
-
-Para conservar la información, archivos, configuraciones, etc o los cambios que se realicen entre reinicios de la distribución "Live", se puede recurrir al uso de particiones auxiliares en las que dicha información quede almacenada de manera permanente. Se puede elegir entre dos clases de persistencia:
-
-* De datos de sistema: en la que se almacenan todos los cambios que se realicen en el sistema, incluidos los de los directorios del usuario.
-* De datos de usuario: en la que se almacenan únicamnete los cambios que se realicen en el directorio del usuario.
-
-Para activarla es necesario crear una partición adicional, en el espacio libre en el dispositivo USB o en el disco duro, usando un sistema de ficheros "ext3" o "ext4" y asignándole una de las siguientes etiquetas de volumen:
-
-* "live-rw": para tener persistencia de datos de sistema.
-* "home-rw": para tener persistencia de datos de usuario.
-
-Si se crean desde la propia distribución "Live", será necesario el reinicio del sistema para que reconozca en el arranque la nueva partición y se generen la estructura de directorios y los ficheros necesarios para su funcionamiento.
-
-
-Usuarios
---------
-
-Los usuarios definidos en la distribución, tanto en modo "Live" como instalada en disco duro, son los siguientes:
-
-* "root": deshabilitado por defecto, por lo que para ejecutar acciones o comandos con privilegios de superusuario habrá que recurrir al uso de los comandos "sudo" o "gksudo".
-* "cw": es el usuario por defecto de la distribución, tiene contraseña idéntica al nombre de usuario, es decir "cw". Cuando la distribución esté instalada en disco duro, se nos pedirá la contraseña para la ejecución de ciertos comandos o acciones que necesitan privilegios de superusuario, no siendo así en el modo "Live".

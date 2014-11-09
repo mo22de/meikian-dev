@@ -1,0 +1,53 @@
+### Base system package list
+###
+
+
+## Debian-Live needed packages
+##
+eject file live-tools sudo user-setup
+
+## Virtualbox (for development on Virtualbox VM)
+##
+#virtualbox-ose-guest-utils virtualbox-ose-guest-x11 virtualbox-ose-guest-dkms
+
+
+## Basic system
+##
+#acpi-support bash-completion bc bzip2 console-setup curl ethstatus ethtool grc gpm gvfs gvfs-backends iproute less locales lrzsz lshw lsof mc minicom most netcat ntp ntpdate openssh-client openssh-server procps psmisc pv rcconf rsync screen strace sysv-rc-conf telnet tree vim wget
+acpi-support bash-completion bc bzip2 console-setup curl ethstatus ethtool grc gpm gvfs gvfs-backends iproute less locales lrzsz lshw lsof mc minicom most netcat ntpdate openssh-client openssh-server procps psmisc pv rcconf rsync screen strace sysv-rc-conf telnet tree vim wget
+
+
+## System
+##
+#bridge-utils ca-certificates cryptsetup debconf-utils deborphan dialog dmsetup dosfstools e2fsprogs encfs extlinux gpart grub-pc grub-rescue-pc hdparm hfsutils hwb hwdata i2c-tools jfsutils kpartx lvm2 mbr mdadm mii-diag mtools nfs-common nictools-pci ntfs-3g ntfsprogs parted patchutils policykit-1 policykit-1-doc python-smbus reiser4progs reiserfsprogs scsitools sdparm sg3-utils sharutils sysfsutils syslinux udftools usbutils util-linux vlan wireless-tools x86info xfsdump xfsprogs
+bridge-utils ca-certificates cryptsetup debconf-utils deborphan dialog dmsetup dosfstools e2fsprogs encfs extlinux gpart grub-pc grub-rescue-pc hdparm hfsutils hwb hwdata i2c-tools jfsutils kpartx lvm2 mbr mdadm mii-diag mtools nictools-pci ntfs-3g ntfsprogs parted patchutils policykit-1 policykit-1-doc python-smbus reiser4progs reiserfsprogs scsitools sdparm sg3-utils sharutils sysfsutils syslinux udftools usbutils util-linux vlan wireless-tools x86info xfsdump xfsprogs
+
+## Compressors
+arj cabextract p7zip-full p7zip-rar unace unrar unzip
+
+## Drivers
+ndiswrapper-dkms ndiswrapper-utils-1.9
+
+## Firmwares
+prism2-usb-firmware-installer atmel-firmware bluez-firmware dahdi-firmware-nonfree firmware-atheros firmware-bnx2 firmware-bnx2x firmware-intelwimax firmware-ipw2x00 firmware-iwlwifi firmware-linux firmware-qlogic firmware-ralink firmware-realtek libertas-firmware midisport-firmware zd1211-firmware
+
+## Software
+build-essential cdrdao dpkg-repack dvd+rw-tools fakeroot fsarchiver genisoimage ht jhead mpack ncurses-hexedit units wodim
+
+## Software: networks
+dnsutils ipcalc mtr nmap tcpdump whois wpasupplicant
+
+## Software: status & monitoring
+dstat hddtemp htop iftop iotop iptraf smartmontools
+
+
+## Xorg base
+##
+xcompmgr xorg xserver-xorg-video-all xserver-xorg-input-all
+
+## Xorg base: drivers
+#nvidia-xconfig nvidia-settings nvidia-vdpau-driver nvidia-kernel-dkms fglrx-control fglrx-driver linux-headers-2.6.32-5-686 fglrx-modules-dkms fglrx-atieventsd
+
+## Xorg base: fonts
+ttf-bitstream-vera ttf-dejavu ttf-freefont ttf-inconsolata ttf-liberation ttf-marvosym ttf-opensymbol
+

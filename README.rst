@@ -1,88 +1,99 @@
-==============
-CloneWars Live
-==============
+============
+Meikian Live
+============
 
-La idea detrás del origen de *CloneWars Live* es la de proporcionar un entorno de trabajo con las herramientas más habituales para el trabajo con impresoras 3D (diseño de piezas e impresión), `Arduino`_, circuitos electrónicos, CNC, RC, robótica, etc, así como documentación relacionada. 
+*Meikian Live* originally born as *CW-Live* within the `Clone Wars Project`_ community.
+
+The idea behind *Meikian Live* origin is to provide a working environment with the most common tools to work with 3D printers (part design and printing), `Arduino`_, electronic circuits, CNC, RC, robotics, etc., as well as resources and related documentation. 
 
 .. _`Arduino`: http://www.arduino.cc
+.. _`Clone Wars Project`: http://www.reprap.org/wiki/Proyecto_Clone_Wars
 
-Los puntos principales que se han tenido en cuenta en su desarrollo son:
+The main points to be considered in their development are: 
 
-* Que sea un **sistema libre**. Ha de permitir su libre uso, modificación y redistribución a cualquier persona interesada en su utilización.
+* Make it a **free system**. It must allow free usage, modification and redistribution to anyone interested in using it. 
 
-* Un **bajo consumo de recursos**. Es importante que los recursos necesarios para su funcionamiento sean bajos, ya que esto posibilitará su uso en una mayor cantidad de equipos y al mismo tiempo permite la reutilización y aprovechamiento de máquinas más antiguas.
+* A **low resources consumption**. It is important that the needed resources for operation are low, as this will allow to use it in a greater number of computers while allowing reuse of older machines.
 
-¿Qué es una distribución "Live"?
-================================
 
-Una distribución *Live* es un un conjunto formado por un sistema operativo, programas adicionales y configuraciones, que está preparado para arrancar y ejecutarse desde un dispositivo extraible (``CD``/``DVD-ROM``, memoria o disco duro ``USB``, etc), permitiendo trabajar con él sin afectar al sistema operativo y a los programas o configuraciones del equipo en el que se ejecuta.
+What is a "Live" distribution?
+------------------------------
 
-Base tecnológica
-================
+A *Live* distribution is a set consisting of an operating system, additional software and settings, that is ready to boot and run from a removable drive (``CD``/``DVD-ROM``, ``USB`` flash or hard drive, etc.), allowing you to work with it without affecting the operating system, software or settings of the computer on which it runs.
 
-Para el desarrollo de la distribución se ha empleado `Debian`_ GNU/Linux como sistema operativo base. Es una de las distribuciones GNU/Linux más antiguas que existen en la actualidad y que goza de una salud excelente, tal y como lo demuestra el hecho de que se siga usando como base para muchas distribuciones, algunas de ellas muy populares, como es el caso de `Ubuntu`_ o `LinuxMint`_.
 
-El sistema utilizado para su desarrollo es `LiveDebian`_, un sistema propio de `Debian`_ para la creación de sistemas *Live* personalizados.
+Technological base
+------------------
+
+`Debian`_ GNU/Linux was used for the development of the distribution as base operating system. It is one of the oldest GNU/Linux that exist today and enjoying excellent health, as evidenced by the fact that it is still used as a base for many other distributions, some of them really popular, as `Ubuntu`_ or `LinuxMint`_.
+
+The software used for its development is `DebianLive`_, a `Debian`_ own system to create custom *Live* systems.
 
 .. _`Debian`: http://www.debian.org
-.. _`Ubuntu`: http://www.ubuntu.com
+.. _`DebianLive`: http://live.debian.net
 .. _`LinuxMint`: http://www.linuxmint.com
-.. _`LiveDebian`: http://live.debian.net
+.. _`Ubuntu`: http://www.ubuntu.com
 
-Recursos
-========
 
-* La página `CWLive`_ creada dentro del ``Wiki`` de `RepRap.org`_.
+Resources
+---------
 
-* El código y ficheros necesarios para generar una imagen de la distribución partiendo de cero están disponibles en el repositorio `cwlive-dev`_ de `GitHub`_.
+* The `Meikian`_ web page.
 
-* La documentación completa del proyecto se encuentra disponible *on line* a través de la dirección `clonewars-live.readthedocs.org`_.
+* The code and files needed to generate an image of the distribution from scratch are available in `meikian-dev`_ `GitHub`_ repository.
 
-.. _`clonewars-live.readthedocs.org`: http://clonewars-live.readthedocs.org/es/latest
+* The complete project documentation is included in the distribution itself and also available *online* at `docs.meikian.eu`_.
+
+.. _`Meikian`: http://meikian.eu
 .. _`GitHub`: https://github.com
-.. _`cwlive-dev`: https://github.com/ctemescw/cwlive-dev
+.. _`meikian-dev`: https://github.com/ctemescw/meikian-dev
+.. _`docs.meikian.eu`: http://docs.meikian.eu/en/stable
 .. _`RepRap.org`: http://reprap.org
-.. _`CWLive`: http://reprap.org/wiki/Clone_Wars:_CWLive
 
-Requisitos de hardware
-======================
 
-Los requerimientos necesarios para hacer funcionar *CloneWars Live* son relativamente modestos si se comparan con los recursos de hardware de los que dispone cualquier equipo actual, enumerándose únicamente los mínimos recomendados. A su vez, el consumo total de recursos también está determinado por las tareas que se lleven a cabo, por lo que no es aconsejable utilizar la distribución con menos recursos de los especificados para que sea posible trabajar con un mínimo de comodidad en la mayoría de los programas incluidos:
+Hardware requirements
+---------------------
 
-* **Memoria**: cantidad mínima recomendada de 512MB de memoria ``RAM``
+The requirements to run *Meikian Live* are relatively modest compared with the hardware resources at the disposal of any existing equipment. In turn, the total resources consumption is also determined by the tasks that will be performed, so it is not recommended to use the distribution with lower resources than the specified ones to be able to work with minimal fluency in most included programs:
+
+* **Memory**: Minimum amount of ``RAM`` memory recommended is 512MB
 
   .. note::
-    Si se dispone de espacio libre **no particionado** en el disco duro del equipo, o en el dispositivo desde el que se está arrancando, se puede mejorar el rendimiento creando particiones para ``memoria de intercambio`` o ``swap`` y/o para ``persistencia de datos``. De esta manera se libera parte de la memoria ``RAM`` utilizada y se deja disponible para que pueda ser usada por el sistema operativo y los programas.
+    If **unpartitioned** free space is available on the hard drive of the computer or the device from which you are booting, overall performance may be improved by creating partitions for ``swap`` or for ``data persistence``. In this way part of the used RAM is released and is then available to be used by the operating system and the programs.
 
-* **Procesador**: procesador mínimo recomendado Intel Pentium3/Pentium4 o equivalente.
+* **Processor**: Intel Pentium4 or equivalent minimum processor.
 
-Hardware probado con la distribución
-====================================
 
-Equipos
--------
+Hardware tested with the distribution
+-------------------------------------
 
+Computers
+~~~~~~~~~
+
+* Acer Aspire 7750G: OK
 * Apple MacBook Air 11" 2011: OK
-* Apple MacBook Pro 5.1 15" late 2008: No detecta el arranque. KO
-* Apple MacBook Pro Retina 11.2 15" late 2013: Arranca con algunos problemas, aunque no detecta la tarjeta WiFi
-* Apple MacMini 2012: Arranca con algunos problemas, aunque no detecta la tarjeta WiFi
+* Apple MacBook Pro 5.1 15" late 2008: Not detected booting. KO
+* Apple MacBook Pro Retina 11.2 15" late 2013: Boot with some problems, but does not detect the WiFi card
+* Apple MacMini 2012: Boot with some problems, but does not detect the WiFi card
 * Asus A55VD: OK
 * Asus EeePC T101MT: OK
 * Asus X54H: ---
 * Clevo D400E: OK
 * Dell Inspiron n5050: OK
-* Dell Latitude D610: Interfaz WiFi es "eth*" no "wlan*". OK
+* Dell Latitude D610: WiFi interface is "eth*" no "wlan*". OK
 * Dell Latitude E6400: OK
 * Dell XPS L521X: OK
 * HP 500B MT: OK
-* HP Compaq NX9030: Interfaz WiFi es "eth*" no "wlan*". OK
+* HP Compaq NX9030: WiFi interface is "eth*" no "wlan*". OK
+* Lenovo Ideapad u430 Touch: Without WiFi support. OK
 * Lenovo n500: OK
+* Lenovo t430s: OK
 * Lenovo x200s: OK
-* PackardBell EasyNote A7738: Interfaz WiFi es "eth*" no "wlan*". OK
+* PackardBell EasyNote A7738: WiFi interface is "eth*" no "wlan*". OK
 
 
-Tarjetas controladoras
-----------------------
+Controller boards
+~~~~~~~~~~~~~~~~~
 
 * `Arduino Mega 2560`_ + `RAMPS 1.4`_
 * `Gen7 1.4.1`_
@@ -100,3 +111,4 @@ Tarjetas controladoras
 .. _`Sanguinololu 1.3a`: http://reprap.org/wiki/Sanguinololu/es
 .. _`SAV 3D LCD`: http://reprap.org/wiki/SAV_3D_LCD
 .. _`SAV MKI`: http://reprap.org/wiki/SAV_MKI/es
+

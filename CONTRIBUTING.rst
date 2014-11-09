@@ -2,114 +2,111 @@
 Contributing
 ============
 
-Contributions are welcome, and they are greatly appreciated! Every
-little bit helps, and credit will always be given. 
+Contributions are welcome and really appreciated. Every single contribution helps and will always have the corresponding acknowledgement.
 
 You can contribute in many ways:
 
-Types of Contributions
+
+Types of contributions
 ----------------------
 
-Report Bugs
-~~~~~~~~~~~
+Bugs/issues reporting
+~~~~~~~~~~~~~~~~~~~~~
 
-Report bugs at https://github.com/ctemescw/cwlive-dev/issues.
+They can be reported creating new entries at `issues`_ section of `GitHub`_ repository.
 
-If you are reporting a bug, please include:
+When an issue is being reported, it is convenient to include:
 
-* Your operating system name and version.
-* Any details about your local setup that might be helpful in troubleshooting.
-* Detailed steps to reproduce the bug.
+* Operative System name and its version.
+* Any detail related with your local settings that may be helpful to solve the problem.
+* Detailed steps to reproduce the error.
 
-Fix Bugs
-~~~~~~~~
 
-Look through the `GitHub`_ issues for bugs. Anything tagged with ``bug``
-is open to whoever wants to implement it.
+Debugging
+~~~~~~~~~
 
-.. _`GitHub`: https://github.com
+All entries tagged as `bug` on `issues`_ section of `GitHub`_ repository are available for anyone who wants to help debugging them.
 
-Implement Features
-~~~~~~~~~~~~~~~~~~
 
-Look through the `GitHub`_ issues for features. Anything tagged with ``feature``
-is open to whoever wants to implement it.
+Implementing features
+~~~~~~~~~~~~~~~~~~~~~
 
-.. _`GitHub`: https://github.com
+All entries tagged as `feature` on `issues`_ section of `GitHub`_ repository are available for anyone who wants to help implementing them.
 
-Write Documentation
-~~~~~~~~~~~~~~~~~~~
 
-*CloneWars Live* could always use more documentation, whether as part of the 
-official docs, in docstrings, or even on the web in blog posts, articles, and such.
+Writing documentation
+~~~~~~~~~~~~~~~~~~~~~
 
-Submit Feedback
+*Meikian Live* can always benefit with more documentation, either as part of the official documentation, comments within the code or even on the web, or as blog posts, articles and similar.
+
+
+Giving feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/ctemescw/cwlive-dev/issues.
+The best way to provide feedback to the project is adding comments and new entries at `issues`_ section of `GitHub`_ repository.
 
-If you are proposing a feature:
+If a feature is being proposed, it is convenient to consider:
 
-* Explain in detail how it would work.
-* Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions
-  are welcome :)
+* To include a detailed explanation of how it would work.
+* Keep the field of application as small as possible, to get it easier to implement.
+* Remember that this is a project maintained by volunteers and any contribution is welcome :)
 
-Get Started!
-------------
 
-Ready to contribute? Here's how to set up *CloneWars Live* for local development.
+Starting!
+---------
 
-1. Fork the `cwlive-dev` repo on `GitHub`_.
-2. Clone your fork locally::
+Ready to contribute? How to prepare *Meikian Live* to develop locally is detailed below.
 
-    $ git clone git@github.com:your_name_here/cwlive.git
+1. Fork `meikian-dev`_ repository at `GitHub`_.
+2. Clone locally the repository you have just created::
+
+    $ git clone git@github.com:"username"/meikian-dev.git
 
 3. ToDo
 
-4. Create a branch for local development::
+4. Create a new branch for local development::
 
-    $ git flow feature start name-of-your-bugfix-or-feature
+    $ git flow feature start "name of bug or feature"
 
-  Now you can make your changes locally.
+  From this moment local changes may be made.
 
 5. ToDo
 
-6. Commit your changes and push your branch to `GitHub`_::
+6. Confirm changes and synchronise local repository with `GitHub`_::
 
     $ git add .
-    $ git commit -m "Your detailed description of your changes."
+    $ git commit -m "detailed changes description"
     $ git flow feature publish
 
-7. Submit a pull request through the `GitHub`_ website.
+7. Make a "pull request" through `GitHub`_ web interface.
 
-.. _`GitHub`: https://github.com
 
-Pull Request Guidelines
------------------------
+Instructions to make a "pull request"
+-------------------------------------
 
-Before you submit a pull request, check that it meets these guidelines:
+Before a "pull request", the following guideline should be checked:
 
-`cwlive-dev` uses `git-flow`_ for its branch management.
+`meikian-dev`_ uses `git-flow`_ for its branches management.
 
-1. Implement changes in new git branches, following `git-flow`_'s model:
+1. Implement changes on new`git`_ branches following `git-flow`_ model:
  
- * Changes based off of *develop* will receive the least amount of skepticism.
+ * Changes focused on *develop* branch will be easier accepted.
        
- * Changes based off of a *release* branches (if one exists) will be considered,
-   especially for small bug fixes relevant to the release. We are not likely to 
-   accept new features against *release* branches.
+ * Changes focused on *release* branches (if any) tend to be considered, especially for small bug fixes affecting this version. New features will not be accepted on *release* branches.
        
- * Changes based off of *master* or a prior release tag will be given the most 
-   skepticism. We may accept patches for major bugs against past releases, but
-   would prefer to see such changes follow the normal `git-flow`_ process.
+ * Changes focused on *master* branch or in older versions branches will probably never be accepted. In certain cases it is possible that patches to fix serious bugs in previous versions are taken into account, but it is preferable that these changes follow the normal process of `git-flow`_.
        
-    We will not accept new features based off of *master*.
+   In no case new features focused on *master* branch or in earlier versions will be accepted.
 
-2. Limit the scope of changes to a single bug fix or feature per branch.
+2. Limit changes scope to a single bug fixing or feature per branch.
  
-3. Treat documentation as an essential part of any change.
+3. Consider documentation as an essential part of any change.
  
-4. Update the change log appropriately.
+4. Update the change log in a proper way.
 
+.. _`git`: http://git-scm.com
 .. _`git-flow`: https://github.com/nvie/gitflow
+.. _`GitHub`: https://github.com
+.. _`issues`: https://github.com/ctemescw/meikian-dev/issues
+.. _`meikian-dev`: https://github.com/ctemescw/meikian-dev
+

@@ -1,7 +1,27 @@
+# Distro build files and logs
+auto
+binary
+binary.*
+.build
+cache
+chroot
+chroot.*
+config/binary
+config/bootloaders/isolinux/stdmenu.cfg
+config/bootstrap
+config/chroot
+config/common
+config/source
+meikian-live_*.iso
+meikian-live_*.log
+meikian-live_*.md5
+local
+
 # Packages
 *.egg
 *.egg-info
 
+# Python virtual environment
 venv
 
 # Installer logs

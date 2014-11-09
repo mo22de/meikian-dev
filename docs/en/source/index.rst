@@ -1,10 +1,20 @@
-.. cwlive documentation master file, created by
+.. Meikian Live documentation master file, created by
    sphinx-quickstart on Mon Jul 28 20:46:26 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Documentacion de CW Live
-========================
+.. image:: ../../images/meikian-logo_docs.png
+   :align: right
+
+|
+|
+|
+|
+|
+|
+
+Meikian Live's Documentation
+============================
 
 Contents:
 
@@ -13,16 +23,10 @@ Contents:
 
    readme
    usage
-   batteries
+   software
+   building
    contributing
-   authors
    history
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   licenses
+   authors
 
