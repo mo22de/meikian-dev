@@ -32,7 +32,7 @@ gnome-brave-icon-theme gnome-dust-icon-theme gnome-icon-theme gnome-icon-theme-e
 
 ## Development
 ##
-git git-doc git-man gitg
+git git-doc git-man git-flow gitg
 
 ## Development: python
 pep8 pyflakes pylint python python3 python3-setuptools python3-pip
