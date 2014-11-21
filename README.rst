@@ -107,8 +107,8 @@ Controller boards
 .. _`Gen7 1.4.1`: http://reprap.org/wiki/Gen7_Board_1.4.1
 .. _`Gen7 1.5`: http://reprap.org/wiki/Gen7_Board-AVR_1.5
 .. _`Megatronics v2.0`: http://reprap.org/wiki/Megatronics_2.0
-.. _`RAMPS 1.4`: http://reprap.org/wiki/RAMPS_1.4/es
-.. _`Sanguinololu 1.3a`: http://reprap.org/wiki/Sanguinololu/es
+.. _`RAMPS 1.4`: http://reprap.org/wiki/RAMPS_1.4
+.. _`Sanguinololu 1.3a`: http://reprap.org/wiki/Sanguinololu
 .. _`SAV 3D LCD`: http://reprap.org/wiki/SAV_3D_LCD
-.. _`SAV MKI`: http://reprap.org/wiki/SAV_MKI/es
+.. _`SAV MKI`: http://reprap.org/wiki/SAV_MKI
 
