@@ -7,10 +7,12 @@ Diseño 2D
 
 * `Inkscape`_ 0.48
 * `GcodeTools`_ 1.7
+* `LibreCAD`_ 1.0.2
 * `Paths2OpenSCAD`_ 0.9
 
 .. _`Inkscape`: http://www.inkscape.org/es/
 .. _`GcodeTools`: http://www.cnc-club.ru/forum/viewtopic.php?t=35
+.. _`LibreCAD`: http://librecad.org
 .. _`Paths2OpenSCAD`: https://github.com/l0b0/paths2openscad
 
 
@@ -72,14 +74,12 @@ Modelado 3D
 * `Blender`_ 2.63
 * `FreeCAD`_ 0.14
 * `BOLTS`_ for `FreeCAD`_
-* `LibreCAD`_ 1.0.2
 * `OpenSCAD`_ 2014.03
 * `BOLTS`_ for `OpenSCAD`_
 * `Wings 3D`_ 1.4.1
 
 .. _`Blender`: http://www.blender.org
 .. _`FreeCAD`: http://www.freecadweb.org
-.. _`LibreCAD`: http://librecad.org
 .. _`OpenSCAD`: http://www.openscad.org
 .. _`BOLTS`: http://www.bolts-library.org
 .. _`Wings 3D`: http://www.wings3d.com
