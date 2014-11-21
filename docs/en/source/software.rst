@@ -67,6 +67,7 @@ Slicer for 3D objects
 
 .. _`Skeinforge`: http://fabmetheus.crsndoo.com
 .. _`Slic3r`: http://slic3r.org/
+.. _`Cura`: https://www.ultimaker.com/pages/our-software
 
 
 3D modeling
