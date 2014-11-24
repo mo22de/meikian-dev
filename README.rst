@@ -90,6 +90,8 @@ Computers
 * Lenovo t430s: OK
 * Lenovo x200s: OK
 * PackardBell EasyNote A7738: WiFi interface is "eth*" no "wlan*". OK
+* Toshiba PORTEGE Z930-145: OK
+* Toshiba Satellite A300: OK
 
 
 Controller boards

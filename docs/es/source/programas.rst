@@ -61,13 +61,13 @@ Herramientas para trabajar con objetos 3D
 Laminado de objetos 3D
 ~~~~~~~~~~~~~~~~~~~~~~
 
+* `Cura`_ 14.07
 * `Skeinforge`_ 2012.03.15
 * `Slic3r`_ 1.1.7
-* `Cura`_ 14.07
 
+.. _`Cura`: https://www.ultimaker.com/pages/our-software
 .. _`Skeinforge`: http://fabmetheus.crsndoo.com
 .. _`Slic3r`: http://slic3r.org/
-.. _`Cura`: https://www.ultimaker.com/pages/our-software
 
 
 Modelado 3D

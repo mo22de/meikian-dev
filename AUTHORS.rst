@@ -19,7 +19,7 @@ Contributors
    Providing ideas and testing the distro
 * Luis Morales https://github.com/lacion
    Providing ideas, configuring the documentation system and migrating to it the existent documentation
-* Pablo "Scrawny" https://github.com/PabloGG
+* Pablo Gutiérrez https://github.com/Scraw
    Providing ideas, reviewing the first documentation's draft
 * Rafa Couto https://github.com/rafacouto
    Providing ideas, Udev rules and testing the distro

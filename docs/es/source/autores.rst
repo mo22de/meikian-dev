@@ -19,7 +19,7 @@ Colaboradores
    Aportando ideas y probando la distro
 * Luis Morales https://github.com/lacion
    Aportando ideas, configurando el sistema de documentación y migrando a él inicialmente la documentación existente
-* Pablo "Scrawny" https://github.com/PabloGG
+* Pablo Gutiérrez https://github.com/Scraw
    Aportando ideas y revisando el primer borrador de la documentación de la distro
 * Rafa Couto https://github.com/rafacouto
    Aportando ideas, reglas de UDEV y probando la distro

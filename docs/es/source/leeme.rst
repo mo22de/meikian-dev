@@ -90,6 +90,8 @@ Equipos
 * Lenovo t430s: OK
 * Lenovo x200s: OK
 * PackardBell EasyNote A7738: Interfaz WiFi es "eth*" no "wlan*". OK
+* Toshiba PORTEGE Z930-145: OK
+* Toshiba Satellite A300: OK
 
 
 Tarjetas controladoras
