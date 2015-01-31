@@ -43,7 +43,7 @@ fi
 
 ## setup the "live" system
 lb config                                                             \
-    --distribution wheezy --system live                               \
+    --distribution jessie --system live                               \
     --architectures i386                                              \
     --linux-flavours "3.2.0-4-486 3.2.0-4-686-pae 3.4-9-rtai-686-pae" \
     --apt apt --apt-indices false --apt-recommends false              \
