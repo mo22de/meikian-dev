@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ###
-### Debian-Live v3.x-Meikian
-### 2014/01/05
+### Debian-Live v4.x-Meikian
+### 2015/01/05
 
 if [ $# = 0 ]; then
     echo -e "\nError: please add the image type to build (iso|iso-hybrid|usb-hdd|tar)\n"
