@@ -10,7 +10,7 @@ Versiones
 **Version 1.1**
 
 * Actualizado FreeCAD a la versión 0.14.3702 del repositorio de backports de Debian
-*
+* Actualización de Cura a la versión 14.12
 
 
 2014.11.07
