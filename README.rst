@@ -70,7 +70,10 @@ Hardware tested with the distribution
 Computers
 ~~~~~~~~~
 
+* Acer Aspire 7220: OK
+* Acer Aspire 5610Z: OK
 * Acer Aspire 7750G: OK
+* Apple MacBook 2007 A1181: Boot from USB devices is not working, booting from DVD unit OK
 * Apple MacBook Air 11" 2011: OK
 * Apple MacBook Pro 5.1 15" late 2008: Not detected booting. KO
 * Apple MacBook Pro Retina 11.2 15" late 2013: Boot with some problems, but does not detect the WiFi card
@@ -79,17 +82,19 @@ Computers
 * Asus EeePC T101MT: OK
 * Asus X54H: ---
 * Clevo D400E: OK
+* Dell Inspiron 1564-4730: The WiFi card is a Broadcom Corporation BCM4312 802.11b/g LP-PHY using the b43 module (firmware needed). OK
 * Dell Inspiron n5050: OK
-* Dell Latitude D610: WiFi interface is "eth*" no "wlan*". OK
+* Dell Latitude D610: WiFi interface is "eth*" not "wlan*". OK
 * Dell Latitude E6400: OK
 * Dell XPS L521X: OK
 * HP 500B MT: OK
-* HP Compaq NX9030: WiFi interface is "eth*" no "wlan*". OK
+* HP Compaq NX9030: WiFi interface is "eth*" not "wlan*". OK
 * Lenovo Ideapad u430 Touch: Without WiFi support. OK
 * Lenovo n500: OK
 * Lenovo t430s: OK
 * Lenovo x200s: OK
-* PackardBell EasyNote A7738: WiFi interface is "eth*" no "wlan*". OK
+* PackardBell EasyNote A7738: WiFi interface is "eth*" not "wlan*". OK
+* PackardBell S1300: Tested booting from DVD unit. OK
 * Toshiba PORTEGE Z930-145: OK
 * Toshiba Satellite A300: OK
 
