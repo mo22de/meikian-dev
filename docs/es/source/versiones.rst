@@ -4,6 +4,15 @@
 Versiones
 =========
 
+2015.04.xx
+~~~~~~~~~
+
+**Version 1.1**
+
+* Actualizado FreeCAD a la versión 0.14.3702 del repositorio de backports de Debian
+*
+
+
 2014.11.07
 ~~~~~~~~~~
 

@@ -4,6 +4,15 @@
 History
 =======
 
+2015.04.xx
+~~~~~~~~~~
+
+**Version 1.1**
+
+* Updated FreeCAD to the 0.14.3702 version from the Debian backports repository
+* 
+
+
 2014.11.07
 ~~~~~~~~~~
 
