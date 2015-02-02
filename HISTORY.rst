@@ -10,7 +10,7 @@ History
 **Version 1.1**
 
 * Updated FreeCAD to the 0.14.3702 version from the Debian backports repository
-* 
+* Updated Cura to the 14.12 version
 
 
 2014.11.07
