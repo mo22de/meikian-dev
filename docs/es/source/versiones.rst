@@ -11,6 +11,8 @@ Versiones
 
 * Actualizado FreeCAD a la versión 0.14.3702 del repositorio de backports de Debian
 * Actualización de Cura a la versión 14.12
+* Actualización de S4A a la versión 1.6
+* Eliminado el firmware de S4A del paquete meikian-misc y creado un paquete independiente para él
 
 
 2014.11.07
