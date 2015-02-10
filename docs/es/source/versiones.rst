@@ -14,6 +14,7 @@ Versiones
 * Actualización de S4A a la versión 1.6
 * Eliminado el firmware de S4A del paquete meikian-misc y creado un paquete independiente para él
 * Cambiada la localización de las imágenes de fondo del escritorio
+* Actualización de LinuxCNC a la versión 2.6.5
 
 
 2014.11.07

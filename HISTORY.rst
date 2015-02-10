@@ -13,7 +13,8 @@ History
 * Updated Cura to the 14.12 version
 * Updated S4A to the 1.6 version
 * Removed the S4A firmware from the meikian-misc package and build a standalone package for it
-* Changed the location for the desktop's background images 
+* Changed the location for the desktop's background images
+* Updated LinuxCNC to the 2.6.5 version
 
 
 2014.11.07
