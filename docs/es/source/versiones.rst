@@ -4,16 +4,23 @@
 Versiones
 =========
 
+2015.xx.xx
+~~~~~~~~~~
+
+
+
 2015.04.xx
-~~~~~~~~
+~~~~~~~~~~
 
 **Version 1.1**
 
-* Actualizado FreeCAD a la versión 0.14.3702 del repositorio de backports de Debian
-* Actualización de Cura a la versión 14.12
-* Actualización de S4A a la versión 1.6
-* Eliminado el firmware de S4A del paquete meikian-misc y creado un paquete independiente para él
-* Cambiada la localización de las imágenes de fondo del escritorio
+* Updated FreeCAD to the 0.14.3702 version from the Debian backports repository
+* Updated Cura to the 14.12 version
+* Updated S4A to the 1.6 version
+* Removed the S4A firmware from the meikian-misc package and build a standalone package for it
+* Changed the location for the desktop's background images
+* Updated LinuxCNC to the 2.6.5 version
+* Added FlatCAM 8.1
 
 
 2014.11.07
