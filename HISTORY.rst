@@ -15,6 +15,7 @@ History
 * Removed the S4A firmware from the meikian-misc package and build a standalone package for it
 * Changed the location for the desktop's background images
 * Updated LinuxCNC to the 2.6.5 version
+* Added FlatCAM 8.1
 
 
 2014.11.07
