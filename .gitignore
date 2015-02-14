@@ -15,7 +15,7 @@ config/source
 meikian-live_*.iso
 meikian-live_*.log
 meikian-live_*.md5
-local
+./local
 
 # Packages
 *.egg
