@@ -7,6 +7,7 @@ Versiones
 2015.xx.xx
 ~~~~~~~~~~
 
+* Actualización de Pronterface a la versión 2014.08.01
 
 
 2015.04.xx
@@ -14,13 +15,14 @@ Versiones
 
 **Version 1.1**
 
-* Updated FreeCAD to the 0.14.3702 version from the Debian backports repository
-* Updated Cura to the 14.12 version
-* Updated S4A to the 1.6 version
-* Removed the S4A firmware from the meikian-misc package and build a standalone package for it
-* Changed the location for the desktop's background images
-* Updated LinuxCNC to the 2.6.5 version
-* Added FlatCAM 8.1
+* Actualización de FreeCAD a la versión 0.14.3702 del repositorio de backports de Debian
+* Actualización de Cura a la versión 15.01
+* Actualización de S4A a la versión 1.6
+* Eliminado el firmware de S4A del paquete meikian-misc y creado un paquete específico para él
+* Cambiada la localización para los fondos de pantalla del escritorio
+* Actualización de LinuxCNC a la versión 2.6.5
+* Añadido FlatCAM 8.2
+* Añadido Universal Gcode Sender 1.0.7
 
 
 2014.11.07
