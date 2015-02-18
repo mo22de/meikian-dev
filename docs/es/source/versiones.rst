@@ -16,6 +16,8 @@ Versiones
 * Cambiada la localización de las imágenes de fondo del escritorio
 * Actualización de LinuxCNC a la versión 2.6.5
 * Añadido FlatCAM 8.2
+* Añadido Universal Gcode Sender 1.0.7
+* Reemplazado el gestor de escritorios remotos Vinagre con Remmina
 
 
 2014.11.07

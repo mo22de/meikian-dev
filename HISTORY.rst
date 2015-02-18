@@ -16,6 +16,8 @@ History
 * Changed the location for the desktop's background images
 * Updated LinuxCNC to the 2.6.5 version
 * Added FlatCAM 8.2
+* Added Universal Gcode Sender 1.0.7
+* Replaced Vinagre remote desktops manager with Remmina 
 
 
 2014.11.07
@@ -54,7 +56,7 @@ History
 * Added packages with extra libraries and macros for FreeCAD
 * Added a directory to make easier the access to the 3D Printing tools' configuration files
 * Added several links to the file manager 
-* Changed oracle-java7-installer by openjdk-7-jre due to license issues
+* Replaced oracle-java7-installer with openjdk-7-jre due to license issues
 * Removed the memtest86 boot image due to license issues
 * Removed the Balder and gPXE boot images
 * Removed the Netfabb Basic package due to license issues
