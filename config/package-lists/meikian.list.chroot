@@ -23,7 +23,7 @@ lame libavcodec-extra-53 mplayer2 vlc vlc-plugin-notify vlc-plugin-pulse
 libdvdcss2 w32codecs
 
 ## Xorg desktop: networks
-vinagre x11vnc
+x11vnc remmina remmina-common remmina-plugin-nx remmina-plugin-rdp remmina-plugin-telepathy remmina-plugin-vnc remmina-plugin-xdmcp
 
 ## Xorg desktop: themes
 clearlooks-phenix-theme gtk2-engines-aurora gtk2-engines-murrine gtk2-engines-xfce gtk2-engines-pixbuf murrine-themes xfwm4-themes
@@ -88,6 +88,8 @@ hostmot2-firmware-3x20-1 hostmot2-firmware-4i65 hostmot2-firmware-4i68 hostmot2-
 libfreetype6 libfreetype6-dev libgeos-dev libpng-dev libspatialindex-dev python-dev python-matplotlib python-numpy python-qt4 python-scipy python-shapely python-simplejson
 ## flatcam packaged for meikian live:
 flatcam
+## universal gcode sender packaged for meikian live:
+universal-gcode-sender
 
 
 ## Arduino
