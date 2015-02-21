@@ -8,6 +8,7 @@ Versiones
 ~~~~~~~~~~
 
 * Actualización de Pronterface a la versión 2014.08.01
+* Añadido Horus 0.1
 
 
 2015.04.xx
@@ -18,11 +19,12 @@ Versiones
 * Actualización de FreeCAD a la versión 0.14.3702 del repositorio de backports de Debian
 * Actualización de Cura a la versión 15.01
 * Actualización de S4A a la versión 1.6
-* Eliminado el firmware de S4A del paquete meikian-misc y creado un paquete específico para él
-* Cambiada la localización para los fondos de pantalla del escritorio
+* Eliminado el firmware de S4A del paquete meikian-misc y creado un paquete independiente para él
+* Cambiada la localización de las imágenes de fondo del escritorio
 * Actualización de LinuxCNC a la versión 2.6.5
 * Añadido FlatCAM 8.2
 * Añadido Universal Gcode Sender 1.0.7
+* Reemplazado el gestor de escritorios remotos Vinagre con Remmina
 
 
 2014.11.07

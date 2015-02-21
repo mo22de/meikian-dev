@@ -8,6 +8,7 @@ History
 ~~~~~~~~~~
 
 * Updated Printrun to the 2014.08.01 version
+* Added Horus 0.1
 
 
 2015.04.xx
@@ -23,6 +24,7 @@ History
 * Updated LinuxCNC to the 2.6.5 version
 * Added FlatCAM 8.2
 * Added Universal Gcode Sender 1.0.7
+* Replaced Vinagre remote desktops manager with Remmina
 
 
 2014.11.07
