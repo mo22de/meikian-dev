@@ -9,6 +9,7 @@ chroot.*
 config/binary
 config/bootloaders/isolinux/stdmenu.cfg
 config/bootstrap
+config/build
 config/chroot
 config/common
 config/source
