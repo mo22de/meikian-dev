@@ -9,6 +9,7 @@ Versiones
 
 * Actualización de Pronterface a la versión 2014.08.01
 * Añadido Horus 0.1
+* Reemplazados Gedit y Evince por Pluma y Atril del entorno de escritorio Mate
 
 
 2015.04.xx

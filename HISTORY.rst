@@ -9,6 +9,7 @@ History
 
 * Updated Printrun to the 2014.08.01 version
 * Added Horus 0.1
+* Replaced Gedit and Evince with Pluma and Atril from the Mate desktop environment
 
 
 2015.04.xx
