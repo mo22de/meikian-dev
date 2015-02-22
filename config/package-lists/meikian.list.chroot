@@ -75,7 +75,7 @@ tatlin
 ## 3D Scanners
 ##
 ## horus dependencies:
-libftdi1, python-matplotlib, python-numpy, python-opencv, python-opengl, python-pyglet, python-scipy, python-serial, python-wxgtk3.0, v4l-utils
+libftdi1 python-matplotlib python-numpy python-opencv python-opengl python-pyglet python-scipy python-serial python-wxgtk3.0 v4l-utils
 ## horus packaged for meikian live:
 horus
 
