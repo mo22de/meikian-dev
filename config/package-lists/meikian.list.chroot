@@ -9,7 +9,7 @@ xfce4-artwork xfce4-battery-plugin xfce4-cpufreq-plugin xfce4-cpugraph-plugin xf
 gvfs-bin menu-l10n ristretto thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler tumbler-plugins-extra
 
 ## Xorg desktop: apps
-arandr blender docky evince-gtk fbreader galculator gedit gedit-plugins gedit-source-code-browser-plugin gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gparted gucharmap gvidm inkscape librecad meshlab python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk xscreensaver zenity
+arandr blender docky evince-gtk fbreader galculator medit gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gparted gucharmap gvidm inkscape librecad menu menu-xdg meshlab python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk xscreensaver zenity
 openjdk-7-jre icedtea-7-plugin
 unetbootin unetbootin-translations
 
@@ -24,9 +24,10 @@ lame mplayer2 vlc vlc-plugin-notify vlc-plugin-pulse
 #libdvdcss2 w32codecs
 
 ## Xorg desktop: networks
-vinagre x11vnc
+x11vnc remmina remmina-common remmina-plugin-nx remmina-plugin-rdp remmina-plugin-telepathy remmina-plugin-vnc remmina-plugin-xdmcp
 
 ## Xorg desktop: themes
+libgnome2-common
 clearlooks-phenix-theme gtk2-engines-aurora gtk2-engines-murrine gtk2-engines-xfce gtk2-engines-pixbuf murrine-themes xfwm4-themes
 gnome-brave-icon-theme gnome-dust-icon-theme gnome-icon-theme gnome-icon-theme-extras gnome-themes-standard hicolor-icon-theme tango-icon-theme
 
@@ -36,83 +37,99 @@ gnome-brave-icon-theme gnome-dust-icon-theme gnome-icon-theme gnome-icon-theme-e
 git git-doc git-man git-flow gitg
 
 ## Development: python
-pep8 pyflakes pylint python python3 python3-setuptools python3-pip
+pep8 pyflakes pylint python python-pip python3 python3-setuptools python3-pip
 
 
-## 3d Printers
+## 3D Printers
 ##
-## Freecad packages
+## freecad packages:
 freecad freecad-doc
-## Freecad extras packaged for meikian live
+## freecad extras packaged for meikian live:
 freecad-bolts
-## Inkscape extensions packaged for meikian live
+## inkscape extensions packaged for meikian live:
 gcodetools inkscape-paths2openscad
-## Openscad
+## openscad:
 openscad openscad-mcad
-## Openscad extras packaged for meikian live
+## openscad extras packaged for meikian live:
 openscad-bolts
-## Cura dependencies: python-opengl python-numpy python-serial python-setuptools
-python-opengl python-numpy python-serial python-setuptools
-## Cura repackaged for meikian live
+## cura dependencies: 
+python-numpy python-opengl python-serial python-setuptools
+## cura repackaged for meikian live:
 cura
-## Printrun dependencies: python-argparse python-serial python-wxgtk3.0 python-numpy python-pyglet python-cairo python-cairosvg python-psutil
-python-argparse python-wxgtk3.0 python-pyglet python-cairo python-cairosvg python-psutil
-## Printrun binaries packaged for meikian live
+## printrun dependencies:
+python-argparse python-cairo python-cairosvg python-numpy python-psutil python-pyglet python-serial python-wxgtk3.0
+## printrun binaries packaged for meikian live:
 printrun
-## Skeinforge dependencies: python python-tk
-python-tk
-## Skeinforge
+## skeinforge dependencies:
+python python-tk
+## skeinforge:
 sfact
-## Slic3r binaries packaged for meikian live
+## slic3r binaries packaged for meikian live:
 slic3r
-## Tatlin dependencies: python python-gtk2 python-opengl python-gtkglext1 python-numpy
-python-gtk2 python-gtkglext1 
-## Tatlin packaged for meikian live
+## tatlin dependencies:
+python python-gtk2 python-gtkglext1 python-numpy python-opengl
+## tatlin packaged for meikian live:
 tatlin
+
+
+## 3D Scanners
+##
+## horus dependencies:
+libftdi1, python-matplotlib, python-numpy, python-opencv, python-opengl, python-pyglet, python-scipy, python-serial, python-wxgtk3.0, v4l-utils
+## horus packaged for meikian live:
+horus
 
 
 ## CNC
 ##
-## LinuxCNC dependencies: bwidget libart-2.0-2 libbonobo2-0 libbonobo2-common libbonoboui2-0 libbonoboui2-common libboost-python1.49.0 libgnome2-0 libgnome2-common libgnomeui-0 libgnomeui-common libgnomecanvas2-0 libgnomecanvas2-common libgnomecups1.0-1 libgnomeprint2.2-0 libgnomeprint2.2-data libgnomeprintui2.2-0 libgnomeprintui2.2-common libgtksourceview2.0-0 libgtksourceview2.0-common libidl0 libmodbus5 liborbit2 libpth20 libtk-img python-configobj python-gconf python-gnome2 python-gst0.10 python-gtkglext1 python-gtksourceview2 python-imaging python-imaging-tk python-libxml2 python-pyorbit python-vte tclreadline
+## linuxcnc dependencies:
 #bwidget libart-2.0-2 libbonobo2-0 libbonobo2-common libbonoboui2-0 libbonoboui2-common libgnome2-0 libgnome2-common libgnomeui-0 libgnomeui-common libgnomecanvas2-0 libgnomecanvas2-common libgtksourceview2.0-0 libgtksourceview2.0-common libidl0 libmodbus5 liborbit2 libpth20 libtk-img python-configobj python-gconf python-gnome2 python-gst0.10 python-gtksourceview2 python-imaging python-imaging-tk python-libxml2 python-pyorbit python-vte tclreadline
-## LinuxCNC kernel from linuxcnc
-#linux-image-3.4-9-rtai-686-pae rtai-modules-3.4-9-rtai-686-pae
+#linux-image-3.4-9-rtai-686-pae
 rtai-modules-3.4-9-rtai-686-pae
-## LinuxCNC packages from linuxcnc
+## linuxcnc packages from linuxcnc.org:
 #linuxcnc linuxcnc-doc-en linuxcnc-doc-es
-## LinuxCNC firmware packages from linuxcnc
+## firmware packages for linuxcnc from linuxcnc.org:
 hostmot2-firmware-3x20-1 hostmot2-firmware-4i65 hostmot2-firmware-4i68 hostmot2-firmware-5i20 hostmot2-firmware-5i22-1 hostmot2-firmware-5i22-1.5 hostmot2-firmware-5i23 hostmot2-firmware-7i43-2 hostmot2-firmware-7i43-4 hostmot2-firmware-all
+## flatcam dependencies:
+libfreetype6 libfreetype6-dev libgeos-dev libpng-dev libspatialindex-dev python-dev python-matplotlib python-numpy python-pip python-qt4 python-scipy python-shapely python-simplejson
+## flatcam packaged for meikian live:
+flatcam
+## universal-gcode-sender packaged for meikian live:
+universal-gcode-sender
 
 
 ## Arduino
 ##
-## Arduino dependencies: avr-libc avrdude binutils-avr gcc-avr libjna-java librxtx-java avrdude-doc
+## arduino dependencies:
+#avr-libc avrdude avrdude-doc binutils-avr gcc-avr libjna-java librxtx-java
 libjna-java librxtx-java
 ## dfu-programmer
 dfu-programmer
-## Arduino binaries packaged for meikian live
+## arduino binaries packaged for meikian live:
 arduino
 meikian-arduino-extras
 
 
 ## Development
 ##
-## Processing binaries packaged for meikian live
+## processing binaries packaged for meikian live:
 processing
-## Scratch
+## scratch:
 scratch
-## Scratch 4 arduino binaries packaged for meikian live
+## scratch 4 arduino binaries packaged for meikian live:
 s4a s4a-firmware
 
 
 ## Electronics
 ##
 geda geda-utils geda-examples gerbv geda-gsymcheck geda-gattrib geda-xgsch2pcb kicad kicad-doc-es pcb
-## Fritzing binaries packaged for meikian live
+## fritzing binaries packaged for meikian live:
 fritzing
 
 
 ## Misc
 ##
-## Documentation, firmwares and calibration 3d objects
+## documentation, firmware and calibration 3d objects:
 meikian-docs meikian-misc
+
+
