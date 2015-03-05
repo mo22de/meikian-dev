@@ -18,6 +18,7 @@ Versiones
 * Añadido FlatCAM 8.2
 * Añadido Universal Gcode Sender 1.0.7
 * Reemplazado el gestor de escritorios remotos Vinagre con Remmina
+* Añadido Avrdude
 
 
 2014.11.07
